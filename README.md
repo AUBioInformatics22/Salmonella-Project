@@ -12,7 +12,7 @@ Team whistle: Andrea Pietruska <br/>
 
 ### 1. Introduction
 
-project-proposal.txt
+project_proposal.txt
 
 ### 2. Aim
 
