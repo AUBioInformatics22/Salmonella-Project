@@ -12,7 +12,7 @@ Team whistle: Andrea Pietruska <br/>
 
 ### 1. Introduction
 
-Salmonella Enteritidis, chickens, NCBI accession number (love it!!!)
+project-proposal.txt
 
 ### 2. Aim
 
