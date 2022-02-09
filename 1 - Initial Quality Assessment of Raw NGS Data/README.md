@@ -82,12 +82,12 @@ Fig 4 to 8 show that the results generated from both Galaxy and Command quality 
 
 Sequence Coverage
 <p align="center">
-<img src="9.jpg" width="700" height="400" />
+<img src="Coverage.png" width="700" height="400" />
 </p>
 
 Panel B shows the coverage of the individual sequences in our data set. Panel A of Fig 5 shows that the average coverage for all sequences is 4.8X. which is high.
 <p align="center">
-<img src="10.jpg" width="700" height="400" />
+<img src="Calculations.png" width="700" height="400" />
 </p>
 
 Team Members: 
