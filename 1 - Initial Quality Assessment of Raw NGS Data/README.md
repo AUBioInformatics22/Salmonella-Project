@@ -20,3 +20,78 @@ Graph for Galaxy Assessment
 <p align="center">
 <img src="1.jpg" width="700" height="400" />
 </p>
+Fig.1
+Graph for Command line Assessment
+<p align="center">
+<img src="2.jpg" width="700" height="400" />
+</p>
+Fig.2
+Reverse Read
+
+Graph for Galaxy Assessment
+<p align="center">
+<img src="3.jpg" width="700" height="400" />
+</p>
+Fig.3
+Graph for Command line Assessment
+<p align="center">
+<img src="4.jpg" width="700" height="400" />
+</p>
+Fig.4
+
+The results above suggest that the command line analysis trimmed off the last ten poor quality sequences. While this may improve the quality of sequences, vital data may also be lost, coupled with the fact that the benefit of trimming may not be significant. The quality scores for all our sequences look very similar to the above results. However, the command line FASTQ analysis was faster, and the results were readily available, compared to the Galaxy assessment which took longer to download the data. We decided not to trim because the graphs suggest that the average quality score falls largely in the “green” quality score range, suggesting that our sequences are of high quality.
+
+
+
+
+Per Sequence Quality Scores
+Forward Read
+
+Graph for Galaxy Assessment
+<p align="center">
+<img src="5.jpg" width="700" height="400" />
+</p>
+Fig.5
+Graph for Command line Assessment
+<p align="center">
+<img src="6.jpg" width="700" height="400" />
+</p>
+Fig.6
+Reverse Read
+
+Graph for Galaxy Assessment
+
+<p align="center">
+<img src="7.jpg" width="700" height="400" />
+</p>  
+Fig. 7  
+
+
+
+
+
+
+
+Graph for Command line Assessment
+<p align="center">
+<img src="8.jpg" width="700" height="400" />
+</p> 
+Fig. 8
+Fig 4 to 8 show that the results generated from both Galaxy and Command quality assessment are the same. The sequences (especially of the forward read) are of high quality. As a result, we intend to use the forward reads for downstream analysis.
+
+
+Sequence Coverage
+<p align="center">
+<img src="9.jpg" width="700" height="400" />
+</p>
+
+Panel B shows the coverage of the individual sequences in our data set. Panel A of Fig 5 shows that the average coverage for all sequences is 4.8X. which is high.
+<p align="center">
+<img src="10.jpg" width="700" height="400" />
+</p>
+
+Team Members: 
+Steven Kitchens: Command line FASTQ Analysis
+Chidozie Ugochukwu: Galaxy FASTQ Analysis
+Stephen Tansie: Data Presentation and Report
+Andrea Pietruska: GitHub Repository
