@@ -90,7 +90,7 @@ Panel B shows the coverage of the individual sequences in our data set. Panel A 
 <img src="Calculations.png" width="700" height="400" />
 </p>
 
-Team Members: 
+Team Members:
 Steven Kitchens: Command line FASTQ Analysis
 Chidozie Ugochukwu: Galaxy FASTQ Analysis
 Stephen Tansie: Data Presentation and Report
