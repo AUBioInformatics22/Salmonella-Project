@@ -7,5 +7,6 @@ Steven Kitchens <br/>
 Chidozie Ugochukwu
 ### 3. Data presentation and report
 Stephen Tansie <br/>
+[R Script for Data Presentaion](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/1%20-%20Initial%20Quality%20Assessment%20of%20Raw%20NGS%20Data/Report_1.R) <br/>
 [Quality Report]
 
