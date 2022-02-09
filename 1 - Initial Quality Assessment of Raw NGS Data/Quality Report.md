@@ -10,13 +10,13 @@ Forward Read
 
 Graph for Galaxy Assessment
 <p align="center">
-<img src="1.jpg" width="700" height="400" />
+<img src="Quality Report Figures/1.jpg" width="700" height="400" />
 </p>
 Fig.1
 
 Graph for Command line Assessment
 <p align="center">
-<img src="2.jpg" width="700" height="400" />
+<img src="Quality Report Figures/2.jpg" width="700" height="400" />
 </p>
 Fig.2
 
@@ -24,13 +24,13 @@ Reverse Read
 
 Graph for Galaxy Assessment
 <p align="center">
-<img src="3.jpg" width="700" height="400" />
+<img src="Quality Report Figures/3.jpg" width="700" height="400" />
 </p>
 Fig.3
 
 Graph for Command line Assessment
 <p align="center">
-<img src="4.jpg" width="700" height="400" />
+<img src="Quality Report Figures/4.jpg" width="700" height="400" />
 </p>
 Fig.4
 
@@ -44,13 +44,13 @@ Forward Read
 
 Graph for Galaxy Assessment
 <p align="center">
-<img src="5.jpg" width="700" height="400" />
+<img src="Quality Report Figures/5.jpg" width="700" height="400" />
 </p>
 Fig.5
 
 Graph for Command line Assessment
 <p align="center">
-<img src="6.jpg" width="700" height="400" />
+<img src="Quality Report Figures/6.jpg" width="700" height="400" />
 </p>
 Fig.6
 
@@ -59,7 +59,7 @@ Reverse Read
 Graph for Galaxy Assessment
 
 <p align="center">
-<img src="7.jpg" width="700" height="400" />
+<img src="Quality Report Figures/7.jpg" width="700" height="400" />
 </p>  
 Fig. 7  
 
@@ -71,7 +71,7 @@ Fig. 7
 
 Graph for Command line Assessment
 <p align="center">
-<img src="8.jpg" width="700" height="400" />
+<img src="Quality Report Figures/8.jpg" width="700" height="400" />
 </p> 
 Fig. 8
 
@@ -80,12 +80,12 @@ Fig 4 to 8 show that the results generated from both Galaxy and Command quality 
 
 Sequence Coverage
 <p align="center">
-<img src="Coverage.jpg" width="700" height="400" />
+<img src="Quality Report Figures/Coverage.jpg" width="700" height="400" />
 </p>
 
 Panel B shows the coverage of the individual sequences in our data set. Panel A of Fig 5 shows that the average coverage for all sequences is 4.8X. which is high.
 <p align="center">
-<img src="Calculations.png" width="700" height="400" />
+<img src="Quality Report Figures/Calculations.png" width="700" height="400" />
 </p>
 
 Team Members:
