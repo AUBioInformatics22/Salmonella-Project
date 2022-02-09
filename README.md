@@ -12,7 +12,7 @@ Team whistle: Andrea Pietruska <br/>
 
 ### 1. Introduction
 
-project_proposal.txt
+[Description of the project](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/project_proposal.txt)
 
 ### 2. Aim
 
