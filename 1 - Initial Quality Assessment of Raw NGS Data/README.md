@@ -13,19 +13,23 @@ Stephen Tansie <br/>
 The goal of this step was to assess the quality of our data using both command line and web-based tools. After downloading data from NCBI (using the sra_fastqdump_fastqc.sh script), we assessed their quality using Galaxy (https://usegalaxy.org/) and on the command line using the Alabama Supercomputer.  Below are representative graphs generated from using both approaches for quality assessment. Ten sequences (SRS5863182, SRS5863183, SRS5863184, SRS5863185, SRS5863186, SRS5863187, SRS5863188, SRS5863189, SRS5863190 and SRS5863191) of paired end whole genome sequences of Salmonella enterica serotype Muenster were analyzed but results are hereby presented for both the forward and reverse reads of the SRS5863191 sequence. 
 
 Per Base Sequence Quality
+
 Below are graphs showing the quality of bases in each sequence read
 
 Forward Read
+
 Graph for Galaxy Assessment
 <p align="center">
 <img src="1.jpg" width="700" height="400" />
 </p>
 Fig.1
+
 Graph for Command line Assessment
 <p align="center">
 <img src="2.jpg" width="700" height="400" />
 </p>
 Fig.2
+
 Reverse Read
 
 Graph for Galaxy Assessment
@@ -33,6 +37,7 @@ Graph for Galaxy Assessment
 <img src="3.jpg" width="700" height="400" />
 </p>
 Fig.3
+
 Graph for Command line Assessment
 <p align="center">
 <img src="4.jpg" width="700" height="400" />
@@ -52,11 +57,13 @@ Graph for Galaxy Assessment
 <img src="5.jpg" width="700" height="400" />
 </p>
 Fig.5
+
 Graph for Command line Assessment
 <p align="center">
 <img src="6.jpg" width="700" height="400" />
 </p>
 Fig.6
+
 Reverse Read
 
 Graph for Galaxy Assessment
@@ -77,6 +84,7 @@ Graph for Command line Assessment
 <img src="8.jpg" width="700" height="400" />
 </p> 
 Fig. 8
+
 Fig 4 to 8 show that the results generated from both Galaxy and Command quality assessment are the same. The sequences (especially of the forward read) are of high quality. As a result, we intend to use the forward reads for downstream analysis.
 
 
@@ -92,6 +100,9 @@ Panel B shows the coverage of the individual sequences in our data set. Panel A 
 
 Team Members:
 Steven Kitchens: Command line FASTQ Analysis
+
 Chidozie Ugochukwu: Galaxy FASTQ Analysis
+
 Stephen Tansie: Data Presentation and Report
+
 Andrea Pietruska: GitHub Repository
