@@ -2,10 +2,10 @@
 ## 1. Trimming 
 ######  Andrea Pietruska
 ## 2. Comparison of FASTQC Reports
-####  Steven Kitchens
+######  Steven Kitchens
 ## 3. Indexing and Alignment
-####  Steven Kitchens
+######  Steven Kitchens
 ## 4. Coverage metrics, metrics summary
-####  Chidozie Ugochukwu
+######  Chidozie Ugochukwu
 ## 5. GitHub Repository
-####  Stephen Tansie
+######  Stephen Tansie
