@@ -10,7 +10,7 @@ TRAILING:20 \
 SLIDINGWINDOW:20:20 \
 MINLEN:40
 ```
-script: [trimmomatic.sh](
+script: [trimmomatic.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/2%20-%20Alignment%20of%20Sequence%20Reads%20to%20Referenc%20Genome/trimmomatic.sh)
 ## 2. Comparison of FASTQC Reports
 ######  Steven Kitchens
 ## 3. Indexing and Alignment
