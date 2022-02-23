@@ -14,7 +14,7 @@ MINLEN:40
 ## Indexing and Alignment
 ## Coverage Metrics, metric summary
 ![Rplot02](https://user-images.githubusercontent.com/71617037/155406141-13dd3dcb-62ea-44b7-93c8-a50e985bd52b.png)
-<img src="https://user-images.githubusercontent.com/71617037/155406141-13dd3dcb-62ea-44b7-93c8-a50e985bd52b.png" width="500" height="500">
+<img src="https://user-images.githubusercontent.com/71617037/155406141-13dd3dcb-62ea-44b7-93c8-a50e985bd52b.png" width="800" height="800">
 
 
 
