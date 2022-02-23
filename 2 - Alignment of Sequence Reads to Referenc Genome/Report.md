@@ -9,3 +9,5 @@ TRAILING:20 \
 SLIDINGWINDOW:20:20 \
 MINLEN:40
 ```
+
+# Comparison of Trimmed and Untrimmed FASTQ Reports
