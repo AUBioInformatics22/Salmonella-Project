@@ -1,6 +1,16 @@
 # 2. Alignment of Seqence Reads to Reference Genome
-## 1. Trimming 
+## 1. Trimming and filtering
 ######  Andrea Pietruska
+Trimmomatic <br/>
+```
+HEADCROP:7 \
+ILLUMINACLIP:/data/results/NEB_adapter.fasta:2:30:8 \
+LEADING:20 \
+TRAILING:20 \
+SLIDINGWINDOW:20:20 \
+MINLEN:40
+```
+
 ## 2. Comparison of FASTQC Reports
 ######  Steven Kitchens
 ## 3. Indexing and Alignment
