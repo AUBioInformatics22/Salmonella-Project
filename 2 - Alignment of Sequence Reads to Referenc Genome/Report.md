@@ -49,7 +49,7 @@ Table 1: Table showing the coverage of the untrimmed data after alignment
 
 
 
-Table 1 above shows the aligned coverage and percent mapped of the untrimmed data of our samples.
+Table 1 above shows the aligned coverage and percent mapped of the untrimmed data of our samples <p>&nbsp;</p>
 
 
 
