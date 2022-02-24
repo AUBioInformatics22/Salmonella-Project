@@ -29,7 +29,7 @@ The reference genome (_Salmonella enterica_) was indexed and sequence reads of s
   
 
 
-Table 1: Table showing the coverage of the samples after alignment 
+Table 1: Table showing the coverage of the untrimmed data after alignment 
 
 | SRA_ID | Aligned_Coverage | Standard Deviation | Percent Mapped_flagstat | Raw_Coverage |
 |--------| -----------------| -------------------| ----------------------- | -------------|
