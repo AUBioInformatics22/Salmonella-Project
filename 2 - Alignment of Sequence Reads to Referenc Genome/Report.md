@@ -69,7 +69,7 @@ Table 2: Table showing the coverage of the trimmed data after alignment
 |SRR10740745| 88.70|  98.68| 34.87 | 5.05 |
 |SRR10740746| 80.58 | 35.54 | 93.07 | 4.97 |
 |SRR10740747| 83.44 | 36.75| 95.52| 4.78|
-|SRR10740748| 87.15| 38.47| 95.54| 4.97|  
+|SRR10740748| 87.15| 38.47| 95.54| 4.97|  <p>&nbsp;</p>
 
 
 
@@ -77,7 +77,7 @@ Table 2: Table showing the coverage of the trimmed data after alignment
 
 
 
-Table 2 above shows the aligned coverage and percent mapped of the trimmed data of our samples.
+Table 2 above shows the aligned coverage and percent mapped of the trimmed data of our samples<p>&nbsp;</p>
 
 
 
