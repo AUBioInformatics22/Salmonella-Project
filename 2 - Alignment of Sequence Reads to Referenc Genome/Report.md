@@ -35,6 +35,3 @@ Table 1
 |SRR10740748| 93.58| 40.49| 95.41| 4.97|
 
 
-
-![image](https://user-images.githubusercontent.com/71617037/155406710-23a3c063-e8f1-4684-bf31-a6f4e55965e2.png)
-
