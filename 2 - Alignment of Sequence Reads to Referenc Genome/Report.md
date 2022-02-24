@@ -23,7 +23,9 @@ Table 1
 
 | SRA_ID | Aligned_Coverage | Standard Deviation | Percent Mapped_flagstat | Raw_Coverage |
 |--------| -----------------| -------------------| ----------------------- | -------------|
-|SRR10740739| 98.0275       |40.7035             | 95.49                   | 5.211887     |
+|SRR10740739| 98.0275       |     40.7035        |         95.49           | 5.212        |
+|SRR10740740| 91.8267      |      38.8267        |         95.48           | 4.869        |
+|
 
 
 ![image](https://user-images.githubusercontent.com/71617037/155443485-8fe5adb7-fc4c-4654-96cb-4d1a44a03df7.png)
