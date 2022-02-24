@@ -11,9 +11,9 @@ SLIDINGWINDOW:20:20 \
 MINLEN:40
 ```
 script: [trimmomatic.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/2%20-%20Alignment%20of%20Sequence%20Reads%20to%20Referenc%20Genome/trimmomatic.sh)
-## 3. Indexing and Alignment
+## 2. Indexing and Alignment
 ######  Steven Kitchens
-## 4. Coverage metrics, metrics summary
+## 3. Coverage metrics, metrics summary
 ######  Chidozie Ugochukwu
-## 5. GitHub Repository
+## 4. GitHub Repository
 ######  Stephen Tansie
