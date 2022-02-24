@@ -13,7 +13,7 @@ MINLEN:40
 script: [trimmomatic.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/2%20-%20Alignment%20of%20Sequence%20Reads%20to%20Referenc%20Genome/trimmomatic.sh)
 ## 2. Indexing and Alignment
 ######  Steven Kitchens
-## 3. Coverage metrics, metrics summary
+## 3. Summary of Coverage Metrics
 ######  Chidozie Ugochukwu
 ## 4. GitHub Repository
 ######  Stephen Tansie
