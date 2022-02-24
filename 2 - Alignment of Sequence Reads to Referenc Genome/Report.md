@@ -45,13 +45,26 @@ Table 1: Table showing the coverage of the untrimmed data after alignment
 |SRR10740748| 93.58| 40.49| 95.41| 4.97|  
 
 
-
-
-
-
-
-
-
 Table 1 above shows the aligned coverage and percent mapped of the trimmed data of our samples.
+
+
+
+
+Table 2: Table showing the coverage of the trimmed data after alignment 
+
+| SRA_ID | Aligned_Coverage | Standard Deviation | Percent Mapped_flagstat | Raw_Coverage |
+|--------| -----------------| -------------------| ----------------------- | -------------|
+|SRR10740739| 91.15       |     38.62        |         95.56           | 5.21        |
+|SRR10740740| 39.11      |      17.63        |         95.57           | 4.87        |
+|SRR10740741| 72.77         |     30.27          |         95.51           | 4.15         |
+|SRR10740742| 82.01 |       34.64 |         96.24| 4.60|
+|SRR10740743| 80.29 | 34.43                  | 94.86 |         4.57 |
+|SRR10740744| 86.07 | 36.90 | 95.51 | 4.85 |
+|SRR10740745| 88.70|  98.68| 34.87 | 5.05 |
+|SRR10740746| 80.58 | 35.54 | 93.07 | 4.97 |
+|SRR10740747| 83.44 | 36.75| 95.52| 4.78|
+|SRR10740748| 87.15| 38.47| 95.54| 4.97|  
+
+
 
 We also compared the results of both trimmed and untrimmed data. The results show that
