@@ -18,7 +18,7 @@ We also compared the results of both trimmed and untrimmed data. The results sho
 
 ## Summary of Coverage Metrics
 ![Rplot02](https://user-images.githubusercontent.com/71617037/155406141-13dd3dcb-62ea-44b7-93c8-a50e985bd52b.png)
-                                                                                                    Fig. 1
+Fig. 1: This shows the aligned coverage of the samples with reference to the reference genome. 
 
 
 
