@@ -23,7 +23,7 @@ The reference genome (_Salmonella enterica_) was indexed and sequence reads of b
 
 
 
-Fig. 1: This shows the aligned coverage of the samples with reference to the reference genome. 
+Fig. 1: This shows the aligned coverage of the samples with reference to the reference genome <p>&nbsp;</p>
 
 
 
@@ -45,7 +45,7 @@ Table 1: Table showing the coverage of the untrimmed data after alignment
 |SRR10740745| 94.34|  40.32| 94.78 | 5.05 |
 |SRR10740746| 87.40 | 37.70 | 92.99 | 4.97 |
 |SRR10740747| 89.82 | 38.77| 95.34| 4.78|
-|SRR10740748| 93.58| 40.49| 95.41| 4.97|  
+|SRR10740748| 93.58| 40.49| 95.41| 4.97| <p>&nbsp;</p>  
 
 
 
