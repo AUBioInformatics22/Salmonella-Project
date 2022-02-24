@@ -10,8 +10,12 @@ SLIDINGWINDOW:20:20 \
 MINLEN:40
 ```
 
+
+
 ## Indexing and Alignment
 The reference genome (_Salmonella enterica_) was indexed and sequence reads of both trimmed and untrimmed data were aligned to it using the [2_alignment.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/2%20-%20Alignment%20of%20Sequence%20Reads%20to%20Referenc%20Genome/2_alignment.sh) script.
+
+
 
 
 ## Summary of Coverage Metrics
@@ -19,7 +23,7 @@ The reference genome (_Salmonella enterica_) was indexed and sequence reads of b
 
 
 
- Fig. 1: This shows the aligned coverage of the samples with reference to the reference genome. 
+Fig. 1: This shows the aligned coverage of the samples with reference to the reference genome. 
 
 
 
@@ -44,7 +48,11 @@ Table 1: Table showing the coverage of the untrimmed data after alignment
 |SRR10740748| 93.58| 40.49| 95.41| 4.97|  
 
 
+
 Table 1 above shows the aligned coverage and percent mapped of the untrimmed data of our samples.
+
+
+
 
 
 
@@ -65,7 +73,13 @@ Table 2: Table showing the coverage of the trimmed data after alignment
 
 
 
+
+
+
+
 Table 2 above shows the aligned coverage and percent mapped of the trimmed data of our samples.
+
+
 
 
 From Table 2, it evident that trimming reduced percent mapping. Depending on the goals of the experiment, such as differential expression using RNA-seq data, trimming may not be necessary when using modern aligners, because good reads could potentially be lost. Modern aligners such as BWA-MEM and HISAT2 will "soft-clip" non-matching sequences. 
