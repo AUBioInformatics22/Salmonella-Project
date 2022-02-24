@@ -14,9 +14,9 @@ MINLEN:40
 ## Indexing and Alignment
 ## Summary of Coverage Metrics
 ![Rplot02](https://user-images.githubusercontent.com/71617037/155406141-13dd3dcb-62ea-44b7-93c8-a50e985bd52b.png)
-                                                                                                              Fig. 1
+                                                                                                           Fig. 1
 
 
-
+Table 1
 ![image](https://user-images.githubusercontent.com/71617037/155406710-23a3c063-e8f1-4684-bf31-a6f4e55965e2.png)
 
