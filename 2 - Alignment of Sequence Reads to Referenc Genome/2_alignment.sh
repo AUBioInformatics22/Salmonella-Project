@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#This script will be used to align contigs to a refernce genome
+#This script will be used to align contigs to a reference genome
 #This requires use of BWA, Samtools, and Picard
 #Must have both reads for each sequence and reference genome downloaded into current working directory.
 #If reference and samples are not downloaded, use script ref_sequences.sh
