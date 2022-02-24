@@ -16,7 +16,6 @@ The reference genome (_Salmonella enterica_) was indexed and sequence reads of b
 
 ## Summary of Coverage Metrics
 ![Rplot02](https://user-images.githubusercontent.com/71617037/155406141-13dd3dcb-62ea-44b7-93c8-a50e985bd52b.png)
-&nbsp
 
 
 
@@ -44,11 +43,11 @@ Table 1: Table showing the coverage of the untrimmed data after alignment
 |SRR10740747| 89.82 | 38.77| 95.34| 4.78|
 |SRR10740748| 93.58| 40.49| 95.41| 4.97|  
 
-&nbsp
+
 Table 1 above shows the aligned coverage and percent mapped of the untrimmed data of our samples.
 
 
-&nbsp;
+
 Table 2: Table showing the coverage of the trimmed data after alignment 
 
 | SRA_ID | Aligned_Coverage | Standard Deviation | Percent Mapped_flagstat | Raw_Coverage |
@@ -64,9 +63,9 @@ Table 2: Table showing the coverage of the trimmed data after alignment
 |SRR10740747| 83.44 | 36.75| 95.52| 4.78|
 |SRR10740748| 87.15| 38.47| 95.54| 4.97|  
 
-&nbsp;
+
 
 Table 2 above shows the aligned coverage and percent mapped of the trimmed data of our samples.
 
-&nbsp;
+
 From Table 2, it evident that trimming reduced percent mapping. Depending on the goals of the experiment, such as differential expression using RNA-seq data, trimming may not be necessary when using modern aligners, because good reads could potentially be lost. Modern aligners such as BWA-MEM and HISAT2 will "soft-clip" non-matching sequences. 
