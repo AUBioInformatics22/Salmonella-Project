@@ -47,6 +47,11 @@ Table 1: Table showing the coverage of the untrimmed data after alignment
 
 
 
+
+
+
+
+
 Table 1 above shows the aligned coverage and percent mapped of the trimmed data of our samples.
 
 We also compared the results of both trimmed and untrimmed data. The results show that
