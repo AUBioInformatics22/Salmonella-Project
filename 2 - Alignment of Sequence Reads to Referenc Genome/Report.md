@@ -11,7 +11,7 @@ MINLEN:40
 ```
 
 ## Indexing and Alignment
-The reference genome was indexed and sequence reads were aligned to it using the   2_alignment.sh script.
+The reference genome was indexed and sequence reads were aligned to it using the [2_alignment.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/2%20-%20Alignment%20of%20Sequence%20Reads%20to%20Referenc%20Genome/2_alignment.sh) script.
 
 ## Comparison of Trimmed and Untrimmed FASTQ Reports
 ## Summary of Coverage Metrics
