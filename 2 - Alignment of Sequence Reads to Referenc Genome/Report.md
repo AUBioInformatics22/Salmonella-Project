@@ -36,8 +36,5 @@ Table 1
 
 
 
-![image](https://user-images.githubusercontent.com/71617037/155443485-8fe5adb7-fc4c-4654-96cb-4d1a44a03df7.png)
-
-
 ![image](https://user-images.githubusercontent.com/71617037/155406710-23a3c063-e8f1-4684-bf31-a6f4e55965e2.png)
 
