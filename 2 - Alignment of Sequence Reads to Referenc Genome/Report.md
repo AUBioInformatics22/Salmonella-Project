@@ -23,7 +23,7 @@ We also compared the results of both trimmed and untrimmed data. The results sho
 
 
 
-Table 1
+Table 1: Table showing the coverage of the samples after alignment 
 
 | SRA_ID | Aligned_Coverage | Standard Deviation | Percent Mapped_flagstat | Raw_Coverage |
 |--------| -----------------| -------------------| ----------------------- | -------------|
