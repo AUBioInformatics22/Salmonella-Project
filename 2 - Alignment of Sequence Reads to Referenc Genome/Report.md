@@ -10,8 +10,9 @@ SLIDINGWINDOW:20:20 \
 MINLEN:40
 ```
 
-## Comparison of Trimmed and Untrimmed FASTQ Reports
 ## Indexing and Alignment
+The reference genome was indexed and sequence reads were aligned to it using the 2_alignment.sh script.
+## Comparison of Trimmed and Untrimmed FASTQ Reports
 ## Summary of Coverage Metrics
 ![Rplot02](https://user-images.githubusercontent.com/71617037/155406141-13dd3dcb-62ea-44b7-93c8-a50e985bd52b.png)
                                                                                                     Fig. 1
