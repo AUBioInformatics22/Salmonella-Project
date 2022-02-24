@@ -13,8 +13,6 @@ MINLEN:40
 ## Indexing and Alignment
 The reference genome (_Salmonella enterica_) was indexed and sequence reads of sample were aligned to it using the [2_alignment.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/2%20-%20Alignment%20of%20Sequence%20Reads%20to%20Referenc%20Genome/2_alignment.sh) script.
 
-## Comparison of Trimmed and Untrimmed FASTQ Reports
-We also compared the results of both trimmed and untrimmed data. The results show that
 
 ## Summary of Coverage Metrics
 ![Rplot02](https://user-images.githubusercontent.com/71617037/155406141-13dd3dcb-62ea-44b7-93c8-a50e985bd52b.png)
@@ -47,3 +45,6 @@ Table 1: Table showing the coverage of the samples after alignment
 |SRR10740748| 93.58| 40.49| 95.41| 4.97|
 
 
+
+
+We also compared the results of both trimmed and untrimmed data. The results show that
