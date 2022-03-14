@@ -4,7 +4,8 @@ Post-alignment processing was carried out to mark duplicates in the sequences.
 
 
 
-![coverage](https://user-images.githubusercontent.com/71617037/158240814-9659c3c0-2770-4123-b65a-60cb09e4408c.png)
+![coverage](https://user-images.githubusercontent.com/71617037/158240814-9659c3c0-2770-4123-b65a-60cb09e4408c.png) <p>&nbsp;</p>
+                                                                                                          Figure 1
 
 
 
