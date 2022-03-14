@@ -5,7 +5,9 @@ Post-alignment processing
 
 
 
-![coverage](https://user-images.githubusercontent.com/71617037/158239054-1f23505e-b304-4e9b-b36b-27221c9205ac.png)
+![Percent Duplication](https://user-images.githubusercontent.com/71617037/158240737-339ae5cf-74fa-487f-8f4b-0783a78b2019.png)
+
+
 
 
 
