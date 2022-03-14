@@ -10,7 +10,7 @@ Post-alignment processing
 
 Table 1: Table showing the coverage of the data after post-alignment processing 
 
-| SRA_ID | Percent Duplication | Standard Deviation | Percent Mapped_flagstat | Raw_Coverage |
+| SRA_ID | Percent Duplication | Standard Deviation | Percent Mapped_flagstat |
 |--------| -----------------| -------------------| ----------------------- | -------------|
 |SRR10740739| 0.89       |     40.70        |         95.49           | 5.21        |
 |SRR10740740| 0.85      |      38.83        |         95.48           | 4.87        |
