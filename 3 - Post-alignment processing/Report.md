@@ -7,3 +7,8 @@ Post-alignment processing
 
 ![coverage](https://user-images.githubusercontent.com/71617037/158238479-ddd46f99-3c3a-40cf-af01-18025e54fa82.png)
 
+
+
+![coverage](https://user-images.githubusercontent.com/71617037/158238814-a6603f5b-9aa9-442a-bbbc-cc60edb56038.png)
+
+
