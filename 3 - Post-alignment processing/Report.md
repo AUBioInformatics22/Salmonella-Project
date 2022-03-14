@@ -28,4 +28,3 @@ Table 1 above shows that there is minimal sequence duplication in the samples.
 
 
 
-
