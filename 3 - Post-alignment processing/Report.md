@@ -5,5 +5,5 @@ Post-alignment processing
 
 
 
-![coverage](https://user-images.githubusercontent.com/71617037/158238325-e854d4ab-8a49-4313-bb68-cb9ffca14d1e.png)
+![coverage](https://user-images.githubusercontent.com/71617037/158238479-ddd46f99-3c3a-40cf-af01-18025e54fa82.png)
 
