@@ -5,11 +5,9 @@
 </p>
 
 
-
-![coverage](https://user-images.githubusercontent.com/71617037/158240814-9659c3c0-2770-4123-b65a-60cb09e4408c.png) 
-                                                                                               Figure 2
-                                                                                                          <p>&nbsp;</p>
-
+<p align="center">
+<img src="graphs/Coverage.png" width="800" height="600" />
+</p>
 
 
 Table 1: Table showing the coverage of the data after post-alignment processing 
