@@ -1,8 +1,9 @@
-Post-alignment processing was carried out to mark duplicates in the sequences.  
+# Post-alignment processing was carried out to mark duplicates in the sequences.  
 
-![Percent Duplication](https://user-images.githubusercontent.com/71617037/158240737-339ae5cf-74fa-487f-8f4b-0783a78b2019.png)
-                                                                                               Figure 1
-                                                                                                                     <p>&nbsp;</p>
+<p align="center">
+<img src="graphs/histogram.png" width="600" height="450" />
+</p>
+
 
 
 ![coverage](https://user-images.githubusercontent.com/71617037/158240814-9659c3c0-2770-4123-b65a-60cb09e4408c.png) 
