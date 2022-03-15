@@ -27,6 +27,9 @@ Table 1: Table showing the coverage of the data after post-alignment processing
 
 Table 1 above shows that there is minimal sequence duplication in the samples. 
 
-
+Script for mapping: Steven Kitchens <br/>
+Analysis with IGV: Chidozie Ugochuckwu <br/>
+Analysis & Report: Stephen Tansie <br/>
+GitHub Repository: Andrea Pietruska <br/>
 
 
