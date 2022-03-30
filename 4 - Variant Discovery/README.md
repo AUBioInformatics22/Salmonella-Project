@@ -11,7 +11,7 @@ IGV screen shots comparing regions of high SNP to low SNP quality.
 
 # What happened
 
-The [stats.txt](link) output of our [script for variant calling](link) turned out empty for all samples.
+The [stats.txt](link) output of our script for variant calling [6_GATK_variant_calling_example](4 - Variant Discovery/6_GATK_variant_calling_example.sh) turned out empty for all samples.
 
 ## Troubleshooting
 1. run all steps seperately to find the error. The very first step of [haplotype calling] already generated empty .g.vcf.gz files. </br>
