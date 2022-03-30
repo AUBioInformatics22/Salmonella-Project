@@ -1,0 +1,1 @@
+ERROR: Read name foo, A platform (PL) attribute was not found for read group 
