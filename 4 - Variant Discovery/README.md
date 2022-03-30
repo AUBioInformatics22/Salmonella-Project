@@ -11,10 +11,10 @@ IGV screen shots comparing regions of high SNP to low SNP quality.
 
 # What happened
 
-The [stats.txt](link) output of our script for variant calling [6_GATK_variant_calling_example](4 - Variant Discovery/6_GATK_variant_calling_example.sh) turned out empty for all samples.
+The [stats.txt](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/depth_stats.txt) output of our script for variant calling [6_GATK_variant_calling_example](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/6_GATK_variant_calling_example.sh) turned out empty for all samples.
 
 ## Troubleshooting
-1. run all steps seperately to find the error. The very first step of [haplotype calling] already generated empty .g.vcf.gz files. </br>
+1. run all steps seperately to find the error. The very first step of [haplotype calling] (https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/GATK_haplo.sh)already generated empty .g.vcf.gz files. </br>
 `WARN: Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null` </br>
-3. checking the input .bam files for errors by running [ValidateSamFiles](link) generated an error for [every sample.bam file](link):</br>
+3. checking the input .bam files for errors by running [ValidateSamFiles](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/7_GATK_ValidateSam.sh) generated an error for [every sample.bam file](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/6_GATK_variant_calling_example.sh):</br>
 `ERROR: Read name foo, A platform (PL) attribute was not found for read group`</br>
