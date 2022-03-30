@@ -15,12 +15,12 @@ The [depth_stats.txt](https://github.com/AUBioInformatics22/Salmonella-Project/b
 
 ## Troubleshooting
 1. run all steps seperately to find the error. The very first step of haplotype calling [GATK_haplo.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/GATK_haplo.sh) already generated empty `sample.g.vcf.gz` files. </br>
-`WARN: Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null` </br>
+> `WARN: Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null` </br>
 </br>
-2. checking the input sample.mark.sorted.bam files for errors by running [GATK_ValidateSamFiles](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/7_GATK_ValidateSam.sh) generated an [error](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Sam_Validation.SRR10740739.txt) for every samplemark.sorted.bam file. 
+2. checking the input sample.mark.sorted.bam files for errors by running <a href="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/depth_stats.txt" target="_top">GATK ValidateSamFiles</a> [GATK_ValidateSamFiles](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/depth_stats.txt) generated an [error](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Sam_Validation.SRR10740739.txt) for every sample.mark.sorted.bam file. 
 </br>
 
-`ERROR: Read name foo, A platform (PL) attribute was not found for read group`</br>
+> `ERROR: Read name foo, A platform (PL) attribute was not found for read group`</br>
 </br>
 4. checking the sample.mark.sorted.bam files with the [Integrated Genomics Viewer](https://software.broadinstitute.org/software/igv/) . </br>
 </br>
