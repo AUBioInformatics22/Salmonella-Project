@@ -4,3 +4,6 @@ We performed an in depth quality analysis of the resulting VCF file. Some of the
 
 
 Quality Aspects of VCF files
+
+IGV screen shots comparing regions of high SNP to low SNP quality.
+
