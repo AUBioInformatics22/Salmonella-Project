@@ -20,8 +20,19 @@ The [depth_stats.txt](https://github.com/AUBioInformatics22/Salmonella-Project/b
 2. checking the input sample.mark.sorted.bam files for errors by running <a href="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/7_GATK_ValidateSam.sh" target="_top">GATK ValidateSamFiles</a> generated an <a href="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Sam_Validation.SRR10740739.txt" target="_top">error</a> for every sample.mark.sorted.bam file. 
 </br>
 
-> `ERROR: Read name foo, A platform (PL) attribute was not found for read group`</br>
+> *ERROR: Read name foo, A platform (PL) attribute was not found for read group* </br>
 </br>
+and also showed an IncompatibleClassChangeErrorin the queue output file. </br>
+
+3. GATK issues were solved by running `module load GATK` followed by `conda init bash`and also add the correct calling for the GATK module in the script:
+```
+source /opt/asn/etc/asn-bash-profiles-special/modules.sh
+module load gatk/4.1.4.0
+```
+
+But we had to go back to step 3 where we used GATK the first time, to make sure that the files produced there were correct.
+
+
 3. checking the sample.mark.sorted.bam files with the <a href="https://software.broadinstitute.org/software/igv/" target="_top">Integrated Genomics Viewer</a> </br>
 </br>
 4. going back to step 3 and check our parameters for the alignment. We have the idea, that the issues might be caused by the fact, that our little Salmonella is monoploid, but all settings are fitted for diploid organisms.
