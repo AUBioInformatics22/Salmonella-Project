@@ -30,7 +30,7 @@ source /opt/asn/etc/asn-bash-profiles-special/modules.sh
 module load gatk/4.1.4.0
 ```
 
-But we had to go back to step 3 where we used GATK the first time, to make sure that the files produced there were correct.
+But we had to go back to [step 3](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/3%20-%20Post-alignment%20processing/README.md) where we used GATK the first time, to make sure that the files produced there were correct.
 
 
 3. checking the sample.mark.sorted.bam files with the <a href="https://software.broadinstitute.org/software/igv/" target="_top">Integrated Genomics Viewer</a> </br>
