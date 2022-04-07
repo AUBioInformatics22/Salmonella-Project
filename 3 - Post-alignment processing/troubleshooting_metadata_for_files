@@ -1,0 +1,54 @@
+Hi Steven,
+ 
+I think there is a misconception on what read groups mean. This is simply meta data about your files that you will supply to GATK.
+You can do this during initial alignment (Step 2 – see script “4_BWA_example.sh”) or later using GATK AddOrReplaceReadGroups.
+This information does NOT need to be hard coded into the fastq files. But you need to make a table of this information for your data (see below).
+So basically, each sample needs a unique read group ID going into GATK. After haplotype caller, you will merge these and the SM label you provide will become the sample ID at the top of columns 9+ for each sample in your dataset.
+Although all of you data was done on one lane of sequencing, this meta data you supply can also be used to account for potential batch effects in your dataset at different steps in the genome analysis pipeline.
+The only need to split fastq files is if you happen to be using data that someone previously merged from multiple “batches” or lanes of sequencing. Again, this is not required and is certainly not needed to prepare the information for your read group labels.
+ 
+The required fields are:
+•	ID: A unique sample ID for each individual (this might be some combination of the sample name and the lane #)
+•	SM: A unique identifier for each individual (e.g. Sample1) – this will become the header in the VCF file
+•	PL: Sequencing platform (e.g. Illumina)
+•	PU: Processing unit (e.g. lane #) – if all of your data is from the same lane, then this will be the same across all of your samples
+•	LB: library name (if you prepared libraries in bulk, then the library may also be the same for multiple steps, essentially defining sub-batches in your dataset) – this is the unit used by mark duplicates to determine if reads are from the same library
+ 
+See this article on GATK for more guidance: https://gatk.broadinstitute.org/hc/en-us/articles/360035890671-Read-groups 
+
+
+Thank you Dr. Stevison,
+ 
+I believe that most of the information will be found with the NCBI. I believe I found a metadata file for each file that I could use for the values.
+I’m sure I could use some command to process it for me, but it might be easier to manually do it for just ten samples.
+ 
+So the basis of the issue is this information must be manually added because it was not hard coded in the fastq file.
+So the GATK AddOrReplaceReadGroups command must be used prior to marking duplicates or would it come before haplotype caller?
+Just wondering how far back and on which step’s data the GATK AddOrReplaceReadGroups is used that will not interfere with final outcome.
+ 
+Steven
+
+Hi Steven,
+ 
+Good question. And to be clear, this information is always needed to be manually added.
+The only point I made was that the fastq files could be used to FIND the information if you do not know it. If you can get it from NCBI, then all the better.
+If you can get it from NCBI, then all the better. But this information still needs to be specified at some point in your genome analysis.
+
+In an ideal world, you would add it during alignment using bwa, which is what my sample script #4 did and why we talked about it back in early February. 
+BUT, I do not expect that your final product of my class will be of publication quality, so you are OK to add it prior to haplotype caller if you are sure the marked duplicate file is OK. 
+As mentioned below, one of the labels is used during marking of duplicates, so if you were planning to publish this analysis, I would say go back and do this. 
+But for the purposes of my class, I would add a description that you are adding it later than planned, document your use of the GATK AddOrReplaceReadGroups tool, and that would be totally fine!
+
+Best,
+Dr. Stevison
+
+To Group:
+
+So I’m guessing the command will be
+
+Java –jar picard.jar AddOrReplaceReadGroups I=input.bam O=output.bam RGID= RGLB= RGPL= RGSM= RGPU=
+
+Attached is a tab-delimited file with all of the data. Generating a script to do this automatically will have to put it on the list to work through later.
+
+Steven
+
