@@ -35,4 +35,7 @@ But we had to go back to [step 3](https://github.com/AUBioInformatics22/Salmonel
 
 3. checking the sample.mark.sorted.bam files with the <a href="https://software.broadinstitute.org/software/igv/" target="_top">Integrated Genomics Viewer</a> </br>
 </br>
-4. going back to step 3 and check our parameters for the alignment. We have the idea, that the issues might be caused by the fact, that our little Salmonella is monoploid, but all settings are fitted for diploid organisms.
+4. going back to step 3 and check our parameters for the alignment. We have the idea, that the issues might be caused by the fact, that our little Salmonella is monoploid, but all settings are fitted for diploid organisms -> this idea was not the key to the solution. In fact, there is no reason to believe that GATK can't deal with monoploid organisms. </br>
+</br>
+Our problem was, that GATK requires the proper java version. Our gatk and java did not match, that's why we got the IncompatibleClassError. When loading the GATK version matching the java version (can easily be checked by running `which gatk`and `java -version`and comparing the results with the [java requirements for GATK](https://gatk.broadinstitute.org/hc/en-us/articles/360035889531-What-are-the-requirements-for-running-GATK-)) the code works just fine. </br>
+</br>
