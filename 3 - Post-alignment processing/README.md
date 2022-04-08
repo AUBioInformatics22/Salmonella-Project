@@ -12,7 +12,7 @@ Output for our files:
 
 instead of the required individual ID for each sample </br>
 To fix this issue we use </br>
-`java -jar picard.jar AddOrReplaceReadGroups \ I=input.bam \ O=output.bam \ RGID=4 \ RGLB=lib1 \ RGPL=ILLUMINA \ RGPU=unit1 \ RGSM=20` </br>
-for each sample to add the readgroup parameters manually. More information about AddOrReplaceGroups can be found [here](https://gatk.broadinstitute.org/hc/en-us/articles/360037226472-AddOrReplaceReadGroups-Picard-). </br>
+`gatk AddOrReplaceReadGroups I input.bam O output.bam RGID Sample_ID RGLB Library_name RGPL Sequencing_platform RGPU Units RGSM Sample_name` </br>
+for each sample to add the readgroup parameters manually. The information about our readgroups can be found in the [add_readgroups.sh script]. More information about AddOrReplaceGroups can be found [here](https://gatk.broadinstitute.org/hc/en-us/articles/360037226472-AddOrReplaceReadGroups-Picard-). </br>
 
 6. Check the output files with ValidateSamFiles and in the IGV viewer
