@@ -35,7 +35,23 @@ But we had to go back to [step 3](https://github.com/AUBioInformatics22/Salmonel
 
 3. checking the sample.mark.sorted.bam files with the <a href="https://software.broadinstitute.org/software/igv/" target="_top">Integrated Genomics Viewer</a> </br>
 </br>
+
 4. going back to step 3 and check our parameters for the alignment. We have the idea, that the issues might be caused by the fact, that our little Salmonella is monoploid, but all settings are fitted for diploid organisms -> this idea was not the key to the solution. In fact, there is no reason to believe that GATK can't deal with monoploid organisms. </br>
 Our problem was, that GATK requires the proper java version. Our gatk and java did not match, that's why we got the IncompatibleClassError. When loading the GATK version matching the java version (can easily be checked by running <code>which gatk</code> and <code>java -version</code> and comparing the results with the <a href="https://gatk.broadinstitute.org/hc/en-us/articles/360035889531-What-are-the-requirements-for-running-GATK-" target="_top">java requirements for GATK</a> the code works just fine. </br>
 We also had to add the readgroups manually to our .bam files before running GATK. Code and more troubleshooting can be found in the <a href="https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/3%20-%20Post-alignment%20processing" target="_top">README.md of 3 - Post-alignment Processing</a>.
 </br>
+</br>
+
+5. Still, the haplotype caller produces empty .vcf files with only the header. We could run the class script on it, where we generated the graphs for all the parameter, to check if they were chosen properly. Our script runs with: 
+
+```
+gatk VariantFiltration -R $ref --variant $sample.SNPs.vcf \
+--filter-expression "QD < 2.0" --filter-name "QD2" \
+--filter-expression "QUAL < 30.0" --filter-name "QUAL30" \
+--filter-expression "SOR > 3.0" --filter-name "SOR3" \
+--filter-expression "FS > 60.0" --filter-name "FS60" \
+--filter-expression "MQ < 40.0" --filter-name "MQ40" \
+--filter-expression "MQRankSum < -12.5" --filter-name "MQRankSum-12.5" \
+--filter-expression "ReadPosRankSum < -8.0" --filter-name "ReadPosRankSum-8" \
+--output $sample.SNPs.filtered.vcf
+```
