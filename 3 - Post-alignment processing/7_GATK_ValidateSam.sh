@@ -5,7 +5,7 @@
 
 #load modules needed for this job
 source /opt/asn/etc/asn-bash-profiles-special/modules.sh
-module load gatk/4.1.0.0
+module load gatk/4.1.4.0
 source activate gatk
 
 ###VARIABLES######
