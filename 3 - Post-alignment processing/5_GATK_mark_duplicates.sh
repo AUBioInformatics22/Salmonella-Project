@@ -14,13 +14,12 @@ declare -a sample_list=("SRR10740748" "SRR10740747" "SRR10740746" "SRR10740745" 
 
 #load modules needed for this job
 source /opt/asn/etc/asn-bash-profiles-special/modules.sh
-module load gatk/4.1.0.0
-source activate gatk
+module load gatk/4.1.4.0
 
 ##########Variables###############
 #Prefix name of reference genome file. Must be labeled as .fasta and not .fna
 ref=salmonella
-bam=merged.sorted.bam
+bam=rg.merged.sorted.bam
 genome_size=`awk '{sum+=$2} END {print sum}' ${ref}.fasta.fai`
 #####
 
@@ -33,6 +32,10 @@ genome_size=`awk '{sum+=$2} END {print sum}' ${ref}.fasta.fai`
 
 #deactivate GATK
 source deactivate gatk
+
+#activate samtools
+source /opt/asn/etc/asn-bash-profiles-special/modules.sh
+module load samtools/1.11
 
         for sample in ${sample_list[@]}; do
             samtools view -Sb ${sample}.markdup.bam | samtools sort - -@ 4 -m 2GB >${sample}.mark.sorted.bam
