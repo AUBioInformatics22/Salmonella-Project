@@ -55,3 +55,6 @@ gatk VariantFiltration -R $ref --variant $sample.SNPs.vcf \
 --filter-expression "ReadPosRankSum < -8.0" --filter-name "ReadPosRankSum-8" \
 --output $sample.SNPs.filtered.vcf
 ```
+6. Solution for the haplotype caller to run was to add the -f flag to gzip `gzip -f $sample.SNPs.vcf $sample.SNPs.filtered.vcf`, so the older files were overwritten correctly with the new generated ones. We also changed from GATK 4.1.4.0 to 4.1.0.0 to avoid a number of syntax warnings. 
+Now we have our filtered .vcf files and are good to proceed with step 5!
+Script [6_GATK_variant_calling.sh]() is the debugged one.
