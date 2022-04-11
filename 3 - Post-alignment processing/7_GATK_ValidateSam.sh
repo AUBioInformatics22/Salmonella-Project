@@ -5,8 +5,11 @@
 
 #load modules needed for this job
 source /opt/asn/etc/asn-bash-profiles-special/modules.sh
-module load gatk/4.1.4.0
-source activate gatk
+#module load gatk/4.1.4.0
+#source activate gatk
+
+module load gatk/4.1.0.0
+module load java/1.8.0_192
 
 ###VARIABLES######
 declare -a sample_list=("SRR10740739" "SRR10740740" "SRR10740741" "SRR10740742" "SRR10740743" "SRR10740744" "SRR10740745" "SRR10740746" "SRR10740747" "SRR10740748")
