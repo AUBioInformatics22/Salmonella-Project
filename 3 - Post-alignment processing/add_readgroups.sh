@@ -4,7 +4,9 @@
 # module load picard/2.24.0
 
 source /opt/asn/etc/asn-bash-profiles-special/modules.sh
-module load gatk/4.1.4.0
+#module load gatk/4.1.4.0
+module load gatk/4.1.0.0
+module load java/1.8.0_192
 
 # what we have to add to our .bam files:
 #Run	ID	LB	PL	SM	PU
