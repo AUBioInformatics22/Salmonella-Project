@@ -14,7 +14,9 @@ declare -a sample_list=("SRR10740748" "SRR10740747" "SRR10740746" "SRR10740745" 
 
 #load modules needed for this job
 source /opt/asn/etc/asn-bash-profiles-special/modules.sh
-module load gatk/4.1.4.0
+#module load gatk/4.1.4.0
+module load gatk/4.1.0.0
+module load java/
 
 ##########Variables###############
 #Prefix name of reference genome file. Must be labeled as .fasta and not .fna
