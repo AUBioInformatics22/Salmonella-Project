@@ -5,10 +5,10 @@
 <h1 align=center>Salmonella-Project</h>
 
 ### Meet THE TEAM
-Leader wisdom: Steven Kitchens <br/>
-Coding wizard: Chidozie Ugochuckwu <br/>
-Keyboard whisperer: Stephen Tansie <br/>
-Team whistle: Andrea Pietruska <br/>
+Steven Kitchens <br/>
+Chidozie Ugochuckwu <br/>
+Stephen Tansie <br/>
+Andrea Pietruska <br/>
 
 ### 1. Introduction
 
