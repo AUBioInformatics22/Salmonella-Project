@@ -16,7 +16,7 @@ Andrea Pietruska <br/>
 
 ### 2. Aim
 
-The general aim of this project is to develop a pipeline for veterinary teaching hospitals to use to process raw whole genome sequence data for epidemiological studies. 
+The general aim of this project is to develop a pipeline for veterinary teaching hospitals to use to process raw whole genome sequence data for epidemiological studies. The specific aim for this project is to determine the genetic variability among isolates from these ten samples.
 
 ### 3. Samples
 
