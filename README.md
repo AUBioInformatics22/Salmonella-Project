@@ -40,4 +40,3 @@ linker or no linker, barcode whatever <br/>
 Trimming <br/>
 Truncating <br/>
 Filtering <br/>
-whatever <br/>
