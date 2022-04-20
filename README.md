@@ -16,7 +16,7 @@ Andrea Pietruska <br/>
 
 ### 2. Aim
 
-Let's save the chicken world!
+The general aim of this project is to develop a pipeline for veterinary teaching hospitals to use to process raw whole genome sequence data for epidemiological studies. 
 
 ### 3. Samples
 
