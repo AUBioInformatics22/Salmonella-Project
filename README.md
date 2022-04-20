@@ -25,7 +25,8 @@ demultiplexed paired-end reads <br/>
 Primer, primer sequences <br/>
 linker or no linker, barcode whatever <br/>
 
-Table 1: Table showing the coverage of the untrimmed data after alignment 
+Table 1: Table showing details of our samples. The sequence data comprised paired end reads of 10 samples of _Samonella muenster_ sequenced on 1 ILLUMINA (Illumina MiSeq) platform. Sequences were not trimmed. Reference Genome size was 4707217
+
 
 | SRA_ID | Aligned_Coverage | Standard Deviation | Percent Mapped_flagstat | Raw_Coverage |
 |--------| -----------------| -------------------| ----------------------- | -------------|
