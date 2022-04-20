@@ -29,7 +29,7 @@ Table 1: Table showing details of our samples. The sequence data comprised paire
 
 
 | SRA_ID |NCBI Coverage  | Average Read Length | Number of Reads |
-|--------| -----------------| -------------------| ----------------------- | -------------|
+|--------| --------------|---------------------|-----------------|
 |SRR10740739| 98.03       |     40.70        |         95.49           | 5.21        |
 |SRR10740740| 91.83      |      38.83        |         95.48           | 4.87        |
 |SRR10740741| 78.22         |     31.83          |         95.42           | 4.15         |
