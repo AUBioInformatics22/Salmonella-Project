@@ -19,13 +19,7 @@ Andrea Pietruska <br/>
 The general aim of this project is to develop a pipeline for veterinary teaching hospitals to use to process raw whole genome sequence data for epidemiological studies. The specific aim for this project is to determine the genetic variability among isolates from these ten samples.
 
 ### 3. Samples
-
-
-demultiplexed paired-end reads <br/>
-Primer, primer sequences <br/>
-linker or no linker, barcode whatever <br/>
-
-Table 1: Table showing details of our samples. The fasta sequence data comprised paired end reads of 10 samples of _Salmonella muenster_ sequenced on 1 ILLUMINA (Illumina MiSeq) platform. The raw sequences were not trimmed. Reference Genome (_Salmonella enterica_) size was 4707217
+Table 1: Table showing details of our samples. The sequence data comprised demultiplexed paired end reads of 10 samples of _Salmonella muenster_ sequenced on 1 ILLUMINA (Illumina MiSeq) platform. The raw sequences were not trimmed. Reference Genome (_Salmonella enterica_) size was 4707217
 
 
 | SRA_ID    |NCBI Coverage| Average Read Length | Number of Reads |
