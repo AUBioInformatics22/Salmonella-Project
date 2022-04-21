@@ -23,18 +23,18 @@ The samples were collected from dairy herd, equine barns, food animal barn, dair
 Table 1: Table showing details of our samples. The sequence data comprised demultiplexed paired end reads of 10 samples of _Salmonella muenster_ sequenced on 1 ILLUMINA (Illumina MiSeq) platform. The raw sequences were not trimmed. Reference Genome (_Salmonella enterica_) size was 4707217
 
 
-| SRA_ID    |NCBI Coverage| Average Read Length | Number of Reads |Sample source|
-|-----------| ------------|---------------------|-----------------|-------------|
-|SRR10740739| 99.4        |  228                |   1053590       |Necropsy Calf|
+| SRA_ID    |NCBI Coverage| Average Read Length | Number of Reads |Sample source|Year Sample Collected|
+|-----------| ------------|---------------------|-----------------|-------------|---------------------|
+|SRR10740739| 99.4        |  228                |   1053590       |Necropsy Calf|2012                 |     
 |SRR10740740| 92.8        |  223                |   1042044       |Calf Feces   |
 |SRR10740741| 79.3        |  223                |   999592        |Cow Feces    | 
 |SRR10740742| 88          |  225                |   1051202       |Drain Swab   |
 |SRR10740743| 86.4        |  225                |   1015015       |Water on Dairy Road|
 |SRR10740744| 92.4        |  225                |   955320        |Water Sample in Equine Barn|
-|SRR10740745| 95.3        |  226                |   962288        |Water Sample in Equine Barn|
-|SRR10740746| 91.6        |  222                |   876854        |Water Sample in Dairy Barn|
-|SRR10740747| 90.4        |  216                |   1027813       |Water Sample in Food Animal Barn|
-|SRR10740748| 94.5        |  222                |   1076023       |Hay Sample in Equine Barn| <p>&nbsp;</p>  
+|SRR10740745| 95.3        |  226                |   962288        |Water Sample in Equine Barn|2015|
+|SRR10740746| 91.6        |  222                |   876854        |Water Sample in Dairy Barn|2015|
+|SRR10740747| 90.4        |  216                |   1027813       |Water Sample in Food Animal Barn|2014|
+|SRR10740748| 94.5        |  222                |   1076023       |Hay Sample in Equine Barn|2014       |<p>&nbsp;</p>  
 
 
 
