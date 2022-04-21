@@ -25,8 +25,8 @@ Table 1: Table showing details of our samples. The sequence data comprised demul
 
 | SRA_ID    |NCBI Coverage| Average Read Length | Number of Reads |Sample source|
 |-----------| ------------|---------------------|-----------------|-------------|
-|SRR10740739| 99.4        |  228                |   1053590       | Necropsy Calf|
-|SRR10740740| 92.8        |  223                |   1042044       | 
+|SRR10740739| 99.4        |  228                |   1053590       |Necropsy Calf|
+|SRR10740740| 92.8        |  223                |   1042044       |Calf Feces   |
 |SRR10740741| 79.3        |  223                |   999592        | 
 |SRR10740742| 88          |  225                |   1051202       |
 |SRR10740743| 86.4        |  225                |   1015015       |
