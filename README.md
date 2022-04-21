@@ -31,10 +31,10 @@ Table 1: Table showing details of our samples. The sequence data comprised demul
 |SRR10740742| 88          |  225                |   1051202       |Drain Swab   |
 |SRR10740743| 86.4        |  225                |   1015015       |Water on Dairy Road|
 |SRR10740744| 92.4        |  225                |   955320        |Water Sample in Equine Barn|
-|SRR10740745| 95.3        |  226                |   962288        | 
-|SRR10740746| 91.6        |  222                |   876854        |
-|SRR10740747| 90.4        |  216                |   1027813       |
-|SRR10740748| 94.5        |  222                |   1076023       | <p>&nbsp;</p>  
+|SRR10740745| 95.3        |  226                |   962288        |Water Sample in Equine Barn|
+|SRR10740746| 91.6        |  222                |   876854        |Water Sample in Dairy Barn|
+|SRR10740747| 90.4        |  216                |   1027813       |Water Sample in Food Animal Barn|
+|SRR10740748| 94.5        |  222                |   1076023       |Hay Sample in Equine Barn| <p>&nbsp;</p>  
 
 
 
