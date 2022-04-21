@@ -23,7 +23,7 @@ The samples were collected from dairy herd, equine barns, food animal barn, dair
 Table 1: Table showing details of our samples. The sequence data comprised demultiplexed paired end reads of 10 samples of _Salmonella muenster_ sequenced on 1 ILLUMINA (Illumina MiSeq) platform. The raw sequences were not trimmed. Reference Genome (_Salmonella enterica_) size was 4707217
 
 
-| SRA_ID    |NCBI Coverage| Average Read Length | Number of Reads |Sample source|Year Sample Collected  |
+| SRA_ID    |NCBI Coverage|Average Read Length  |Number of Reads  |Sample source| Year Sample Collected |
 |-----------| ------------|---------------------|-----------------|-------------|-----------------------|
 |SRR10740739| 99.4        |  228                |   1053590       |Necropsy Calf|                   2012|     
 |SRR10740740| 92.8        |  223                |   1042044       |Calf Feces   |                   2017|
