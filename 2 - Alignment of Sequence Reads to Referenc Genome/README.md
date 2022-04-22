@@ -1,7 +1,7 @@
 # 2. Alignment of Seqence Reads to Reference Genome
 
-### 1. Trimming and Filtering </br>
-**Andrea Pietruska**
+### 1. Trimming and Filtering 
+**Andrea Pietruska** </br>
 We used trimmed and untrimmed data for analysis in order to compare the effect of trimming on downstream analysis. Trimming was done with [Trimmomatric](http://www.usadellab.org/cms/?page=trimmomatic) using the parameters below and the script [trimmomatic.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/2%20-%20Alignment%20of%20Sequence%20Reads%20to%20Referenc%20Genome/trimmomatic.sh) 
 
 ```
@@ -15,15 +15,15 @@ MINLEN:40
 
 
 
-### 2. Indexing and Alignment </br>
-**Steven Kitchens**
+### 2. Indexing and Alignment 
+**Steven Kitchens** </br>
 The reference genome (_Salmonella enterica_) was indexed and sequence reads of both trimmed and untrimmed data were aligned to it using the [2_alignment.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/2%20-%20Alignment%20of%20Sequence%20Reads%20to%20Referenc%20Genome/2_alignment.sh) script.
 
 
 
 
-### 3. Summary of Coverage Metrics </br>
-**Chidozie Ugochukwu**
+### 3. Summary of Coverage Metrics 
+**Chidozie Ugochukwu** </br>
 ![Rplot02](https://user-images.githubusercontent.com/71617037/155406141-13dd3dcb-62ea-44b7-93c8-a50e985bd52b.png)
 
 
