@@ -36,11 +36,11 @@ Table 1: Table showing details of our samples. The sequence data comprised demul
 |SRR10740747| 90.4        |  216                |   1027813       |Water Sample in Food Animal Barn|2014|
 |SRR10740748| 94.5        |  222                |   1076023       |Hay Sample in Equine Barn|      2014 |<p>&nbsp;</p>  
 
-**picture of the location of the samples**
+**HERE picture of the location of the samples**
 
 # Workflow
 
-**picture of the workflow**
+**HERE picture of the workflow**
 
 ### [1. Initial Quality Assessment of Raw NGS Data](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/1%20-%20Initial%20Quality%20Assessment%20of%20Raw%20NGS%20Data) 
 * Commandline FASTQ analysis <br/>
