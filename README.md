@@ -10,15 +10,15 @@ Chidozie Ugochuckwu <br/>
 Stephen Tansie <br/>
 Andrea Pietruska <br/>
 
-### 1. Introduction
+# Introduction
 
 [Description of the project](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/project_proposal.md)
 
-### 2. Aim
+# Aim
 
 The general aim of this project is to develop a pipeline for veterinary teaching hospitals to use to process raw whole genome sequence data for epidemiological studies. The specific aim for this project is to determine the genetic variability among isolates from these ten samples.
 
-### 3. Samples
+# Samples
 The samples were collected from dairy herd, equine barns, food animal barn, dairy barn and equine reproduction center at the Auburn University College of Veterinary Medicine over a seven-year period. 
 Table 1: Table showing details of our samples. The sequence data comprised demultiplexed paired end reads of 10 samples of _Salmonella muenster_ sequenced on 1 ILLUMINA (Illumina MiSeq) platform. The raw sequences were not trimmed. Reference Genome (_Salmonella enterica_) size was 4707217
 
@@ -36,12 +36,13 @@ Table 1: Table showing details of our samples. The sequence data comprised demul
 |SRR10740747| 90.4        |  216                |   1027813       |Water Sample in Food Animal Barn|2014|
 |SRR10740748| 94.5        |  222                |   1076023       |Hay Sample in Equine Barn|      2014 |<p>&nbsp;</p>  
 
+**picture of the location of the samples**
 
+# Workflow
 
+**picture of the workflow**
 
-
-
-### 4. Quality Assessment
+### [1. Initial Quality Assessment of Raw NGS Data](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/1%20-%20Initial%20Quality%20Assessment%20of%20Raw%20NGS%20Data) 
 * Commandline FASTQ analysis <br/>
 [FASTQ Reports](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/1%20-%20Initial%20Quality%20Assessment%20of%20Raw%20NGS%20Data/fastqc_reports) <br/>
 [Script for SRA-tool fastdump](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/1%20-%20Initial%20Quality%20Assessment%20of%20Raw%20NGS%20Data/sra_fastqdump_fastqc.sh)
@@ -51,8 +52,12 @@ Table 1: Table showing details of our samples. The sequence data comprised demul
 [Quality Report](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/1%20-%20Initial%20Quality%20Assessment%20of%20Raw%20NGS%20Data/Quality_Report.md)
 
 
-### 5. Pre-processing
+### [2. Alignment of Seqence Reads to Reference Genome](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/2%20-%20Alignment%20of%20Sequence%20Reads%20to%20Referenc%20Genome)
 
 Trimming <br/>
 Truncating <br/>
 Filtering <br/>
+
+### [3. Post Alignment Processing](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/3%20-%20Post-alignment%20processing)
+### [4. Variant Discovery](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/4%20-%20Variant%20Discovery)
+### [5. Data Analysis for Peer Review](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/5%20-%20Data%20Analysis%20for%20Peer%20Review)
