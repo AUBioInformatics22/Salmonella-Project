@@ -13,6 +13,7 @@ Andrea Pietruska <br/>
 # Introduction
 
 [Description of the project](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/project_proposal.md)
+**very short summary of the description HERE**
 
 # Aim
 
