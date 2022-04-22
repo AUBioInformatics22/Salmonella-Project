@@ -36,7 +36,7 @@ Table 1: Table showing details of our samples. The sequence data comprised demul
 |SRR10740747| 90.4        |  216                |   1027813       |Water Sample in Food Animal Barn|2014|
 |SRR10740748| 94.5        |  222                |   1076023       |Hay Sample in Equine Barn|      2014 |<p>&nbsp;</p>  
 
-**HERE picture of the location of the samples**
+<img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/Images/Sample%20Locations.png" />
 
 # Workflow
 
