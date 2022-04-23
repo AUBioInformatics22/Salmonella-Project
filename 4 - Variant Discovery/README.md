@@ -28,9 +28,10 @@ To check if and how the parameters needed to be adjusted, plots for each paramet
 * [plotvcftable.R](link)
 * [vcftotable.py](link) </br>
 
-All output .pdf file for each sample can be seen in [name of folder](link). Based on this output we adjusted the filtering parameters to: </br>
-**Adjusted filtering parameters**
+The output .pdf file for each sample can be seen in the folder [Initial filtering plots](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/4%20-%20Variant%20Discovery/Initial%20filtering%20plots). Based on this output we adjusted the filtering parameters to: </br>
+**Adjusted filtering parameters** </br>
 
+The output .pdf file for each sample can be seen in the folder [Adjusted filtering plots](link). 
 
 # What really happened
 
