@@ -27,6 +27,7 @@ To check if and how the parameters needed to be adjusted, plots for each paramet
 * [1_initial_filtering_plot.sh](link)
 * [plotvcftable.R](link)
 * [vcftotable.py](link) </br>
+
 All output .pdf file for each sample can be seen in [name of folder](link). Based on this output we adjusted the filtering parameters to: </br>
 **Adjusted filtering parameters**
 
