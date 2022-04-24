@@ -52,7 +52,7 @@ The [depth_stats.txt](https://github.com/AUBioInformatics22/Salmonella-Project/b
 ## Troubleshooting
 
 1. run all steps seperately to find the error. The very first step of haplotype calling [GATK_haplo.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/GATK_haplo.sh) already generated empty `sample.g.vcf.gz` files. </br>
-> `WARN: Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null` </br>
+> *WARN: Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null* </br>
 </br>
 
 2. checking the input sample.mark.sorted.bam files for errors by running <a href="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/7_GATK_ValidateSam.sh" target="_top">GATK ValidateSamFiles</a> generated an <a href="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Sam_Validation.SRR10740739.txt" target="_top">error</a> for every sample.mark.sorted.bam file. 
