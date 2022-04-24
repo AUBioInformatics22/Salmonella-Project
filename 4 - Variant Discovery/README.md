@@ -43,7 +43,7 @@ gatk VariantFiltration -R $ref --variant $sample.SNPs.vcf \
 --filter-expression "ReadPosRankSum < -5.5.0" --filter-name "ReadPosRankSum-5.5" \
 --output $sample.SNPs.filtered.vcf
 ```
-The output .pdf file for each sample can be seen in the folder [Adjusted filtering plots](link). Looking at [depth_stats.adjusted.txt](link), the depth values now range between .
+The output .pdf file for each sample can be seen in the folder [Adjusted filtering plots](link). Looking at [depth_stats.adjusted.txt](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/depth_stats.adjusted.txt), the depth values now range between 66.2844 and 108.875.
 
 # What really happened
 
