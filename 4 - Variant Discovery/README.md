@@ -30,7 +30,7 @@ To check if and how the parameters needed to be adjusted, plots for each paramet
 * [plotvcftable.R](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/plotvcftable.R)
 * [vcf2table.py](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/vcf2table.py) </br>
 
-The output .pdf file for each sample can be seen in the folder [Initial filtering plots](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/4%20-%20Variant%20Discovery/Initial%20filtering%20plots). The output for all samples were evaluated and the best parameters chosen to fit all samples. </br>
+The output .pdf file for each sample can be seen in the folder [Initial filtering plots](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/4%20-%20Variant%20Discovery/Initial%20filtering%20plots). The results were evaluated and the best adjusted parameters chosen to fit all samples. </br>
 **Adjusted filtering parameters** </br>
 ```
 gatk VariantFiltration -R $ref --variant $sample.SNPs.vcf \
@@ -43,7 +43,7 @@ gatk VariantFiltration -R $ref --variant $sample.SNPs.vcf \
 --filter-expression "ReadPosRankSum < -5.5.0" --filter-name "ReadPosRankSum-5.5" \
 --output $sample.SNPs.filtered.vcf
 ```
-The output .pdf file for each sample can be seen in the folder [Adjusted filtering plots](link). 
+The output .pdf file for each sample can be seen in the folder [Adjusted filtering plots](link). Looking at [depth_stats.adjusted.txt](link), the depth values now range between .
 
 # What really happened
 
