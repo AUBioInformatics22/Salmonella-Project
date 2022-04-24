@@ -26,9 +26,9 @@ gatk VariantFiltration -R $ref --variant $sample.SNPs.vcf \
 The [depths statistic](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/depth_stats.txt) created with the script [6a_idepth.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/6a_idepth.sh) shows values between 62.3986 and 77.1962.
 
 To check if and how the parameters needed to be adjusted, plots for each parameter and for each sample were created using three scripts: </br>
-* [1_initial_filtering_plot.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/1_initial_filtering_plot.sh)
-* [plotvcftable.R](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/plotvcftable.R)
-* [vcf2table.py](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/vcf2table.py) </br>
+🐥 [1_initial_filtering_plot.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/1_initial_filtering_plot.sh) </br>
+🐥 [plotvcftable.R](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/plotvcftable.R) </br>
+🐥 [vcf2table.py](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/vcf2table.py) </br>
 
 The output .pdf file for each sample can be seen in the folder [Initial filtering plots](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/4%20-%20Variant%20Discovery/Initial%20filtering%20plots). The results were evaluated and the best adjusted parameters chosen to fit all samples. </br>
 **Adjusted filtering parameters** </br>
