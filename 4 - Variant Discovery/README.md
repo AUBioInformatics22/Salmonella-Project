@@ -57,7 +57,7 @@ There are three different .vcf files for each sample: </br>
 </br>
 The script [7_store_vcf_files.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/7_store_vcf_files.sh) makes a new directory for each sample and copies these three files in it. Now [UpSetR.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/UpSetR.sh) will loop through all the $sample directories and compare the .vcf files. </br>
 The script uses first [vcftools](https://vcftools.github.io/index.html) to remove all the files that were filtered out previously. Then [Samtools tabix](http://www.htslib.org/doc/tabix.html) compresses and indexes the vcf files to make them compatible with vcf-compare. Then 
-This script will first use VCFtools to remove all of the sites that were filtered out (GATK only marks them, but does not remove them). It then properly compresses each VCF and indexed them for compatability with [vcf compare](https://vcftools.github.io/perl_module.html#vcf-compare) . </br>
+This script will first use VCFtools to remove all of the sites that were filtered out (GATK only marks them, but does not remove them). It then properly compresses each VCF and indexed them for compatability with [vcf compare](https://vcftools.github.io/perl_module.html#vcf-compare). The .venn output files are in the folder [Venn diagrams](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/4%20-%20Variant%20Discovery/Venn%20diagrams)  </br>
 
 ## 4. Venn diagram with RStudio
 The values of the output files `$sample.4upsetR.venn` can now typed into [UpSetR.R](link) in RStudio to create a venn diagram for each of the ten samples.
