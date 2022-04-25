@@ -51,9 +51,9 @@ The output .pdf file for each sample can be seen in the folder [Adjusted filteri
 ## 3. Comparison of the three .vcf files
 
 There are three different .vcf files for each sample: </br>
-🐥  `$sample.SNPs.vcf.gz </br>
-🐥  `$sample.SNPs.filtered.vcf.gz </br>
-🐥  `$sample.SNPs.filtered.adjusted.vcf.gz </br>
+🐥  `$sample.SNPs.vcf.gz` </br>
+🐥  `$sample.SNPs.filtered.vcf.gz` </br>
+🐥  `$sample.SNPs.filtered.adjusted.vcf.gz` </br>
 The script [7_store_vcf_files.sh](link) stores these files together in one directory for each sample, to run [UpSetR.sh](link) in every directory to compare the files. 
 
 # What really happened ...
