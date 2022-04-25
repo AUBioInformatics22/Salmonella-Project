@@ -26,9 +26,9 @@ gatk VariantFiltration -R $ref --variant $sample.SNPs.vcf \
 The [depths statistic](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/depth_stats.txt) created with the script [6a_idepth.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Scripts/6a_idepth.sh) shows values between 62.3986 and 77.1962.
 
 To check if and how the parameters needed to be adjusted, plots for each parameter and for each sample were created using three scripts: </br>
-🐣  [1_initial_filtering_plot.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Scripts/1_initial_filtering_plot.sh) </br>
-🐣  [plotvcftable.R](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Scripts/plotvcftable.R) </br>
-🐣  [vcf2table.py](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Scripts/vcf2table.py) </br>
+🐣 &nbsp; [1_initial_filtering_plot.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Scripts/1_initial_filtering_plot.sh) </br>
+🐣 &nbsp; [plotvcftable.R](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Scripts/plotvcftable.R) </br>
+🐣 &nbsp; [vcf2table.py](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Scripts/vcf2table.py) </br>
 
 The output .pdf file for each sample can be seen in the folder [Initial filtering plots](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/4%20-%20Variant%20Discovery/Initial%20filtering%20plots). 
 
@@ -51,9 +51,9 @@ The output .pdf file for each sample can be seen in the folder [Adjusted filteri
 ## 3. Comparison of the three .vcf files
 
 There are three different .vcf files for each sample: </br>
-🐥  `$sample.SNPs.vcf.gz` </br>
-🐥  `$sample.SNPs.filtered.vcf.gz` </br>
-🐥  `$sample.SNPs.filtered.adjusted.vcf.gz` </br>
+🐥 &nbsp; `$sample.SNPs.vcf.gz` </br>
+🐥 &nbsp; `$sample.SNPs.filtered.vcf.gz` </br>
+🐥 &nbsp; `$sample.SNPs.filtered.adjusted.vcf.gz` </br>
 </br>
 
 The script [7_store_vcf_files.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Scripts/7_store_vcf_files.sh) makes a new directory for each sample and copies these three files in it. Now [UpSetR.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Scripts/UpSetR.sh) will loop through all the $sample directories and compare the .vcf files. </br>
@@ -61,7 +61,7 @@ The script uses first [vcftools](https://vcftools.github.io/index.html) to remov
 This script will first use VCFtools to remove all of the sites that were filtered out (GATK only marks them, but does not remove them). It then properly compresses each VCF and indexed them for compatability with [vcf compare](https://vcftools.github.io/perl_module.html#vcf-compare). The .venn output files are in the folder [Venn files](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/4%20-%20Variant%20Discovery/Venn%diagrams/Venn%files)  </br>
 
 ## 4. Venn diagram with R
-We used the package [ggVennDiagram](https://venn.bio-spring.top/using-ggvenndiagram) to create our venn diagrams.
+
 The values of the output files `$sample.4upsetR.venn` can now typed into [UpSet_plot.R](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Scripts/UpSetR_plot.R) in RStudio to generate [Upset plots](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/4%20-%20Variant%20Discovery/Upset%20plots). One example of such a plot is provided below for the sample SRR10740739. For better visualization we chose to provide venn diagrams. Therefore we calculated all required values in an [excel sheet](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Upset%20plots/UpsetR_values.xlsx).
 
 <figure>
@@ -69,6 +69,7 @@ The values of the output files `$sample.4upsetR.venn` can now typed into [UpSet_
 <img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Upset%20plots/SRR39_Upset_plot.png" width="750" height="500" alt=".." title="Venn diagram for sample SRR10740739" />
 </figure>
 
+We used the package [VennDiagram](https://cran.r-project.org/web/packages/VennDiagram/VennDiagram.pdf) to create our venn diagrams.
 Based on these values the venn diagram can be created with the R script [venn.R](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Scripts/venn.R). 
 Here you can see the diagram for the sample SRR10740739 and SRR10740741. The other diagrams can be found in the folder [Venn diagrams](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/4%20-%20Variant%20Discovery/Venn%20diagrams). </br>
 <br/>
@@ -83,7 +84,7 @@ Here you can see the diagram for the sample SRR10740739 and SRR10740741. The oth
 
 The [depth_stats.txt](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/depth_stats.txt) output of our script for variant calling [6_GATK_variant_calling.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Scripts/6_GATK_variant_calling_example.sh) turned out empty for all samples.
 
-## 🤯 Troubleshooting
+## 🤯 &nbsp; Troubleshooting
 
 1. run all steps seperately to find the error. The very first step of haplotype calling [GATK_haplo.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Scripts/GATK_haplo.sh) already generated empty `sample.g.vcf.gz` files. </br>
 > *WARN: Annotation will not be calculated, genotype is not called or alleleLikelihoodMap is null* </br>
@@ -145,5 +146,5 @@ for sample in ${sample_list[@]}; do
 done
 ```
 ## 6. Contributions
-Steven: first try to run the scripts, troubleshooting </br>
-Andrea: second try and finish, troubleshooting, GitHub repo
+🐓&nbsp; Steven: first try to run the scripts, troubleshooting </br>
+🐓&nbsp; Andrea: second try and finish, troubleshooting, GitHub repo
