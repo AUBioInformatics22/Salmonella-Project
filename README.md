@@ -66,6 +66,5 @@ Filtering <br/>
 ### [5. Data Analysis for Peer Review](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/5%20-%20Data%20Analysis%20for%20Peer%20Review)
 ### [6. Conclusion](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/6%20-%20Conclusion)
 ### 7. Contribution
-Steven: project proposal, aim, samples, workflow </br>
-Stephen: summaries of every subfolder, conclusion, GitHub repo </br>
+Steven: project proposal, aim, samples, workflow, GitHub repo </br>
 Andrea: GitHub repo
