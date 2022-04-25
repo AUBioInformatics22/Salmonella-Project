@@ -54,7 +54,7 @@ There are three different .vcf files for each sample: </br>
 🐥  `$sample.SNPs.vcf.gz` </br>
 🐥  `$sample.SNPs.filtered.vcf.gz` </br>
 🐥  `$sample.SNPs.filtered.adjusted.vcf.gz` </br>
-The script [7_store_vcf_files.sh](link) stores these files together in one directory for each sample, to run [UpSetR.sh](link) in every directory to compare the files. 
+The script [7_store_vcf_files.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/7_store_vcf_files.sh) makes a new directory for each sample and copies these three files in it. Now [UpSetR.sh](link) can run in every directory to compare the files. 
 
 # What really happened ...
 
