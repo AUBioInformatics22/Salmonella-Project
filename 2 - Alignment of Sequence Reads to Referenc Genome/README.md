@@ -14,13 +14,13 @@ MINLEN:40
 
 
 
-### 2. Indexing and Alignment 
+## 2. Indexing and Alignment 
 The reference genome (_Salmonella enterica_) was indexed and sequence reads of both trimmed and untrimmed data were aligned to it using the [2_alignment.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/2%20-%20Alignment%20of%20Sequence%20Reads%20to%20Referenc%20Genome/2_alignment.sh) script.
 
 
 
 
-### 3. Summary of Coverage Metrics 
+## 3. Summary of Coverage Metrics 
 ![Rplot02](https://user-images.githubusercontent.com/71617037/155406141-13dd3dcb-62ea-44b7-93c8-a50e985bd52b.png)
 
 
@@ -89,8 +89,7 @@ From Table 2, it evident that trimming reduced percent mapping. Depending on the
 Average percent mapped in the untrimmed data is 95.13% while the average percent mapped in the trimmed data was 89.23%, thus trimming reduced the average percent mapped. 
 
 
-### 4. Contributions
+## 4. Contributions
 Steven: Indexing and Alignment </br>
-Stephen: GitHub repo </br>
 Chidozie: Summary of Coverage Metrics </br>
 Andrea: Trimming and truncating, GitHub repo
