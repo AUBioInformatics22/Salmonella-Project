@@ -130,5 +130,5 @@ for sample in ${sample_list[@]}; do
 done
 ```
 ## 6. Contributions
-Steven: first run of all the scripts, troubleshooting </br>
-Andrea: second run, troubleshooting, GitHub repo
+Steven: first try to run the scripts, troubleshooting </br>
+Andrea: second try and finish, troubleshooting, GitHub repo
