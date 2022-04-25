@@ -61,11 +61,19 @@ This script will first use VCFtools to remove all of the sites that were filtere
 
 ## 4. Venn diagram with R
 We used the package [ggVennDiagram](https://venn.bio-spring.top/using-ggvenndiagram) to create our venn diagrams.
-The values of the output files `$sample.4upsetR.venn` can now typed into [UpSet.R](link) in RStudio to calculate the values for the intersections and unions. Based on these values the venn diagram can be created with the R script [venn.R](link). Please, be aware, that e.g. `n12` means the intersection between `area1` and `area2` and needs to be calculated, because it is not provided by the .venn output of vcf-compare.
-Here you can see the diagram for the sample SRR10740739 and SRR10740740. The other diagrams can be found in the folder [Venn diagrams](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/4%20-%20Variant%20Discovery/Venn%20diagrams) 
+The values of the output files `$sample.4upsetR.venn` can now typed into [UpSet.R](link) in RStudio to calculate the values for the intersections and unions. The Upset plots for all our samples can be found in the folder [Upset plots](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/4%20-%20Variant%20Discovery/Upset%20plots).
+
 <figure>
-<figcaption align: center>Venn diagram for sample SRR10740739</figcaption>
-<img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Venn%20diagrams/SRR39.venn.png" width="650" height="450" alt=".." title="Venn diagram for sample SRR10740739" />
+<figcaption align: center>Upset plot for sample SRR10740739</figcaption>
+<img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Upset%20plots/SRR39_UpSet_Plot.png" width="750" height="450" alt=".." title="Venn diagram for sample SRR10740739" />
+</figure>
+
+Based on these values the venn diagram can be created with the R script [venn.R](link). Please, be aware, that e.g. `n12` means the intersection between `area1` and `area2` and needs to be calculated, because it is not provided by the .venn output of vcf-compare.
+Here you can see the diagram for the sample SRR10740739 and SRR10740740. The other diagrams can be found in the folder [Venn diagrams](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/4%20-%20Variant%20Discovery/Venn%20diagrams). </br>
+
+<figure>
+<figcaption text-align: center>Venn diagram for sample SRR10740739</figcaption>
+<img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Venn%20diagrams/SRR39_venn.png" width="450" height="300" alt=".." title="Venn diagram for sample SRR10740739" />
 </figure>
 
 ## 5. What really happened ...
