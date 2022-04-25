@@ -5,6 +5,7 @@ We used trimmed and untrimmed data for analysis in order to compare the effect o
 
 ## 1. Trimming
 Trimming was done with [Trimmomatric](http://www.usadellab.org/cms/?page=trimmomatic) and the script [trimmomatic.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/2%20-%20Alignment%20of%20Sequence%20Reads%20to%20Referenc%20Genome/trimmomatic.sh) </br> 
+</br> 
 **Trimming Parameters**
 
 ```
