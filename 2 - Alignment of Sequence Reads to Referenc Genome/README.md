@@ -1,7 +1,11 @@
 # 2. Alignment of Seqence Reads to Reference Genome
 
 
-We used trimmed and untrimmed data for analysis in order to compare the effect of trimming on downstream analysis. Trimming was done with [Trimmomatric](http://www.usadellab.org/cms/?page=trimmomatic) using the parameters below and the script [trimmomatic.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/2%20-%20Alignment%20of%20Sequence%20Reads%20to%20Referenc%20Genome/trimmomatic.sh) 
+We used trimmed and untrimmed data for analysis in order to compare the effect of trimming on downstream analysis. 
+
+## 1. Trimming
+Trimming was done with [Trimmomatric](http://www.usadellab.org/cms/?page=trimmomatic) and the script [trimmomatic.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/2%20-%20Alignment%20of%20Sequence%20Reads%20to%20Referenc%20Genome/trimmomatic.sh) </br> 
+**Trimming Parameters**
 
 ```
 HEADCROP:7 \
