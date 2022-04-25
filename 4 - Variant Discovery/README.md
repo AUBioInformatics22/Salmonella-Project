@@ -55,6 +55,7 @@ There are three different .vcf files for each sample: </br>
 🐥  `$sample.SNPs.filtered.vcf.gz` </br>
 🐥  `$sample.SNPs.filtered.adjusted.vcf.gz` </br>
 </br>
+
 The script [7_store_vcf_files.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Scripts/7_store_vcf_files.sh) makes a new directory for each sample and copies these three files in it. Now [UpSetR.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Scripts/UpSetR.sh) will loop through all the $sample directories and compare the .vcf files. </br>
 The script uses first [vcftools](https://vcftools.github.io/index.html) to remove all the files that were filtered out previously. Then [Samtools tabix](http://www.htslib.org/doc/tabix.html) compresses and indexes the vcf files to make them compatible with vcf-compare. Then 
 This script will first use VCFtools to remove all of the sites that were filtered out (GATK only marks them, but does not remove them). It then properly compresses each VCF and indexed them for compatability with [vcf compare](https://vcftools.github.io/perl_module.html#vcf-compare). The .venn output files are in the folder [Venn files](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/4%20-%20Variant%20Discovery/Venn%diagrams/Venn%files)  </br>
@@ -65,7 +66,7 @@ The values of the output files `$sample.4upsetR.venn` can now typed into [UpSet.
 
 <figure>
 <figcaption align: center>Upset plot for sample SRR10740739</figcaption>
-<img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Upset%20plots/SRR39_Upset_plot.png" width="750" height="450" alt=".." title="Venn diagram for sample SRR10740739" />
+<img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Upset%20plots/SRR39_Upset_plot.png" width="750" height="500" alt=".." title="Venn diagram for sample SRR10740739" />
 </figure>
 
 Based on these values the venn diagram can be created with the R script [venn.R](link). Please, be aware, that e.g. `n12` means the intersection between `area1` and `area2` and needs to be calculated, because it is not provided by the .venn output of vcf-compare.
