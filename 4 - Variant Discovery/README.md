@@ -65,7 +65,7 @@ The values of the output files `$sample.4upsetR.venn` can now typed into [UpSet.
 
 <figure>
 <figcaption align: center>Upset plot for sample SRR10740739</figcaption>
-<img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Upset%20plots/SRR39_UpSet_Plot.png" width="750" height="450" alt=".." title="Venn diagram for sample SRR10740739" />
+<img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Upset%20plots/SRR39_Upset_plot.png" width="750" height="450" alt=".." title="Venn diagram for sample SRR10740739" />
 </figure>
 
 Based on these values the venn diagram can be created with the R script [venn.R](link). Please, be aware, that e.g. `n12` means the intersection between `area1` and `area2` and needs to be calculated, because it is not provided by the .venn output of vcf-compare.
