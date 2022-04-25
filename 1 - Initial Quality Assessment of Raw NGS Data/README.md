@@ -1,9 +1,9 @@
 # 1. Initial Quality Assessment of Raw NGS Data
-### 1. Commandline FASTQ analysis
+## 1. Commandline FASTQ analysis
 [FASTQ Reports](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/1%20-%20Initial%20Quality%20Assessment%20of%20Raw%20NGS%20Data/fastqc_reports) <br/>
 [Script for SRA-tool fastdump](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/1%20-%20Initial%20Quality%20Assessment%20of%20Raw%20NGS%20Data/sra_fastqdump_fastqc.sh)
-### 2. Galaxy FASTQ analysis
-### 3. Data presentation and report
+## 2. Galaxy FASTQ analysis
+## 3. Data presentation and report
 [R Script for Data Presentation](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/1%20-%20Initial%20Quality%20Assessment%20of%20Raw%20NGS%20Data/Report_1.R) <br/>
 [Quality Report](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/1%20-%20Initial%20Quality%20Assessment%20of%20Raw%20NGS%20Data/Quality_Report.md)
 
@@ -98,7 +98,7 @@ Panel B shows the coverage of the individual sequences in our data set. Panel A 
 </p>
 
 
-### 4. Contributions
+## 4. Contributions
 Steven: Commandline FASTQ analysis </br>
 Stephen: Data presentation and report </br>
 Chidozie: Galaxy FASTQ analysis </br>
