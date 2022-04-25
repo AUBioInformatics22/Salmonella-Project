@@ -62,14 +62,14 @@ This script will first use VCFtools to remove all of the sites that were filtere
 
 ## 4. Venn diagram with R
 We used the package [ggVennDiagram](https://venn.bio-spring.top/using-ggvenndiagram) to create our venn diagrams.
-The values of the output files `$sample.4upsetR.venn` can now typed into [UpSet.R](link) in RStudio to generate [Upset plots](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/4%20-%20Variant%20Discovery/Upset%20plots). One example of such a plot is provided below for the sample SRR10740739. For better visualization we chose to provide venn diagrams. Therefore we calculated all required values in an [excel sheet](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Upset%20plots/UpsetR_values.xlsx).
+The values of the output files `$sample.4upsetR.venn` can now typed into [UpSet_plot.R](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Scripts/UpSetR_plot.R) in RStudio to generate [Upset plots](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/4%20-%20Variant%20Discovery/Upset%20plots). One example of such a plot is provided below for the sample SRR10740739. For better visualization we chose to provide venn diagrams. Therefore we calculated all required values in an [excel sheet](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Upset%20plots/UpsetR_values.xlsx).
 
 <figure>
 <figcaption align: center>Upset plot for sample SRR10740739</figcaption>
 <img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Upset%20plots/SRR39_Upset_plot.png" width="750" height="500" alt=".." title="Venn diagram for sample SRR10740739" />
 </figure>
 
-Based on these values the venn diagram can be created with the R script [venn.R](link). 
+Based on these values the venn diagram can be created with the R script [venn.R](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Scripts/venn.R). 
 Here you can see the diagram for the sample SRR10740739 and SRR10740741. The other diagrams can be found in the folder [Venn diagrams](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/4%20-%20Variant%20Discovery/Venn%20diagrams). </br>
 <br/>
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; Venn diagram SRR1074039 &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Venn diagram SRR1074041
