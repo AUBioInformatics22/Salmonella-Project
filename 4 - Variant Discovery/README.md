@@ -43,7 +43,8 @@ gatk VariantFiltration -R $ref --variant $sample.SNPs.vcf \
 --filter-expression "ReadPosRankSum < -5.5.0" --filter-name "ReadPosRankSum-5.5" \
 --output $sample.SNPs.filtered.vcf
 ```
-The output .pdf file for each sample can be seen in the folder [Adjusted filtering plots](link). Looking at [depth_stats.adjusted.txt](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/depth_stats.adjusted.txt), the depth values now range between 66.2844 and 108.875.
+The output .pdf file for each sample can be seen in the folder [Adjusted filtering plots](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/4%20-%20Variant%20Discovery/Adjusted%20filtering%20plots). Looking at [depth_stats.adjusted.txt](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/depth_stats.adjusted.txt), the depth values now range between 66.2844 and 108.875.
+
 
 # What really happened
 
@@ -94,3 +95,19 @@ gatk VariantFiltration -R $ref --variant $sample.SNPs.vcf \
 6. Solution for the haplotype caller to run was to add the -f flag to gzip `gzip -f $sample.SNPs.vcf $sample.SNPs.filtered.vcf`, so the older files were overwritten correctly with the new generated ones. We also changed from GATK 4.1.4.0 to 4.1.0.0 to avoid a number of syntax warnings. 
 Now we have our filtered .vcf files and are good to proceed with step 5!
 Script [6_GATK_variant_calling.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/0177a6eb58ca2b35dc78a2b2ba63ba72b83f5b73/4%20-%20Variant%20Discovery/6_GATK_variant_calling.sh) is the debugged one.
+
+7. But then the last part of the script [6_GATK_variant_calling.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/6_GATK_variant_calling_example.sh), where the information of the `$sample.idepth` files is stored into [depth_stats.txt](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/depth_stats.txt) did not work. That's why [6a_idepth.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/6a_idepth.sh) was written. The trick was to integrate the variable ```depth=`awk 'NR>1 {print $3}' $sample.idepth``` into the loop and to change the '' to "" where the variables are called with `
+echo`: </br>
+```
+for sample in ${sample_list[@]}; do
+    depth=`awk 'NR>1 {print $3}' $sample.idepth`
+    echo $sample >>depth_stats.txt
+    echo $sample.idepth >>depth_stats.txt
+    echo '......................' >>depth_stats.txt
+    echo "Depth for $sample is $depth" >>depth_stats.txt
+    echo ' ' >>depth_stats.txt
+    echo '##########################' >>depth_stats.txt
+    echo ' ' >>depth_stats.txt
+
+done
+```
