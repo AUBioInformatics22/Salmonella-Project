@@ -9,7 +9,7 @@ Quality Aspects of VCF files
 
 IGV screen shots comparing regions of high SNP to low SNP quality.
 
-## 1. Variant discovery and filtering
+## 1. Filtering 
 We performed variant discovery and variant filtering. For variant discovery (or variant calling), we used [GATK's Haplotype Caller Tool](https://gatk.broadinstitute.org/hc/en-us/articles/360037225632-HaplotypeCaller) . For variant filtering, we used [GATK's Select Variants](https://gatk.broadinstitute.org/hc/en-us/articles/360037055952-SelectVariants) and [Variant Filtration Tools](https://gatk.broadinstitute.org/hc/en-us/articles/360037434691-VariantFiltration). The script [6_GATK_variant_calling.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/6_GATK_variant_calling_example.sh) was run with the following filtering parameters for the initial filtering: </br>
 **Initial filtering parameters**
 ```
@@ -26,11 +26,14 @@ gatk VariantFiltration -R $ref --variant $sample.SNPs.vcf \
 The [depths statistic](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/depth_stats.txt) created with the script [6a_idepth.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/6a_idepth.sh) shows values between 62.3986 and 77.1962.
 
 To check if and how the parameters needed to be adjusted, plots for each parameter and for each sample were created using three scripts: </br>
-🐥 [1_initial_filtering_plot.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/1_initial_filtering_plot.sh) </br>
-🐥 [plotvcftable.R](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/plotvcftable.R) </br>
-🐥 [vcf2table.py](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/vcf2table.py) </br>
+🐣 [1_initial_filtering_plot.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/1_initial_filtering_plot.sh) </br>
+🐣 [plotvcftable.R](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/plotvcftable.R) </br>
+🐣 [vcf2table.py](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/vcf2table.py) </br>
 
-The output .pdf file for each sample can be seen in the folder [Initial filtering plots](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/4%20-%20Variant%20Discovery/Initial%20filtering%20plots). The results were evaluated and the best adjusted parameters chosen to fit all samples. </br>
+The output .pdf file for each sample can be seen in the folder [Initial filtering plots](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/4%20-%20Variant%20Discovery/Initial%20filtering%20plots). 
+
+## 2. Filtering with adjusted parameters
+The results of the [Initial filtering plots](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/4%20-%20Variant%20Discovery/Initial%20filtering%20plots) were evaluated and the best adjusted parameters chosen to fit all samples. </br>
 **Adjusted filtering parameters** </br>
 ```
 gatk VariantFiltration -R $ref --variant $sample.SNPs.vcf \
@@ -45,6 +48,13 @@ gatk VariantFiltration -R $ref --variant $sample.SNPs.vcf \
 ```
 The output .pdf file for each sample can be seen in the folder [Adjusted filtering plots](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/4%20-%20Variant%20Discovery/Adjusted%20filtering%20plots). Looking at [depth_stats.adjusted.txt](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/depth_stats.adjusted.txt), the depth values now range between 66.2844 and 108.875.
 
+## 3. Comparison of the three .vcf files
+
+There are three different .vcf files for each sample: </br>
+🐥 `$sample.SNPs.vcf.gz
+🐥 `$sample.SNPs.filtered.vcf.gz
+🐥 `$sample.SNPs.filtered.adjusted.vcf.gz
+The script [7_store_vcf_files.sh](link) stores these files together in one directory for each sample, to run [UpSetR.sh](link) in every directory to compare the files. 
 
 # What really happened
 
