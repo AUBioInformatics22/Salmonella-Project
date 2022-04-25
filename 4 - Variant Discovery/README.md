@@ -55,7 +55,7 @@ There are three different .vcf files for each sample: </br>
 🐥  `$sample.SNPs.filtered.vcf.gz` </br>
 🐥  `$sample.SNPs.filtered.adjusted.vcf.gz` </br>
 </br>
-The script [7_store_vcf_files.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/7_store_vcf_files.sh) makes a new directory for each sample and copies these three files in it. Now [UpSetR.sh](link) can run in every directory to compare the files. </br>
+The script [7_store_vcf_files.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/7_store_vcf_files.sh) makes a new directory for each sample and copies these three files in it. Now [UpSetR.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/UpSetR.sh) will loop through all the $sample directories and compare the .vcf files. </br>
 The script uses first [vcftools](https://vcftools.github.io/index.html) to remove all the files that were filtered out previously. Then [Samtools tabix](http://www.htslib.org/doc/tabix.html) compresses and indexes the vcf files to make them compatible with vcf-compare. Then 
 This script will first use VCFtools to remove all of the sites that were filtered out (GATK only marks them, but does not remove them). It then properly compresses each VCF and indexed them for compatability with [vcf compare](https://vcftools.github.io/perl_module.html#vcf-compare) . </br>
 
