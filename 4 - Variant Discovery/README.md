@@ -1,16 +1,15 @@
 # 4. Variant Discovery
 
+We performed an in depth quality analysis of the resulting VCF file. Some of the questions we addressed include: </br>
+</br>
+🥚 &nbsp; how did the quality of our file changed from Step 1 when we did the FastQC, </br>
+🥚 &nbsp; how the coverage of our BAM file change from Step 2 when we first generated an alignment to VCFtools depth calculation, and </br>
+🥚 &nbsp; how the coverage of all our samples compare.
 
-
-We performed an in depth quality analysis of the resulting VCF file. Some of the questions we addressed include how did the quality of our file changed from Step 1 when we did the FastQC, how the coverage of our BAM file change from Step 2 when we first generated an alignment to VCFtools depth calculation, and how the coverage of all our samples compare?
-
-
-Quality Aspects of VCF files
-
-IGV screen shots comparing regions of high SNP to low SNP quality.
 
 ## 1. Filtering 
 We performed variant discovery and variant filtering. For variant discovery (or variant calling), we used [GATK's Haplotype Caller Tool](https://gatk.broadinstitute.org/hc/en-us/articles/360037225632-HaplotypeCaller) . For variant filtering, we used [GATK's Select Variants](https://gatk.broadinstitute.org/hc/en-us/articles/360037055952-SelectVariants) and [Variant Filtration Tools](https://gatk.broadinstitute.org/hc/en-us/articles/360037434691-VariantFiltration). The script [6_GATK_variant_calling.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Scripts/6_GATK_variant_calling.sh) was run with the following filtering parameters for the initial filtering: </br>
+
 **Initial filtering parameters**
 ```
 gatk VariantFiltration -R $ref --variant $sample.SNPs.vcf \
@@ -26,14 +25,17 @@ gatk VariantFiltration -R $ref --variant $sample.SNPs.vcf \
 The [depths statistic](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/depth_stats.txt) created with the script [6a_idepth.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Scripts/6a_idepth.sh) shows values between 62.3986 and 77.1962.
 
 To check if and how the parameters needed to be adjusted, plots for each parameter and for each sample were created using three scripts: </br>
+</br>
 🐣 &nbsp; [1_initial_filtering_plot.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Scripts/1_initial_filtering_plot.sh) </br>
 🐣 &nbsp; [plotvcftable.R](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Scripts/plotvcftable.R) </br>
 🐣 &nbsp; [vcf2table.py](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Scripts/vcf2table.py) </br>
 
 The output .pdf file for each sample can be seen in the folder [Initial filtering plots](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/4%20-%20Variant%20Discovery/Initial%20filtering%20plots). 
 
+
 ## 2. Filtering with adjusted parameters
 The results of the [Initial filtering plots](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/4%20-%20Variant%20Discovery/Initial%20filtering%20plots) were evaluated and the best adjusted parameters chosen to fit all samples. </br>
+
 **Adjusted filtering parameters** </br>
 ```
 gatk VariantFiltration -R $ref --variant $sample.SNPs.vcf \
@@ -48,9 +50,11 @@ gatk VariantFiltration -R $ref --variant $sample.SNPs.vcf \
 ```
 The output .pdf file for each sample can be seen in the folder [Adjusted filtering plots](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/4%20-%20Variant%20Discovery/Adjusted%20filtering%20plots). Looking at [depth_stats.adjusted.txt](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/depth_stats.adjusted.txt), the depth values now range between 66.2844 and 108.875.
 
+
 ## 3. Comparison of the three .vcf files
 
 There are three different .vcf files for each sample: </br>
+</br>
 🐥 &nbsp; `$sample.SNPs.vcf.gz` </br>
 🐥 &nbsp; `$sample.SNPs.filtered.vcf.gz` </br>
 🐥 &nbsp; `$sample.SNPs.filtered.adjusted.vcf.gz` </br>
@@ -59,6 +63,7 @@ There are three different .vcf files for each sample: </br>
 The script [7_store_vcf_files.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Scripts/7_store_vcf_files.sh) makes a new directory for each sample and copies these three files in it. Now [UpSetR.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Scripts/UpSetR.sh) will loop through all the $sample directories and compare the .vcf files. </br>
 The script uses first [vcftools](https://vcftools.github.io/index.html) to remove all the files that were filtered out previously. Then [Samtools tabix](http://www.htslib.org/doc/tabix.html) compresses and indexes the vcf files to make them compatible with vcf-compare. Then 
 This script will first use VCFtools to remove all of the sites that were filtered out (GATK only marks them, but does not remove them). It then properly compresses each VCF and indexed them for compatability with [vcf compare](https://vcftools.github.io/perl_module.html#vcf-compare). The .venn output files are in the folder [Venn files](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/4%20-%20Variant%20Discovery/Venn%diagrams/Venn%files)  </br>
+
 
 ## 4. Venn diagram with R
 
@@ -80,9 +85,11 @@ Here you can see the diagram for the sample SRR10740739 and SRR10740741. The oth
 </p>
 </br>
 
+
 ## 5. What really happened ...
 
 The [depth_stats.txt](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/depth_stats.txt) output of our script for variant calling [6_GATK_variant_calling.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Scripts/6_GATK_variant_calling_example.sh) turned out empty for all samples.
+
 
 ## 🤯 &nbsp; Troubleshooting
 
@@ -145,6 +152,7 @@ for sample in ${sample_list[@]}; do
 
 done
 ```
+
 ## 6. Contributions
 🐓&nbsp; Steven: first try to run the scripts, troubleshooting </br>
 🐓&nbsp; Andrea: second try and finish, troubleshooting, GitHub repo
