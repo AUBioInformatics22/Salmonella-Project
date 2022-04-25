@@ -64,7 +64,7 @@ The values of the output files `$sample.4upsetR.venn` can now typed into [UpSetR
 Here you can see the diagram for the sample SRR10740739 and SRR10740740. The other diagrams can be found in the folder [Venn diagrams](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/4%20-%20Variant%20Discovery/Venn%20diagrams) 
 
 
-# 5. What really happened ...
+## 5. What really happened ...
 
 The [depth_stats.txt](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/depth_stats.txt) output of our script for variant calling [6_GATK_variant_calling.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/6_GATK_variant_calling_example.sh) turned out empty for all samples.
 
