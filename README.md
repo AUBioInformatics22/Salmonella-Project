@@ -68,6 +68,6 @@ Filtering <br/>
 ### [5. Data Analysis for Peer Review](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/5%20-%20Data%20Analysis%20for%20Peer%20Review)
 ### [6. Conclusion](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/6%20-%20Conclusion)
 ### 7. Contribution
-Steven: Project proposal, aim, samples, workflow, GitHub Repository </br>
-Andrea: GitHub Repository </br>
+Steven Kitchens: Project proposal, aim, samples, workflow, GitHub Repository </br>
+Andrea Pietruska: GitHub Repository </br>
 Stephen Tansie: GitHub Repository
