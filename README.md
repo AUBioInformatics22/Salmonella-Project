@@ -12,8 +12,10 @@ Andrea Pietruska <br/>
 
 # Introduction
 
-[Description of the project](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/project_proposal.md) </br>
-**very short summary of the description HERE**
+Veterinary teaching hospitals have many different species of animals in close proximity to one another. The environment can be a potential source and reservoir for the transmission of _Salmonella_ in a veterinary hospital. _Salmonella_ is the most commonly associated agent responsible for nosocomial outbreaks among veterinary teaching hospitals. A study of the Auburn University College of Veterinary Medicine (AUCVM) Veterinary Teaching Hospital was conducted to better understand the dynamics of _Salmonella_ in the environment and prevalence of _Salmonella_ within a multi-species animal facility. Additional studies were conducted to evaluate _Salmonella_ in the on-site dairy herd and among the environment of the Equine Reproduction Center. A total of 1395 samples were collected over the different surveillance projects. From those projects, ten samples were sent to the NVSL for WGS. It is important to determine whether these isolates are the same strain or derived from a common ancestor. This project’s aim is to develop a pipeline to process the raw WGS data from the NVSL. Other veterinary teaching hospitals can utilize this set of scripts and procedures for epidemiological studies using WGS data.
+
+[Detailed Description of the project](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/project_proposal.md) </br>
+
 
 # Aim
 
