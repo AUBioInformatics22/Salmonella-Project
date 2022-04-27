@@ -11,13 +11,13 @@ We assessed the quality of our reads using the the command line. Please find bel
 We also assessed the quality of our reads using the Galaxy web tool <br/>
 
 ## 2. Data presentation and Quality Report
-Please find below a link to the script that was used to present pur data
+Please find below a link to the script that was used to present our data. <br/>
 [R Script for Data Presentation](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/1%20-%20Initial%20Quality%20Assessment%20of%20Raw%20NGS%20Data/Report_1.R) <br/>
 
 
 ### Quality Report
 
-The goal of this step was to assess the quality of our data using both command line and web-based tools. After downloading data from NCBI (using the sra_fastqdump_fastqc.sh script), we assessed their quality using Galaxy (https://usegalaxy.org/) and on the command line using the Alabama Supercomputer.  Below are representative graphs generated from using both approaches for quality assessment. Ten sequences (SRS5863182, SRS5863183, SRS5863184, SRS5863185, SRS5863186, SRS5863187, SRS5863188, SRS5863189, SRS5863190 and SRS5863191) of paired-end whole genome sequences of _Salmonella enterica serotype Muenster_ were analyzed but results are hereby presented for both the forward and reverse reads of the SRS5863191 sequence. 
+The goal of this step was to assess the quality of our data using both command line and web-based tools. After downloading data from NCBI (using the sra_fastqdump_fastqc.sh script), we assessed their quality using Galaxy (https://usegalaxy.org/) and on the command line using the Alabama Supercomputer.  Below are representative graphs generated from using both approaches for quality assessment. Ten (10) of paired-end whole genome sequences (SRS5863182, SRS5863183, SRS5863184, SRS5863185, SRS5863186, SRS5863187, SRS5863188, SRS5863189, SRS5863190 and SRS5863191) of _Salmonella enterica serotype Muenster_ were analyzed but results are hereby presented for both the forward and reverse reads of the SRS5863191 sequence.  
 
 _Per Base Sequence Quality_</br>
 Below are representative graphs showing the quality of the forward and reverse sequences
@@ -48,7 +48,7 @@ Graph for Command line Assessment
 </p>
 Fig.4
 
-The results above suggest that the command line analysis trimmed off the last ten poor quality sequences. While this may improve the quality of sequences, vital data may also be lost, coupled with the fact that the benefit of trimming may not be significant. The quality scores for all our sequences look very similar to the above results. However, the command line FASTQ analysis was faster, and the results were readily available, compared to the Galaxy assessment which took longer to download the data. We decided not to trim because the graphs suggest that the average quality score falls largely in the “green” quality score range, suggesting that our sequences are of high quality.
+The results above suggest that the command line analysis trimmed off the last ten poor quality bases. While this may improve the quality of sequences, vital data may also be lost, coupled with the fact that the benefit of trimming may not be significant. The quality scores for all our sequences look very similar to thosenpresented here. However, the command line FASTQ analysis was faster, and the results were readily available, compared to the Galaxy assessment where it took longer to download the results data. We decided not to trim because the graphs suggest that the average quality score falls largely in the “green” quality score range, suggesting that our sequences are of high quality.
 
 
 
