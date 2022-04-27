@@ -95,6 +95,7 @@ Average percent mapped in the untrimmed data is 95.13% while the average percent
 
 
 ## 4. Contributions
-Steven: Indexing and Alignment </br>
-Chidozie: Summary of Coverage Metrics </br>
-Andrea: Trimming and truncating, GitHub repo
+Steven Kitchens: Indexing and Alignment </br>
+Chidozie Ugochukwu: Summary of Coverage Metrics </br>
+Andrea Pietruska: Trimming and truncating, GitHub Repository</br>
+Stephen Tansie: Report, GitHub Repository
