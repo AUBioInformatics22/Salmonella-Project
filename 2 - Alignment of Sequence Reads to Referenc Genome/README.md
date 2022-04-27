@@ -30,7 +30,7 @@ The reference genome (_Salmonella enterica_) was indexed and sequence reads of b
 
 
 
-Fig. 1: This shows the aligned coverage of the samples with reference to the reference genome <p>&nbsp;</p>
+Fig. 1: This figure shows the aligned coverage of the samples with reference to the reference genome <p>&nbsp;</p>
 
 
 
