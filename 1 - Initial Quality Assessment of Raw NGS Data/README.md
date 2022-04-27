@@ -98,18 +98,18 @@ Panel B shows the coverage of the individual sequences in our data set. Panel A 
 </p>
 
 
-| SRA_ID    |Layout       |Average Read Length  |Number of Reads  |Sample source| Year Sample Collected |
-|-----------| ------------|---------------------|-----------------|-------------|-----------------------|
-|SRR10740739| Paired      |  228                |   1053590       |Necropsy Calf|                   2012|     
-|SRR10740740| Paired      |  223                |   1042044       |Calf Feces   |                   2017|
-|SRR10740741| Paired      |  223                |   999592        |Cow Feces    |                   2016| 
-|SRR10740742| Paired      |  225                |   1051202       |Drain Swab   |                   2019|
-|SRR10740743| Paired      |  225                |   1015015       |Water on Dairy Road|             2016|
-|SRR10740744| Paired      |  225                |   955320        |Water Sample in Equine Barn|     2016|
-|SRR10740745| Paired      |  226                |   962288        |Water Sample in Equine Barn|     2015|
-|SRR10740746| Paired      |  222                |   876854        |Water Sample in Dairy Barn |     2015|
-|SRR10740747| Paired      |  216                |   1027813       |Water Sample in Food Animal Barn|2014|
-|SRR10740748| Paired      |  222                |   1076023       |Hay Sample in Equine Barn|      2014 |<p>&nbsp;</p>  
+| SRA_ID    |Layout       |Average Read Length  |Number of Reads  |Calculated Coverage|
+|-----------| ------------|---------------------|-----------------|-------------------|
+|SRR10740739| Paired      |  222                |   1053590       |4.97               |     
+|SRR10740740| Paired      |  216                |   1042044       |4.78               |
+|SRR10740741| Paired      |  225                |   999592        |4.97               | 
+|SRR10740742| Paired      |  225                |   1051202       |5.05               |
+|SRR10740743| Paired      |  225                |   1015015       |4.85               |
+|SRR10740744| Paired      |  225                |   955320        |4.57               | 
+|SRR10740745| Paired      |  224                |   962288        |4.60               |   
+|SRR10740746| Paired      |  223                |   876854        |4.15               |     
+|SRR10740747| Paired      |  223                |   1027813       |4.87               |
+|SRR10740748| Paired      |  228                |   1076023       |5.21               |     <p>&nbsp;</p>  
 
 
 
