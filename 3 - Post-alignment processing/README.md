@@ -1,7 +1,8 @@
-# 3. Post Alignment Processing
+# 3. Post Alignment Processing</br>
+We continued our analysis with the untrimmed data. The gooal was to mark duplictates in our data
 
 ## 1. Analysis and report
-Post-alignment processing was carried out to mark duplicates in the sequences.  
+We carried out post-alignment processing to mark duplicates in the sequences.  
 
 <p align="center">
 <img src="graphs/histogram.png" width="600" height="450" />
