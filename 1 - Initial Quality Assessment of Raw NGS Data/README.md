@@ -116,6 +116,6 @@ Panel B shows the coverage of the individual sequences in our data set. Panel A 
 
 ## 4. Contributions
 Steven: Commandline FASTQ analysis </br>
-Stephen: Data presentation and report </br>
+Stephen: Data presentation and README.md </br>
 Chidozie: Galaxy FASTQ analysis </br>
 Andrea: GitHub repo
