@@ -11,10 +11,10 @@
 
 The goal of this step was to assess the quality of our data using both command line and web-based tools. After downloading data from NCBI (using the sra_fastqdump_fastqc.sh script), we assessed their quality using Galaxy (https://usegalaxy.org/) and on the command line using the Alabama Supercomputer.  Below are representative graphs generated from using both approaches for quality assessment. Ten sequences (SRS5863182, SRS5863183, SRS5863184, SRS5863185, SRS5863186, SRS5863187, SRS5863188, SRS5863189, SRS5863190 and SRS5863191) of paired-end whole genome sequences of _Salmonella enterica serotype Muenster_ were analyzed but results are hereby presented for both the forward and reverse reads of the SRS5863191 sequence. 
 
-_Per Base Sequence Quality_
+_Per Base Sequence Quality_</br>
 Below are representative graphs showing the quality of the forward and reverse sequences
 
-_Forward Read_
+_Forward Read_</br>
 Graph for Galaxy Assessment
 <p align="center">
 <img src="Quality Report Figures/1.jpg" width="700" height="400" />
@@ -27,7 +27,7 @@ Graph for Command line Assessment
 </p>
 Fig.2
 
-_Reverse Read_
+_Reverse Read_</br>
 Graph for Galaxy Assessment
 <p align="center">
 <img src="Quality Report Figures/3.jpg" width="700" height="400" />
@@ -45,7 +45,7 @@ The results above suggest that the command line analysis trimmed off the last te
 
 
 
-_Per Sequence Quality Scores_
+_Per Sequence Quality Scores_</br>
 Forward Read
 
 Graph for Galaxy Assessment
