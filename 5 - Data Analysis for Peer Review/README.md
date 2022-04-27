@@ -5,7 +5,7 @@ currently we are waiting for step 4 to complete. We had output, but not for all 
 ## Steps planned
 ## 1. Quality evaluation of the genome assembly using [QUAST](http://quast.sourceforge.net/quast.html) </br>
 
-<img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/5%20-%20Data%20Analysis%20for%20Peer%20Review/Images/quast_report.png" width="1000" />
+<img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/5%20-%20Data%20Analysis%20for%20Peer%20Review/Images/quast_report.png" width="1200" />
 
 ### 2. De novo sequencing with [SPAdes](https://github.com/ablab/spades#sec1.2), which is designed to assemble small genomes from MDA single-cell and standard bacterial data sets. </br>
 ## 3. Prokaryotik genome annotation with [Prokka](https://github.com/tseemann/prokka) </br>
