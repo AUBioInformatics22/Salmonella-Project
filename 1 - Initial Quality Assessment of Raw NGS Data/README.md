@@ -96,7 +96,7 @@ Sequence Coverage
 <img src="Quality Report Figures/Coverage.jpg" width="700" height="400" />
 </p>
 
-Panel B shows the coverage of the individual sequences in our data set. Panel A of Fig 5 shows that the average coverage for all sequences is 4.8X. which is high.
+Panel B shows the coverage of the individual sequences in our data set. Panel A of Fig 8 shows that the average coverage for all sequences is 4.8X. which is high.
 
 | SRA_ID    |Layout       |Average Read Length  |Number of Reads  |Calculated Coverage|
 |-----------| ------------|---------------------|-----------------|-------------------|
