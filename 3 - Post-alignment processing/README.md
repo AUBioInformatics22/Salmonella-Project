@@ -1,5 +1,5 @@
 # 3. Post Alignment Processing</br>
-We continued our analysis with the untrimmed data. The gooal was to mark duplictates in our data
+We continued our analysis with the untrimmed data. The gooal was to mark duplictates in our data</br>
 
 ## 1. Analysis and report
 We carried out post-alignment processing to mark duplicates in the sequences.  
