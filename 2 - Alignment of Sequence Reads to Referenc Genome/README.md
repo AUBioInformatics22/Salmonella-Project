@@ -1,4 +1,4 @@
-# 2. Alignment of Seqence Reads to Reference Genome
+# 2. Alignment of Sequence Reads to Reference Genome
 
 
 We used trimmed and untrimmed data for analysis in order to compare the effect of trimming on downstream analysis. 
