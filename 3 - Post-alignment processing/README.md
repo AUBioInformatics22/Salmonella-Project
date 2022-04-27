@@ -52,6 +52,6 @@ for each sample to add the readgroup parameters manually. The information about 
 
 ## 3. Contributions
 Steven: Script for mapping <br/>
-Stephen: Analysis and report <br/>
+Stephen: Graph design and report <br/>
 Chidozie: Analysis with IGV <br/>
-Andrea: graph design in R, troubleshooting, GitHub repo
+Andrea: Graph design in R, troubleshooting, GitHub Repository
