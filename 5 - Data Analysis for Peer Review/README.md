@@ -7,7 +7,7 @@ currently we are waiting for step 4 to complete. We had output, but not for all 
 ## 2. Quality evaluation of the genome assembly using [QUAST](http://quast.sourceforge.net/quast.html) </br>
 <img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/5%20-%20Data%20Analysis%20for%20Peer%20Review/Images/quast_report.png" width="1200" /> </br>
 ## 3. Prokaryotik genome annotation with [Prokka](https://github.com/tseemann/prokka) </br>
-## 4. Phylogenetic tree using [Roary](https://sanger-pathogens.github.io/Roary/) </br>
+## 4. Phylogenetic 🌲 using [Roary](https://sanger-pathogens.github.io/Roary/) </br>
 <img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/5%20-%20Data%20Analysis%20for%20Peer%20Review/Images/roary.png" />  </br>
 ### 5. Contributions
 Steven: QUAST, SPAdes, Prokka, Roary </br>
