@@ -110,7 +110,7 @@ Panel B shows the coverage of the individual sequences in our data set. Panel A 
 |SRR10740746| Paired      |  223                |   876854        |4.15               |     
 |SRR10740747| Paired      |  223                |   1027813       |4.87               |
 |SRR10740748| Paired      |  228                |   1076023       |5.21               |     <p>&nbsp;</p>  
-
+Average Coverage = 4.80
 
 
 
