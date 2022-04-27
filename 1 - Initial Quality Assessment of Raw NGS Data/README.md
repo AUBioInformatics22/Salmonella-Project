@@ -1,9 +1,15 @@
-# 1. Initial Quality Assessment of Raw NGS Data
-## 1. Command line FASTQ analysis
+# 1. Quality Assessment of Raw NGS Data
+We assessed the quality of our data using both the command line the Galaxy web tool to see whether they will give different quality reports <br/>
+
+## a. Command line FASTQ analysis
+We assessed the quality of our reads using the the command line <br/>
+
 [FASTQ Reports](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/1%20-%20Initial%20Quality%20Assessment%20of%20Raw%20NGS%20Data/fastqc_reports) <br/>
 [Script for SRA-tool fastdump](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/1%20-%20Initial%20Quality%20Assessment%20of%20Raw%20NGS%20Data/sra_fastqdump_fastqc.sh)
-## 2. Galaxy FASTQ analysis
-## 3. Data presentation and report
+## b. Galaxy FASTQ analysis
+We also assessed the quality of our reads using the Galaxy web tool <br/>
+
+## 2. Data presentation and report
 [R Script for Data Presentation](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/1%20-%20Initial%20Quality%20Assessment%20of%20Raw%20NGS%20Data/Report_1.R) <br/>
 
 
