@@ -11,11 +11,11 @@ In order to generate phylogenetic trees, three approaches were taken. It was nec
 ## 3. Prokaryotik genome annotation with [Prokka](https://github.com/tseemann/prokka) </br>
 ## 4a. Phylogenetic tree using [Roary](https://sanger-pathogens.github.io/Roary/) </br>
 <img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/5%20-%20Data%20Analysis%20for%20Peer%20Review/Images/roary.png" />  </br>
-## 4b. Phylogenetic tree using [MINTyper](https://sanger-pathogens.github.io/Roary/) </br>
+## 4b. Phylogenetic tree using [MINTyper](https://cge.food.dtu.dk/services/MINTyper/) </br>
 <img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/5%20-%20Data%20Analysis%20for%20Peer%20Review/Images/mintyper.png" />  </br>
-## 4c. Phylogenetic tree using [CSI Phylogeny](https://sanger-pathogens.github.io/Roary/) </br>
+## 4c. Phylogenetic tree using [CSI Phylogeny](https://cge.food.dtu.dk/services/CSIPhylogeny/) </br>
 <img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/5%20-%20Data%20Analysis%20for%20Peer%20Review/Images/csi.png" />  </br>
-## 5. Heatmap of SNPs [CSI Phylogeny]
+## 5. Heatmap of SNPs [CSI Phylogeny](https://cge.food.dtu.dk/services/CSIPhylogeny/) </br>
 <img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/5%20-%20Data%20Analysis%20for%20Peer%20Review/Images/SNP%20Heatmap.png" />  </br>
 ### 5. Contributions
 Steven: QUAST, SPAdes, Prokka, Roary, MINTyper, CSI Phylogeny, FigTree </br>
