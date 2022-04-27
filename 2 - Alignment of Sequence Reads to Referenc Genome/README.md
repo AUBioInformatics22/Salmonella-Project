@@ -6,7 +6,7 @@ Even though we did not have the reason to trim our sequences, we used trimmed an
 ## 1. Trimming
 Trimming was done with version 0.39 of [Trimmomatric](http://www.usadellab.org/cms/?page=trimmomatic) and the script [trimmomatic.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/2%20-%20Alignment%20of%20Sequence%20Reads%20to%20Referenc%20Genome/trimmomatic.sh) </br> 
 </br> 
-**Trimming Parameters**
+**Trimming Parameters**</br>
 The following trimming parameters were used:
 ```
 HEADCROP:7 \
