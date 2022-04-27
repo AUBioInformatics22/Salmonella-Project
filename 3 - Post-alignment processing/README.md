@@ -51,7 +51,7 @@ for each sample to add the readgroup parameters manually. The information about 
 > *No errors found*
 
 ## 3. Contributions
-Steven: Script for mapping <br/>
-Stephen: Analysis and report <br/>
-Chidozie: Analysis with IGV <br/>
-Andrea: Graph design in R, troubleshooting, GitHub Repository
+Steven Kitchens: Script for mapping <br/>
+Stephen Tansie: Analysis and report <br/>
+Chidozie Ugochukwu: Analysis with IGV <br/>
+Andrea Pietruska: Graph design in R, troubleshooting, GitHub Repository
