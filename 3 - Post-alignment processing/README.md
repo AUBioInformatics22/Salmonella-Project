@@ -36,7 +36,7 @@ Table 1: Table showing percent duplication among samples.</br>
 Table 1 above shows that there is minimal sequence duplication among the samples. 
 
 <p align="center">
-<img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/3%20-%20Post-alignment%20processing/IGV_umarked.png" width="800" height="600" /></p><p>&nbsp;</p>
+<img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/3%20-%20Post-alignment%20processing/IGV_umarked.png" width="800" height="600" /></p>
 Figure 3 above shows that mapped coverage minimally reduced, compared to the raw coverage.<p>&nbsp;</p>
   
   
