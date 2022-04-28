@@ -15,7 +15,7 @@ We carried out post-alignment processing to mark duplicates in the sequences. Th
 </p>
 Figure 2: Comparison between raw and mapped coverage among samples.<p>&nbsp;</p>
 
-The table above shows that mapped coverage minimally reduced, compared to the raw coverage.</br>
+Figure 2 above shows that mapped coverage minimally reduced, compared to the raw coverage.</br>
 
 Table 1: Table showing percent duplication among samples 
 
@@ -32,7 +32,7 @@ Table 1: Table showing percent duplication among samples
 |SRR10740747| 0.81               |
 |SRR10740748| 0.82               | <p>&nbsp;</p>  
 
-Table 1 above shows that there is minimal sequence duplication in the samples. 
+Table 1 above shows that there is minimal sequence duplication among the samples. 
 
 
 ## 2. 🤯 Troubleshooting
