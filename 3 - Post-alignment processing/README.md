@@ -44,7 +44,8 @@ Table 1 above shows that there is minimal sequence duplication among the samples
 Fig 3 displays IGV screenshot of two alignments tracks covering the same genomic region on one of our samples (SRR10740739): The raw bam files (upper track)
 and the lower track corresponding to the marked bam files. Marking the bam files using the Picard tools of GATK highlights likely duplications events 
 (see blue arrows) that were not originally captured in the raw bam files.</br>
-  
+
+  ![This is an image](https://github.com/AUBioInformatics22/Salmonella-Project/blob/eca7b8d866069c0ea8072a06cf633ca43cf08999/3%20-%20Post-alignment%20processing/graphs/crop_marked_bam.png)
  <p align="center">
 <img src="graphs/crop_marked_bam.png" width="1000" height="400" />
 </p> 
