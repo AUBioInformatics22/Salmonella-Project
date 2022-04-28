@@ -1,5 +1,5 @@
 # 3. Post Alignment Processing</br>
-We continued our analysis with the untrimmed data. We used GATK to mark duplictates in our data, After that we used Samtools flagstat to  </br>
+We continued our analysis with the untrimmed data. We used GATK to mark duplictates in our data, After that we used Samtools flagstat feature of GATK to   </br>
 
 ## 1. Analysis and report
 We carried out post-alignment processing to mark duplicates in the sequences.  
