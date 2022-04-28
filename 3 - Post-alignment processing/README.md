@@ -38,7 +38,7 @@ Table 1 above shows that there is minimal sequence duplication among the samples
 
 
 [IGV View of Unmarked Sequences](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/3%20-%20Post-alignment%20processing/IGV_umarked.png)<br/>
-[IGV View of Unmarked Sequences](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/3%20-%20Post-alignment%20processing/IGV_umarked.png) <br/>
+[IGV View of Marked Sequences](https://raw.githubusercontent.com/AUBioInformatics22/Salmonella-Project/main/3%20-%20Post-alignment%20processing/igv_marked.png) <br/>
 
 [FASTQ Reports](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/1%20-%20Initial%20Quality%20Assessment%20of%20Raw%20NGS%20Data/fastqc_reports) <br/>
 
