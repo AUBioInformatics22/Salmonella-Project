@@ -35,7 +35,7 @@ Table 1: Table showing percent duplication among samples.</br>
 
 Table 1 above shows that there is minimal sequence duplication among the samples.<p>&nbsp;</p>
 
-**IGV**
+**IGV**</br>
 
 <p align="center">
 <img src="graphs/marked_vs_raw_bam.png" width="800" height="600" />
