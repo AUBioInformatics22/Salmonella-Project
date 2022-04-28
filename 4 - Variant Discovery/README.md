@@ -95,6 +95,16 @@ The figure above highlights a segment on contig LHMO010000010.1 of SRR10740739 t
 For the identified SNP, T in the reference genome has been replaced by the alternate allele C at position 1614. With a mapping quality of 60 and FS score of 0, 
 and low StrandOdds Ratio(SOR) of 0.742, the called SNP is likely a true SNP and not an artifact.</br> 
 
+### Filtered vs non-filtered VCF
+<p align="center">
+<img src="IGV screenshots/filtered_vs_nonfiltered2.png" width="1400" height="800" />
+</p>
+
+The figure above highlights how variant filtering can improve variant calls. Displayed is a segment of on contig LHMO000006.1 showing the effect of hard filtering. 
+In the top track (SRR10740739.SNP.filtered.vcf), the SNP at position 50529 which has  refence allele of T and an alternate of C has been filtered out 
+(shown in faint red)  vs the unfiltered track(SRR10740739.SNP.vcf) shown in dark red (both SNPs are highlighted by blue arrow). The SNP was filtered out based 
+on the SOR value which was 3.126, indicating a high likelihood of stand bias. </br>
+
 ## 6. What really happened ...
 
 The [depth_stats.txt](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/depth_stats.txt) output of our script for variant calling [6_GATK_variant_calling.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Scripts/6_GATK_variant_calling_example.sh) turned out empty for all samples.
@@ -165,3 +175,4 @@ done
 ## 7. Contributions
 🐓&nbsp; Steven: first try to run the scripts, troubleshooting </br>
 🐓&nbsp; Andrea: second try and finish, troubleshooting, GitHub repo
+🐓&nbsp; Added IGV analysis of data
