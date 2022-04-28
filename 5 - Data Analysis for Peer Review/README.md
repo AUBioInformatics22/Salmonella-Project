@@ -14,7 +14,9 @@ In order to generate phylogenetic trees, three approaches were taken. It was nec
 <img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/5%20-%20Data%20Analysis%20for%20Peer%20Review/Images/mintyper.png" />  </br>
 ## 4c. Phylogenetic tree using [CSI Phylogeny](https://cge.food.dtu.dk/services/CSIPhylogeny/) </br>
 <img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/5%20-%20Data%20Analysis%20for%20Peer%20Review/Images/csi.png" />  </br>
-All the trees are rooted suggesting that all the samples have a common ancestor. </br>
+
+All the trees are rooted, suggesting that all the samples have a common ancestor. </br>
+
 ## 5. Heatmap of SNPs [CSI Phylogeny](https://cge.food.dtu.dk/services/CSIPhylogeny/) </br>
 <img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/5%20-%20Data%20Analysis%20for%20Peer%20Review/Images/SNP%20Heatmap.png" />  </br>
 ### 6. Contributions
