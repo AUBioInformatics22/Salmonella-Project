@@ -14,7 +14,8 @@ The figure below shows that percent duplication among our samples is low.</br>
 <p align="center">
 <img src="graphs/Coverage.png" width="800" height="600" />
 </p>
-Figure 2: Percent Duplication among samples.<p>&nbsp;</p>
+Figure 2: Comparison between raw and mapped coverage among samples.<p>&nbsp;</p>
+
 
 Table 1: Table showing the coverage of the data after post-alignment processing 
 
