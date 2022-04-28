@@ -36,6 +36,11 @@ Table 1: Table showing percent duplication among samples.</br>
 Table 1 above shows that there is minimal sequence duplication among the samples.<p>&nbsp;</p>
 
 **IGV**
+
+<p align="center">
+<img src="graphs/marked_vs_raw_bam.png" width="800" height="600" />
+</p>
+
 Figure 3 above shows that mapped coverage minimally reduced, compared to the raw coverage.<p>&nbsp;</p>
 
   
