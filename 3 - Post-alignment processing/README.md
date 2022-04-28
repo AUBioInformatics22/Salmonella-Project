@@ -68,9 +68,9 @@ Output for our files:
 instead of the required individual ID for each sample </br>
 To fix this issue we use </br>
 `gatk AddOrReplaceReadGroups I input.bam O output.bam RGID Sample_ID RGLB Library_name RGPL Sequencing_platform RGPU Units RGSM Sample_name` </br>
-for each sample to add the readgroup parameters manually. The information about our readgroups can be found in the [add_readgroups.sh script](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/3%20-%20Post-alignment%20processing/add_readgroups.sh). More information about the GATK feature `AddOrReplaceGroups` can be found [here](https://gatk.broadinstitute.org/hc/en-us/articles/360037226472-AddOrReplaceReadGroups-Picard-). </br>
+for each sample to add the readgroup parameters manually. The information about our readgroups can be found in the [add_readgroups.sh script](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/3%20-%20Post-alignment%20processing/Scripts/add_readgroups.sh). More information about the GATK feature `AddOrReplaceGroups` can be found [here](https://gatk.broadinstitute.org/hc/en-us/articles/360037226472-AddOrReplaceReadGroups-Picard-). </br>
 
-6. Check the output files with GATK feature `ValidateSamFiles` and in the IGV viewer. If everything is fine with the files the output of the script [7_GATK_ValidateSam.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/3%20-%20Post-alignment%20processing/7_GATK_ValidateSam.sh) for each sample is: 
+6. Check the output files with GATK feature `ValidateSamFiles` and in the IGV viewer. If everything is fine with the files the output of the script [7_GATK_ValidateSam.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/3%20-%20Post-alignment%20processing/Scripts/7_GATK_ValidateSam.sh) for each sample is: 
 > *No errors found*
 
 ## 3. Contributions
