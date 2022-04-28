@@ -88,7 +88,7 @@ Here you can see the diagram for the sample SRR10740739 and SRR10740741. The oth
 ## 5. IGV
 
 <p align="center">
-<img src="IGV screenshots/igv_SNP_contig1.png" width="1200" height="800" />
+<img src="IGV screenshots/igv_SNP_contig1.png" width="1400" height="800" />
 </p>
 
 The figure above highlights a segment on contig LHMO010000010.1 of SRR10740739 that show a SNP identified by GATK haplotype caller when the VCF track is loaded. 
