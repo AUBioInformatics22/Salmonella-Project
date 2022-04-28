@@ -36,7 +36,7 @@ Table 1: Table showing percent duplication among samples.</br>
 Table 1 above shows that there is minimal sequence duplication among the samples. 
 
 <p align="center">
-<img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/3%20-%20Post-alignment%20processing/IGV_umarked.png" width="800" height="600" />
+<img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/3%20-%20Post-alignment%20processing/IGV_umarked.png" width="800" height="600" /><p>&nbsp;</p>
   
   
  <img src="https://raw.githubusercontent.com/AUBioInformatics22/Salmonella-Project/main/3%20-%20Post-alignment%20processing/igv_marked.png" width="800" height="600" />
