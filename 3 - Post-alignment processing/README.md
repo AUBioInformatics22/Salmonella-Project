@@ -2,12 +2,13 @@
 We continued our analysis with the untrimmed data. We used GATK to mark duplictates in our data. After that we used _Samtools flagstat_ feature of GATK to   produce the output. We then used the Integrated Genome Viewer (IGV) to graphically view the outputs before and after marking the duplicates. </br>
 
 ## 1. Analysis and report
-We carried out post-alignment processing to mark duplicates in the sequences.  
+We carried out post-alignment processing to mark duplicates in the sequences.</br>
+The figure below shows that percent duplication among our samples is low.
 
 <p align="center">
 <img src="graphs/histogram.png" width="600" height="450" />
 </p>
-
+Figure 1: Percent Duplication among samples
 
 <p align="center">
 <img src="graphs/Coverage.png" width="800" height="600" />
