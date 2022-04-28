@@ -37,7 +37,7 @@ Table 1 above shows that there is minimal sequence duplication among the samples
 
 
 
-
+https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/3%20-%20Post-alignment%20processing/IGV_umarked.png
 
 ## 2. 🤯 Troubleshooting
 Looking at the output files from the queue jobs we got an error message:
