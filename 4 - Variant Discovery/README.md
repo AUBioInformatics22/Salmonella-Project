@@ -85,8 +85,17 @@ Here you can see the diagram for the sample SRR10740739 and SRR10740741. The oth
 </p>
 </br>
 
+## 5. IGV
 
-## 5. What really happened ...
+<p align="center">
+<img src="IGV screenshots/igv_SNP_contig1.png" width="1200" height="800" />
+</p>
+
+The figure above highlights a segment on contig LHMO010000010.1 of SRR10740739 that show a SNP identified by GATK haplotype caller when the VCF track is loaded. 
+For the identified SNP, T in the reference genome has been replaced by the alternate allele C at position 1614. With a mapping quality of 60 and FS score of 0, 
+and low StrandOdds Ratio(SOR) of 0.742, the called SNP is likely a true SNP and not an artifact.</br> 
+
+## 6. What really happened ...
 
 The [depth_stats.txt](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/depth_stats.txt) output of our script for variant calling [6_GATK_variant_calling.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Scripts/6_GATK_variant_calling_example.sh) turned out empty for all samples.
 
@@ -153,6 +162,6 @@ for sample in ${sample_list[@]}; do
 done
 ```
 
-## 6. Contributions
+## 7. Contributions
 🐓&nbsp; Steven: first try to run the scripts, troubleshooting </br>
 🐓&nbsp; Andrea: second try and finish, troubleshooting, GitHub repo
