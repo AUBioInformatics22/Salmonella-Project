@@ -41,8 +41,9 @@ Table 1 above shows that there is minimal sequence duplication among the samples
 <img src="graphs/marked_vs_raw_bam.png" width="1200" height="800" />
 </p>
 
-Figure 3 above shows that mapped coverage minimally reduced, compared to the raw coverage.<p>&nbsp;</p>
-
+Fig 3 displays IGV screenshot of two alignments tracks covering the same genomic region on one of our samples (SRR10740739): The raw bam files (upper track)
+and the lower track corresponding to the marked bam files. Marking the bam files using the Picard tools of GATK highlights likely duplications events 
+(see blue arrows) that were not originally captured in the raw bam files.</br>
   
   
 
