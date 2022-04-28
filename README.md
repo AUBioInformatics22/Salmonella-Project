@@ -66,9 +66,12 @@ Here, we used BWA and samtools to index our reference genome and BWA-MEM to alig
 ### [3. Post Alignment Processing](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/3%20-%20Post-alignment%20processing)<br/>
 Here, we used GATK to mark duplictates. After that we used _Samtools flagstat_ to sort and index the duplicated reads. We then used the Integrated Genome Viewer (IGV) to graphically view the outputs before and after marking the duplicates.<br/>
 
-### [4. Variant Discovery](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/4%20-%20Variant%20Discovery)
-### [5. Data Analysis for Peer Review](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/5%20-%20Data%20Analysis%20for%20Peer%20Review)
-### [6. Conclusion](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/6%20-%20Conclusion)
+### [4. Variant Discovery](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/4%20-%20Variant%20Discovery)<br/>
+
+### [5. Data Analysis for Peer Review](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/5%20-%20Data%20Analysis%20for%20Peer%20Review)<br/>
+
+### [6. Conclusion](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/6%20-%20Conclusion)<br/>
+
 ### 7. Contribution
 Steven Kitchens: Project proposal, aim, samples, workflow, GitHub Repository </br>
 Andrea Pietruska: GitHub Repository </br>
