@@ -45,9 +45,13 @@ Fig 3 displays IGV screenshot of two alignments tracks covering the same genomic
 and the lower track corresponding to the marked bam files. Marking the bam files using the Picard tools of GATK highlights likely duplications events 
 (see blue arrows) that were not originally captured in the raw bam files.</br>
   
-  
+ <p align="center">
+<img src="graphs/crop_marked_bam.png" width="1000" height="800" />
+</p> 
 
-Figure 4 above shows .<p>&nbsp;</p>
+Fig 4: Marked bam files displaying colored histograms on the read coverage tracks that highlight potential SNPs as well as the alternate allele frequency 
+(when the histogram is clicked on). Possible SNPs at positions 203 and 204 on one of our samples (SRR10740739) is shown here as reference.   
+The reference allele -A and C – have been substituted by the alternative alleles C and G.  .<p>&nbsp;</p>
 
 
 ## 2. 🤯 Troubleshooting
