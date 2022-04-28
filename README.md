@@ -70,7 +70,7 @@ Here, we used GATK to mark duplictates. After that we used _Samtools flagstat_ t
 Here, we used GATK Haplotype Caller tool and other tools to call and filter variants, and then obtained the depth of each sample before and adjustment.<br/> 
 
 ### [5. Data Analysis for Peer Review](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/5%20-%20Data%20Analysis%20for%20Peer%20Review)<br/>
-
+Here, we used _SPAdes_ to assemble the genomes and used _Prokka_ to annotate these genome assemblies. _Roary_ was used to generate Newick files which are used by _Roary_, _MINTyper_ and _CSI Phylogeny_ to create phylogenetic tress.<br/>
 
 ### [6. Conclusion](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/6%20-%20Conclusion)<br/>
 
