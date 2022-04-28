@@ -174,5 +174,5 @@ done
 
 ## 7. Contributions
 🐓&nbsp; Steven: first try to run the scripts, troubleshooting </br>
-🐓&nbsp; Andrea: second try and finish, troubleshooting, GitHub repo
-🐓&nbsp; Added IGV analysis of data
+🐓&nbsp; Andrea: second try and finish, troubleshooting, GitHub repo </br>
+🐓&nbsp; Chidozie: IGV analysis of result files
