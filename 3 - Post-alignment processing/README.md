@@ -38,7 +38,7 @@ Table 1 above shows that there is minimal sequence duplication among the samples
 **IGV**</br>
 
 <p align="center">
-<img src="graphs/marked_vs_raw_bam.png" width="1000" height="800" />
+<img src="graphs/marked_vs_raw_bam.png" width="1200" height="800" />
 </p>
 
 Figure 3 above shows that mapped coverage minimally reduced, compared to the raw coverage.<p>&nbsp;</p>
