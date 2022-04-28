@@ -46,7 +46,7 @@ and the lower track corresponding to the marked bam files. Marking the bam files
 (see blue arrows) that were not originally captured in the raw bam files.</br>
   
  <p align="center">
-<img src="graphs/crop_marked_bam.png" width="1000" height="800" />
+<img src="graphs/crop_marked_bam.png" width="800" height="600" />
 </p> 
 
 Fig 4: Marked bam files displaying colored histograms on the read coverage tracks that highlight potential SNPs as well as the alternate allele frequency 
