@@ -1,5 +1,5 @@
 # 3. Post Alignment Processing</br>
-We continued our analysis with the untrimmed data. We used GATK to mark duplictates in our data. After that we used _Samtools flagstat_ feature of GATK to   produce the output. We then used the Integrated Genome Viewer (IGV) to graphically view the outputs before and after marking the duplicates. </br>
+We continued our analysis with the untrimmed data. We used GATK to mark duplictates in our data. After that we used _Samtools flagstat_ to sort and index the duplicated reads. We then used the Integrated Genome Viewer (IGV) to graphically view the outputs before and after marking the duplicates. </br>
 
 ## 1. Analysis and report
 We carried out post-alignment processing to mark duplicates in the sequences. The figure below shows that percent duplication among our samples is low.</br>
