@@ -18,7 +18,7 @@ In order to generate phylogenetic trees, three approaches were taken. It was nec
 All the trees are rooted, suggesting that all the samples have a common ancestor. </br>
 
 ## 5. Heatmap of SNPs [CSI Phylogeny](https://cge.food.dtu.dk/services/CSIPhylogeny/) </br>
-<img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/5%20-%20Data%20Analysis%20for%20Peer%20Review/Images/SNP_Heatmap_year_sample.png" />  </br>
+<img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/5%20-%20Data%20Analysis%20for%20Peer%20Review/Images/SNP_Heatmap_year_sample.png" width="350" />  </br>
 
 ### 6. Contributions
 Steven: QUAST, SPAdes, Prokka, Roary, MINTyper, CSI Phylogeny, FigTree </br>
