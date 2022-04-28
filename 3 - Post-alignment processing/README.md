@@ -3,7 +3,7 @@ We continued our analysis with the untrimmed data. We used GATK to mark duplicta
 
 ## 1. Analysis and report
 We carried out post-alignment processing to mark duplicates in the sequences.</br>
-The figure below shows that percent duplication among our samples is low.
+The figure below shows that percent duplication among our samples is low.</br>
 
 <p align="center">
 <img src="graphs/histogram.png" width="600" height="450" />
