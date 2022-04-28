@@ -73,6 +73,7 @@ Here, we used GATK Haplotype Caller tool and other tools to call and filter vari
 Here, we used _SPAdes_ to assemble the genomes and used _Prokka_ to annotate these genome assemblies. _Roary_ was used to generate Newick files which are used by _Roary_, _MINTyper_ and _CSI Phylogeny_ to create phylogenetic tress.<br/>
 
 ### [6. Conclusion](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/6%20-%20Conclusion)<br/>
+Our main objective for this study was to determine whether our samples were the same strain or from a common ancestor. Our phylogenetic trees show that they were from a common ancestor. Further, as we set out to achieve, we believe that our methodology can serve as a basic pipeline that veterinary teaching hospitals can use to process raw WGS data in order to make epidemiologic conclusions.</br>
 
 ### 7. Contribution
 Steven Kitchens: Project proposal, aim, samples, workflow, GitHub Repository </br>
