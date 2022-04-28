@@ -33,7 +33,7 @@ Table 1 above shows that there is minimal sequence duplication in the samples.
 
 
 ## 2. 🤯 Troubleshooting
-Looking at the output files from the queue jobs we get an error message:
+Looking at the output files from the queue jobs we got an error message:
 > *WARNING 2022-04-04 22:21:50     AbstractOpticalDuplicateFinderCommandLineProgram        A field field parsed out of a read name was expected to contain an integer and did not. Read name: SRR10740741.1004. Cause: String 'SRR10740741.1004' did not start with a parsable number.* </br>
 
 1. Check the input files if they meet the [requirements for GATK](https://gatk.broadinstitute.org/hc/en-us/articles/360035890791-SAM-or-BAM-or-CRAM-Mapped-sequence-data-formats) with: </br>
