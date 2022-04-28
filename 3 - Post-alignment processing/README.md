@@ -46,7 +46,7 @@ and the lower track corresponding to the marked bam files. Marking the bam files
 (see blue arrows) that were not originally captured in the raw bam files.</br>
 
   
- <p align="center">
+ <p align="left">
 <img src="graphs/crop_marked_bam.png" width="1500" height="500" />
 </p> 
 
