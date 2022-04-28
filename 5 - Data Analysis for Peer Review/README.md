@@ -7,7 +7,9 @@ In order to generate phylogenetic trees, three approaches were taken. It was nec
 ## 1. De novo sequencing with [SPAdes](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/5%20-%20Data%20Analysis%20for%20Peer%20Review/scripts/spades.sh), which is designed to assemble small genomes from MDA single-cell and standard bacterial data sets. </br>
 ## 2. Quality evaluation of the genome assembly using [QUAST](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/5%20-%20Data%20Analysis%20for%20Peer%20Review/scripts/quast_ind.sh) </br>
 <img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/5%20-%20Data%20Analysis%20for%20Peer%20Review/Images/quast_report.png" width="1200" /> </br>
-## 3. Prokaryotik genome annotation with [Prokka](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/5%20-%20Data%20Analysis%20for%20Peer%20Review/scripts/prokka.sh) </br>
+## 3. Prokaryotic genome annotation with [Prokka](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/5%20-%20Data%20Analysis%20for%20Peer%20Review/scripts/prokka.sh) </br>
+Included in the [prokka.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/5%20-%20Data%20Analysis%20for%20Peer%20Review/scripts/prokka.sh) script, Prodigal was used to generate a base reference genome for annotation from the Salmonella reference sequence. Prokka then utilizes prokaryotic genus genome databases (ie. Salmonella database) to annotate fasta files from SPAdes to produce .gff files. Roary must use .gff files produced from Prokka in order to perform pan genome analysis to output Newick file.
+
 ## 4a. Phylogenetic tree using [Roary](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/5%20-%20Data%20Analysis%20for%20Peer%20Review/scripts/roary.sh) </br>
 <img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/5%20-%20Data%20Analysis%20for%20Peer%20Review/Images/roary.png" />  </br>
 ## 4b. Phylogenetic tree using [MINTyper](https://cge.food.dtu.dk/services/MINTyper/) </br>
@@ -15,7 +17,7 @@ In order to generate phylogenetic trees, three approaches were taken. It was nec
 ## 4c. Phylogenetic tree using [CSI Phylogeny](https://cge.food.dtu.dk/services/CSIPhylogeny/) </br>
 <img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/5%20-%20Data%20Analysis%20for%20Peer%20Review/Images/csi.png" />  </br>
 
-All the trees are rooted, suggesting that all the samples have a common ancestor. </br>
+All the trees are rooted to SRR10740739, the oldest sample from a 2012 necropsy calf. </br>
 
 ## 5. Heatmap of SNPs [CSI Phylogeny](https://cge.food.dtu.dk/services/CSIPhylogeny/) </br>
 <img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/5%20-%20Data%20Analysis%20for%20Peer%20Review/Images/SNP_Heatmap_year_sample.png" width="1200" />  </br>
