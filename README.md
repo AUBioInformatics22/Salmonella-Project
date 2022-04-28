@@ -59,7 +59,7 @@ The following image shows the different locations at the College of Vetereinary 
 
 ### [2. Alignment of Seqence Reads to Reference Genome](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/2%20-%20Alignment%20of%20Sequence%20Reads%20to%20Referenc%20Genome)
 
-Here, we used BWA to align our sequence reads to the reference genome.<br/> 
+Here, we used BWA to index our reference genome and BWA-MEM to align our sequence reads to the reference genome.<br/> 
 <br/>
 
 ### [3. Post Alignment Processing](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/3%20-%20Post-alignment%20processing)
