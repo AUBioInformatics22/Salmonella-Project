@@ -8,7 +8,7 @@ The figure below shows that percent duplication among our samples is low.</br>
 <p align="center">
 <img src="graphs/histogram.png" width="600" height="450" />
 </p>
-                          Figure 1: Percent Duplication among samples. 
+                          Figure 1: Percent Duplication among samples.<p>&nbsp;</p>
 </br>
 
 <p align="center">
