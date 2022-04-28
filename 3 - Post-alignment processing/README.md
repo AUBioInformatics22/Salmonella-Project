@@ -41,9 +41,7 @@ Figure 3 above shows that mapped coverage minimally reduced, compared to the raw
 
   
   
-<p align="center">  
-<img src="https://raw.githubusercontent.com/AUBioInformatics22/Salmonella-Project/main/3%20-%20Post-alignment%20processing/igv_marked.png" width="800" height="600" />
-</p>
+
 Figure 4 above shows .<p>&nbsp;</p>
 
 
