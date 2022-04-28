@@ -9,12 +9,12 @@ The figure below shows that percent duplication among our samples is low.</br>
 <img src="graphs/histogram.png" width="600" height="450" />
 </p>
                           Figure 1: Percent Duplication among samples.<p>&nbsp;</p>
-</br>
+
 
 <p align="center">
 <img src="graphs/Coverage.png" width="800" height="600" />
 </p>
-
+Figure 2: Percent Duplication among samples.<p>&nbsp;</p>
 
 Table 1: Table showing the coverage of the data after post-alignment processing 
 
