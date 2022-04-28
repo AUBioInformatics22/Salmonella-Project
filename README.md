@@ -45,7 +45,7 @@ The following image shows the different locations at the College of Vetereinary 
 
 # Workflow
 
-**HERE picture of the workflow**
+<img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/Images/Workflow.png" />
 
 ### [1. Initial Quality Assessment of Raw NGS Data](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/1%20-%20Initial%20Quality%20Assessment%20of%20Raw%20NGS%20Data)<br/>
 We used the command line and Galaxy web tool to assess the quality of our reads. <br/>
