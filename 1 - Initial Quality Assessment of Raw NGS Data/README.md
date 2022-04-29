@@ -1,5 +1,5 @@
 # 1. Quality Assessment of Raw NGS Data
-We assessed the quality of our data using both the command line the Galaxy web tool to see whether they will give different quality reports <br/>
+We assessed the quality of our data using both the command line the [Galaxy web tool](https://usegalaxy.org/) to see whether they will give different quality reports <br/>
 
 ## a. Command line FASTQ analysis
 We assessed the quality of our reads using the the command line. Please find below links to the FASTQ Reports and the script used. <br/>
@@ -17,7 +17,7 @@ Please find below a link to the script that was used to present our data. <br/>
 
 ### Quality Report
 
-The goal of this step was to assess the quality of our data using both command line and web-based tools. After downloading data from NCBI (using the sra_fastqdump_fastqc.sh script), we assessed their quality using Galaxy (https://usegalaxy.org/) and on the command line using the Alabama Supercomputer.  Below are representative graphs generated from using both approaches for quality assessment. Ten (10) of paired-end whole genome sequences (SRS5863182, SRS5863183, SRS5863184, SRS5863185, SRS5863186, SRS5863187, SRS5863188, SRS5863189, SRS5863190 and SRS5863191) of _Salmonella enterica serotype Muenster_ were analyzed but results are hereby presented for both the forward and reverse reads of the SRS5863191 sequence.  
+The goal of this step was to assess the quality of our data using both command line and web-based tools. After downloading data from NCBI (using the [sra_fastqdump_fastqc.sh script](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/1%20-%20Initial%20Quality%20Assessment%20of%20Raw%20NGS%20Data/Scripts/sra_fastqdump_fastqc.sh)), we assessed their quality using [Galaxy](https://usegalaxy.org/) and on the command line using the [Alabama Supercomputer](https://www.asc.edu).  Below are representative graphs generated from using both approaches for quality assessment. Ten (10) of paired-end whole genome sequences (SRS5863182, SRS5863183, SRS5863184, SRS5863185, SRS5863186, SRS5863187, SRS5863188, SRS5863189, SRS5863190 and SRS5863191) of _Salmonella enterica serotype Muenster_ were analyzed but results are hereby presented for both the forward and reverse reads of the SRS5863191 sequence.  
 
 _Per Base Sequence Quality_</br>
 Below are representative graphs showing the quality of the forward and reverse sequences
