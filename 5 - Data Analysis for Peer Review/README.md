@@ -5,6 +5,7 @@ In order to generate phylogenetic trees, three approaches were taken. It was nec
 
 ## Steps
 ## 1. De novo sequencing with [SPAdes](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/5%20-%20Data%20Analysis%20for%20Peer%20Review/scripts/spades.sh), which is designed to assemble small genomes from MDA single-cell and standard bacterial data sets. </br>
+SPAdes assembly required troubleshooting. Assembly files behind the first assembly (SRR10740739) were not completed when utilizing a for, do, done loop in the script submitted to queue system. Each assembly had to be submitted individually. SRR10740739-SRR10740746 assemblies were completed without k-mer (-k option) being specified. SRR10740747 and SRR10740748 did not complete the output file contigs.fasta. After investigating the output, both contained empty directories for kmers 99 and 127. K-mer option -k 21,33,55,77 was used and resulted in the contigs.fasta file for both of these sequeunces.
 ## 2. Quality evaluation of the genome assembly using [QUAST](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/5%20-%20Data%20Analysis%20for%20Peer%20Review/scripts/quast_ind.sh) </br>
 <img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/5%20-%20Data%20Analysis%20for%20Peer%20Review/Images/quast_report.png" width="1200" /> </br>
 ## 3. Prokaryotic genome annotation with [Prokka](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/5%20-%20Data%20Analysis%20for%20Peer%20Review/scripts/prokka.sh) </br>
