@@ -43,7 +43,7 @@ Table 1: Table showing percent duplication among samples.</br>
 |SRR10740747| 0.81               |
 |SRR10740748| 0.82               | <p>&nbsp;</p>  
 
-Table 1 above shows that there is minimal sequence duplication among the samples.<p>&nbsp;</p>
+Table 1 above shows the value of [dup.csv](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/3%20-%20Post-alignment%20processing/dup.csv), there is minimal sequence duplication among the samples.<p>&nbsp;</p>
 
 **IGV**</br>
 
@@ -65,23 +65,24 @@ Fig 4: Marked bam files displaying colored histograms on the read coverage track
 
 
 ## 2. 🤯 Troubleshooting
-Looking at the output files from the queue jobs we got an error message:
+Looking at the output files from the queue jobs of the ASC, running [7_GATK_mark_duplicates.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/3%20-%20Post-alignment%20processing/Scripts/5_GATK_mark_duplicates.sh) we got following error message:
 > *WARNING 2022-04-04 22:21:50     AbstractOpticalDuplicateFinderCommandLineProgram        A field field parsed out of a read name was expected to contain an integer and did not. Read name: SRR10740741.1004. Cause: String 'SRR10740741.1004' did not start with a parsable number.* </br>
 
-1. Check the input files if they meet the [requirements for GATK](https://gatk.broadinstitute.org/hc/en-us/articles/360035890791-SAM-or-BAM-or-CRAM-Mapped-sequence-data-formats) with: </br>
+1. We checked the input files if they meet the [requirements for GATK](https://gatk.broadinstitute.org/hc/en-us/articles/360035890791-SAM-or-BAM-or-CRAM-Mapped-sequence-data-formats) with: </br>
 `samtools view -H samplename.bam` or </br>
 `samtools view -H samplename.bam | grep '^@RG'` </br>
 
 Output for our files: 
 > *@RG	ID:foo	SM:bar* </br>
 
-instead of the required individual ID for each sample </br>
-To fix this issue we use </br>
+instead of the required individual ID for each sample. So we had to work on the input files to make them compatible to GATK </br>
+To fix this issue we used the command </br>
 `gatk AddOrReplaceReadGroups I input.bam O output.bam RGID Sample_ID RGLB Library_name RGPL Sequencing_platform RGPU Units RGSM Sample_name` </br>
 for each sample to add the readgroup parameters manually. The information about our readgroups can be found in the [add_readgroups.sh script](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/3%20-%20Post-alignment%20processing/Scripts/add_readgroups.sh). More information about the GATK feature `AddOrReplaceGroups` can be found [here](https://gatk.broadinstitute.org/hc/en-us/articles/360037226472-AddOrReplaceReadGroups-Picard-). </br>
 
-6. Check the output files with GATK feature `ValidateSamFiles` and in the IGV viewer. If everything is fine with the files the output of the script [7_GATK_ValidateSam.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/3%20-%20Post-alignment%20processing/Scripts/7_GATK_ValidateSam.sh) for each sample is: 
+6. Next we checked the output files with [GATK feature `ValidateSamFiles`](https://gatk.broadinstitute.org/hc/en-us/articles/360036854731-ValidateSamFile-Picard-) and in the IGV viewer. If everything is fine with the files the output of the script [7_GATK_ValidateSam.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/3%20-%20Post-alignment%20processing/Scripts/7_GATK_ValidateSam.sh) for each sample is: 
 > *No errors found*
+Now we were able to continue with step 3 and 4
 
 ## 3. Contributions
 Steven Kitchens: Script for mapping <br/>
