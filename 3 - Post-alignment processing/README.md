@@ -12,7 +12,7 @@ Readgroup parameters were manually added to each file by running [GATK AddOrRepl
 The script produces an overview file with the statistics for each sample: [2022_04_09_markdup_stats.txt](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/3%20-%20Post-alignment%20processing/2022_04_09_markdup_stat.txt). 
 
 ## 3. Analysis and report
-The figures below were created in R using [aligned.R](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/3%20-%20Post-alignment%20processing/Scripts/aligned.R) and show that percent duplication among our samples is low.</br>
+Based on the percentage of duplication in [dup.csv](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/3%20-%20Post-alignment%20processing/dup.csv) the figures below were created in R using [aligned.R](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/3%20-%20Post-alignment%20processing/Scripts/aligned.R). They show that percent duplication among our samples is low.</br>
 
 <p align="center">
 <img src="graphs/histogram.png" width="600" height="450" />
