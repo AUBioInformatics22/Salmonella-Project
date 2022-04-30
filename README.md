@@ -70,12 +70,12 @@ Here, we used [GATK](https://gatk.broadinstitute.org/hc/en-us) to mark duplictat
 Here, we used [GATK tools](https://gatk.broadinstitute.org/hc/en-us), [vcftools](https://vcftools.github.io), and [samtools](http://www.htslib.org) to call and filter variants, and then obtained the depth of each sample before and after adjustment.<br/> 
 
 ### [5. Data Analysis for Peer Review](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/5%20-%20Data%20Analysis%20for%20Peer%20Review)<br/>
-Here, we used [SPAdes](https://github.com/ablab/spades#sec1.2) to assemble the genomes, [QUAST](http://quast.sourceforge.net/quast.html) for quality evaluation, and then [Prokka](https://github.com/tseemann/prokka) to annotate these genome assemblies. [Roary](https://sanger-pathogens.github.io/Roary/) was used to generate Newick files which are used by Roary, [MINTyper](https://cge.food.dtu.dk/services/MINTyper/) and [CSI Phylogeny](https://cge.food.dtu.dk/services/CSIPhylogeny/) to create phylogenetic trees.<br/>
+Here, we used [SPAdes](https://github.com/ablab/spades#sec1.2) to assemble the genomes, [QUAST](http://quast.sourceforge.net/quast.html) for quality evaluation, and then [Prokka](https://github.com/tseemann/prokka) to annotate these genome assemblies. [Roary](https://sanger-pathogens.github.io/Roary/), [MINTyper](https://cge.food.dtu.dk/services/MINTyper/), and [CSI Phylogeny](https://cge.food.dtu.dk/services/CSIPhylogeny/) were used to generate Newick files. Phylogenetic trees were created by [Mega](https://megasoftware.net) for each approach.<br/>
 
 ### [6. Conclusion](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/6%20-%20Conclusion)<br/>
 Our main objective for this study was to determine whether our samples were the same strain or from a common ancestor. Our phylogenetic trees show that they were from a common ancestor. Further, as we set out to achieve, we believe that our methodology can serve as a basic pipeline that veterinary teaching hospitals can use to process raw WGS data in order to make epidemiologic conclusions.</br>
 
 ### 7. Contribution
-Steven Kitchens: Project proposal, aim, samples, workflow, GitHub Repository </br>
-Andrea Pietruska: GitHub Repository </br>
-Stephen Tansie: GitHub Repository
+Steven Kitchens: Project proposal, aim, samples, workflow, GitHub repository </br>
+Andrea Pietruska: GitHub repository </br>
+Stephen Tansie: GitHub repository
