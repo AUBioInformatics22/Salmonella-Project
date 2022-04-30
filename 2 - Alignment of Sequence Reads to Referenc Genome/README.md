@@ -89,7 +89,7 @@ Table 2 above shows the aligned coverage and percent mapped of the trimmed data 
 
 
 
-From Table 2, it evident that trimming reduced percent mapping. Depending on the goals of the experiment, such as differential expression using RNA-seq data, trimming may not be necessary when using modern aligners, because good reads could potentially be lost. Modern aligners such as BWA-MEM and HISAT2 will "soft-clip" non-matching sequences. <p>&nbsp;</p>
+From Table 2, it evident that trimming reduced percent mapping. Depending on the goals of the experiment, such as differential expression using RNA-seq data, trimming may not be necessary when using modern aligners, because good reads could potentially be lost. Modern aligners such as [BWA-MEM](http://bio-bwa.sourceforge.net/bwa.shtml) and [HISAT2](http://daehwankimlab.github.io/hisat2/) will "soft-clip" non-matching sequences. <p>&nbsp;</p>
 
 Average percent mapped in the untrimmed data is 95.13% while the average percent mapped in the trimmed data was 89.23%, thus trimming reduced the average percent mapped. However, it is possible that less stringent trimming parameters (which may be used for relatively good quality data) may not affect mapping. 
 
