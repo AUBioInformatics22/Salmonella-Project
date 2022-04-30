@@ -1,8 +1,18 @@
 # 3. Post Alignment Processing</br>
-We continued our analysis with the untrimmed data. We used [GATK](https://gatk.broadinstitute.org/hc/en-us) to mark duplictates in our data. After that we used [samtools flagstat](http://www.htslib.org/doc/samtools-flagstat.html) to sort and index the duplicated reads. We then used the [Integrated Genome Viewer (IGV)](https://igv.org) to graphically view the outputs before and after marking the duplicates. </br>
+We continued our analysis with the untrimmed data. We used [GATK](https://gatk.broadinstitute.org/hc/en-us) to mark duplictates in our data. After that we used [samtools](http://www.htslib.org) to sort and index the duplicated reads. We then used the [Integrated Genome Viewer (IGV)](https://igv.org) to graphically view the outputs before and after marking the duplicates. </br>
 
-## 1. Analysis and report
-We carried out post-alignment processing to mark duplicates in the sequences. The figure below shows that percent duplication among our samples is low.</br>
+## 1. Adding readgroups to each file
+Readgroup parameters were manually added to each file by running [GATK AddOrReplaceReadGroups](https://gatk.broadinstitute.org/hc/en-us/articles/360037226472-AddOrReplaceReadGroups-Picard-) with the [add_readgroups.sh script](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/3%20-%20Post-alignment%20processing/Scripts/add_readgroups.sh). The output was validated by </br>
+* running `samtools view -H $sample.bam` or `samtools view -H $sample.bam | grep '^@RG'` for each sample
+* [GATK ValidateSamFile](https://gatk.broadinstitute.org/hc/en-us/articles/360036854731-ValidateSamFile-Picard-) in the script [7_GATK_ValidateSam.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/3%20-%20Post-alignment%20processing/Scripts/7_GATK_ValidateSam.sh) 
+* in the IGV (see following report).
+
+## 2. Marking duplicates and statistics
+[GATK markduplicates function](https://gatk.broadinstitute.org/hc/en-us/articles/360037052812-MarkDuplicates-Picard-) was used to mark the duplicates. Sorting and statistics were run with [samtools view](http://www.htslib.org/doc/samtools-view.html), [samtools index](http://www.htslib.org/doc/samtools-view.html), and [samtools flagstat](http://www.htslib.org/doc/samtools-flagstat.html). We run those commands on each sample using the script [7_GATK_mark_duplicates.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/3%20-%20Post-alignment%20processing/Scripts/5_GATK_mark_duplicates.sh).
+The script produces an overview file with the statistics for each sample: [2022_04_09_markdup_stats.txt](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/3%20-%20Post-alignment%20processing/2022_04_09_markdup_stat.txt). 
+
+## 3. Analysis and report
+The figures below were created in R using [aligned.R](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/3%20-%20Post-alignment%20processing/Scripts/aligned.R) and show that percent duplication among our samples is low.</br>
 
 <p align="center">
 <img src="graphs/histogram.png" width="600" height="450" />
