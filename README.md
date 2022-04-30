@@ -64,7 +64,7 @@ Here, we used [BWA](https://gitlab.citius.usc.es/github/bigbwa) and [samtools](h
 <br/>
 
 ### [3. Post Alignment Processing](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/3%20-%20Post-alignment%20processing)<br/>
-Here, we used [GATK](https://gatk.broadinstitute.org/hc/en-us) to mark duplictates. After that we used [Samtools flagstat&(http://www.htslib.org/doc/samtools-flagstat.html) to sort and index the duplicated reads. We then used the [Integrated Genomics Viewer (IGV](https://igv.org)) to graphically view the outputs before and after marking the duplicates.<br/>
+Here, we used [GATK](https://gatk.broadinstitute.org/hc/en-us) to mark duplictates. After that we used [Samtools flagstat](http://www.htslib.org/doc/samtools-flagstat.html) to sort and index the duplicated reads. We then used the [Integrated Genomics Viewer (IGV)](https://igv.org) to graphically view the outputs before and after marking the duplicates.<br/>
 
 ### [4. Variant Discovery](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/4%20-%20Variant%20Discovery)<br/>
 Here, we used [GATK tools](https://gatk.broadinstitute.org/hc/en-us), [vcftools](https://vcftools.github.io), and [samtools](http://www.htslib.org) to call and filter variants, and then obtained the depth of each sample before and after adjustment.<br/> 
