@@ -5,10 +5,10 @@
 <h1 align=center>Salmonella-Project</h>
 
 # Meet THE TEAM
-**Steven Kitchens**: PhD candidate, department of Pathobiology <br/>
-**Chidozie Ugochuckwu**: <br/>
-**Stephen Tansie**: department of Biological sciences <br/>
-**Andrea Pietruska**: PhD student, department of Pathobiology <br/>
+**Steven Kitchens**: PhD Candidate, Department of Pathobiology <br/>
+**Chidozie Ugochuckwu**: PhD student, Department of Chemistry and Biochemistry <br/>
+**Stephen Tansie**: PhD student, Department of Biological Sciences <br/>
+**Andrea Pietruska**: PhD student, Department of Pathobiology <br/>
 
 # Introduction
 
