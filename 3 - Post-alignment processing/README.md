@@ -77,4 +77,4 @@ for each sample to add the readgroup parameters manually. The information about 
 Steven Kitchens: Script for mapping <br/>
 Stephen Tansie: Analysis and report <br/>
 Chidozie Ugochukwu: Analysis with IGV <br/>
-Andrea Pietruska: Graph design in R, troubleshooting, GitHub Repository
+Andrea Pietruska: Graph design in R, troubleshooting, GitHub repository
