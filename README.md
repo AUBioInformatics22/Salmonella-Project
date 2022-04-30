@@ -64,13 +64,13 @@ Here, we used [BWA](https://gitlab.citius.usc.es/github/bigbwa) and [samtools](h
 <br/>
 
 ### [3. Post Alignment Processing](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/3%20-%20Post-alignment%20processing)<br/>
-Here, we used [GATK](https://gatk.broadinstitute.org/hc/en-us) to mark duplictates. After that we used _Samtools flagstat_ to sort and index the duplicated reads. We then used the [Integrated Genomics Viewer (IGV](https://igv.org)) to graphically view the outputs before and after marking the duplicates.<br/>
+Here, we used [GATK](https://gatk.broadinstitute.org/hc/en-us) to mark duplictates. After that we used [Samtools flagstat&(http://www.htslib.org/doc/samtools-flagstat.html) to sort and index the duplicated reads. We then used the [Integrated Genomics Viewer (IGV](https://igv.org)) to graphically view the outputs before and after marking the duplicates.<br/>
 
 ### [4. Variant Discovery](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/4%20-%20Variant%20Discovery)<br/>
 Here, we used [GATK tools](https://gatk.broadinstitute.org/hc/en-us), [vcftools](https://vcftools.github.io), and [samtools](http://www.htslib.org) to call and filter variants, and then obtained the depth of each sample before and after adjustment.<br/> 
 
 ### [5. Data Analysis for Peer Review](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/5%20-%20Data%20Analysis%20for%20Peer%20Review)<br/>
-Here, we used [SPAdes](https://github.com/ablab/spades#sec1.2) to assemble the genomes, [QUAST](http://quast.sourceforge.net/quast.html) for quality evaluation, and then [Prokka](https://github.com/tseemann/prokka) to annotate these genome assemblies. [Roary](https://sanger-pathogens.github.io/Roary/) was used to generate Newick files which are used by Roary, [MINTyper]([MINTyper](https://cge.food.dtu.dk/services/MINTyper/)) and [CSI Phylogeny](https://cge.food.dtu.dk/services/CSIPhylogeny/) to create phylogenetic trees.<br/>
+Here, we used [SPAdes](https://github.com/ablab/spades#sec1.2) to assemble the genomes, [QUAST](http://quast.sourceforge.net/quast.html) for quality evaluation, and then [Prokka](https://github.com/tseemann/prokka) to annotate these genome assemblies. [Roary](https://sanger-pathogens.github.io/Roary/) was used to generate Newick files which are used by Roary, [MINTyper](https://cge.food.dtu.dk/services/MINTyper/) and [CSI Phylogeny](https://cge.food.dtu.dk/services/CSIPhylogeny/) to create phylogenetic trees.<br/>
 
 ### [6. Conclusion](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/6%20-%20Conclusion)<br/>
 Our main objective for this study was to determine whether our samples were the same strain or from a common ancestor. Our phylogenetic trees show that they were from a common ancestor. Further, as we set out to achieve, we believe that our methodology can serve as a basic pipeline that veterinary teaching hospitals can use to process raw WGS data in order to make epidemiologic conclusions.</br>
