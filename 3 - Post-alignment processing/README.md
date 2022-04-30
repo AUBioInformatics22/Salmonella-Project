@@ -42,7 +42,7 @@ Table 1 above shows that there is minimal sequence duplication among the samples
 </p>
 
 Fig 3 displays IGV screenshot of two alignments tracks covering the same genomic region on one of our samples (SRR10740739): The raw bam files (upper track)
-and the lower track corresponding to the marked bam files. Marking the bam files using the Picard tools of GATK highlights likely duplications events 
+and the lower track corresponding to the marked bam files. Marking the bam files using the [Picard tools](https://broadinstitute.github.io/picard/) of [GATK](https://gatk.broadinstitute.org/hc/en-us) highlights likely duplications events 
 (see blue arrows) that were not originally captured in the raw bam files.</br>
 
   
