@@ -23,7 +23,7 @@ The general aim of this project is to develop a pipeline for veterinary teaching
 
 # Samples
 The samples were collected from dairy herd, equine barns, food animal barn, dairy barn and equine reproduction center at the Auburn University College of Veterinary Medicine over a seven-year period. 
-Table 1: Table showing details of our samples. The sequence data comprised demultiplexed paired end reads of 10 samples of _Salmonella muenster_ sequenced on 1 ILLUMINA (Illumina MiSeq) platform. The raw sequences were not trimmed. Reference Genome (_Salmonella enterica_) size was 4707217
+Table 1: Table showing details of our samples. The sequence data comprised demultiplexed paired end reads of 10 samples of _Salmonella muenster_ sequenced on 1 ILLUMINA ([Illumina MiSeq](https://www.illumina.com/systems/sequencing-platforms/miseq.html)) platform. The raw sequences were not trimmed. Reference Genome (_Salmonella enterica_) size was 4707217
 
 
 | SRA_ID    |NCBI Coverage|Average Read Length  |Number of Reads  |Sample source| Year Sample Collected |
@@ -48,7 +48,7 @@ The following image shows the different locations at the College of Vetereinary 
 <img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/Images/Workflow.png" />
 
 ### [1. Initial Quality Assessment of Raw NGS Data](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/1%20-%20Initial%20Quality%20Assessment%20of%20Raw%20NGS%20Data)<br/>
-We used the command line and Galaxy web tool to assess the quality of our reads. <br/>
+We used the command line and [Galaxy web tool](https://usegalaxy.org/) to assess the quality of our reads. <br/>
 * Commandline FASTQ analysis <br/>
 [FASTQ Reports](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/1%20-%20Initial%20Quality%20Assessment%20of%20Raw%20NGS%20Data/fastqc_reports) <br/>
 [Script for SRA-tool fastdump](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/1%20-%20Initial%20Quality%20Assessment%20of%20Raw%20NGS%20Data/sra_fastqdump_fastqc.sh)
@@ -60,17 +60,17 @@ We used the command line and Galaxy web tool to assess the quality of our reads.
 
 ### [2. Alignment of Seqence Reads to Reference Genome](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/2%20-%20Alignment%20of%20Sequence%20Reads%20to%20Referenc%20Genome)
 
-Here, we used BWA and samtools to index our reference genome and BWA-MEM to align our sequence reads to the reference genome.<br/> 
+Here, we used [BWA](https://gitlab.citius.usc.es/github/bigbwa) and [samtools](http://www.htslib.org) to index our reference genome and [BWA-MEM](http://bio-bwa.sourceforge.net/bwa.shtml) to align our sequence reads to the reference genome.<br/> 
 <br/>
 
 ### [3. Post Alignment Processing](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/3%20-%20Post-alignment%20processing)<br/>
-Here, we used GATK to mark duplictates. After that we used _Samtools flagstat_ to sort and index the duplicated reads. We then used the Integrated Genome Viewer (IGV) to graphically view the outputs before and after marking the duplicates.<br/>
+Here, we used [GATK](https://gatk.broadinstitute.org/hc/en-us) to mark duplictates. After that we used _Samtools flagstat_ to sort and index the duplicated reads. We then used the [Integrated Genomics Viewer (IGV](https://igv.org)) to graphically view the outputs before and after marking the duplicates.<br/>
 
 ### [4. Variant Discovery](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/4%20-%20Variant%20Discovery)<br/>
-Here, we used GATK Haplotype Caller tool and other tools to call and filter variants, and then obtained the depth of each sample before and adjustment.<br/> 
+Here, we used [GATK tools](https://gatk.broadinstitute.org/hc/en-us), [vcftools](https://vcftools.github.io), and [samtools](http://www.htslib.org) to call and filter variants, and then obtained the depth of each sample before and after adjustment.<br/> 
 
 ### [5. Data Analysis for Peer Review](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/5%20-%20Data%20Analysis%20for%20Peer%20Review)<br/>
-Here, we used _SPAdes_ to assemble the genomes and used _Prokka_ to annotate these genome assemblies. _Roary_ was used to generate Newick files which are used by _Roary_, _MINTyper_ and _CSI Phylogeny_ to create phylogenetic tress.<br/>
+Here, we used [SPAdes](https://github.com/ablab/spades#sec1.2) to assemble the genomes, [QUAST](http://quast.sourceforge.net/quast.html) for quality evaluation, and then [Prokka](https://github.com/tseemann/prokka) to annotate these genome assemblies. [Roary](https://sanger-pathogens.github.io/Roary/) was used to generate Newick files which are used by Roary, [MINTyper]([MINTyper](https://cge.food.dtu.dk/services/MINTyper/)) and [CSI Phylogeny](https://cge.food.dtu.dk/services/CSIPhylogeny/) to create phylogenetic trees.<br/>
 
 ### [6. Conclusion](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/6%20-%20Conclusion)<br/>
 Our main objective for this study was to determine whether our samples were the same strain or from a common ancestor. Our phylogenetic trees show that they were from a common ancestor. Further, as we set out to achieve, we believe that our methodology can serve as a basic pipeline that veterinary teaching hospitals can use to process raw WGS data in order to make epidemiologic conclusions.</br>
