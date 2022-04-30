@@ -28,7 +28,8 @@ Figure 2: Comparison between raw and mapped coverage among samples.<p>&nbsp;</p>
 Figure 2 above shows that mapped coverage minimally reduced, compared to the raw coverage.<p>&nbsp;</p>
 
 
-We calculated percent duplication in each sample by taking a percentage of the ratio of number of duplicated reads to the total number of reads.</br> 
+We calculated percent duplication in each sample by taking a percentage of the ratio of number of duplicated reads to the total number of reads. Results are shown in Table 1 below. </br> 
+
 Table 1: Table showing percent duplication among samples.</br> 
 
 | SRA_ID    | Percent Duplication|
