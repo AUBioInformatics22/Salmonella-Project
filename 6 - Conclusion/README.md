@@ -18,5 +18,5 @@ These finding suggest that these isolates are derived from a common ancestor, bu
 This research was funded by the Animal Health and Disease Research Program of the College of Veterinary Medicine, the Alabama Agricultural Experiment Station, and the USDA Agriculture Research Service. </br>
 
 ## Contributions
-Steven Kitchens
+Steven Kitchens </br>
 Andrea Pietruska: step 3 and 4
