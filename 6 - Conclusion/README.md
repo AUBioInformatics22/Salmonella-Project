@@ -15,4 +15,8 @@ other isolates from around that time period (=/<1 year) with a range of SNPs bet
 
 These finding suggest that these isolates are derived from a common ancestor, but progressed into multiple strains. Even with multiple strains circulating, one would still consider this an outbreak cluster, since this environmental contamination derived from one strain. These results are limited by sequencing of only 10 isolates from hundreds of isolates. Future directions of sequencing additional isolates could result in discovery of new strains that emerged or determination if strains ceased circulating in the environment.
 
-This research was funded by the Animal Health and Disease Research Program of the College of Veterinary Medicine, the Alabama Agricultural Experiment Station, and the USDA Agriculture Research Service.
+This research was funded by the Animal Health and Disease Research Program of the College of Veterinary Medicine, the Alabama Agricultural Experiment Station, and the USDA Agriculture Research Service. </br>
+
+## Contributions
+Steven Kitchens
+Andrea Pietruska: step 3 and 4
