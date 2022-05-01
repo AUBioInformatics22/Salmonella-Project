@@ -120,7 +120,7 @@ ajusting filter parameters. The top track (Adjusted.filtered) shows how two SNPs
 (second track) at positions 57893. Overall, adjusting filter parameters reduced called SNPs from over 1500 to just 16. </br>
 
 ## 6. Conclusion
-Adjusting the filtering parameters based on the plots of the initial filtering, increased the depth and reduced the number of relevant SNPs for each sample. The plots for adjusted filtering show some issues with the parameters, so the values for these parameters should be changed accordingly for a second adjusted filtering step. The venn diagrams show that the filtering was successful and that the adjusted filtering is stricter than the initial filtering. The IVG displays ...
+Adjusting the filtering parameters based on the plots of the initial filtering, increased the depth and reduced the number of relevant SNPs for each sample. The plots for adjusted filtering show some issues with the parameters, so the values for these parameters should be changed accordingly for a second adjusted filtering step. The venn diagrams show that the filtering was successful and that the adjusted filtering is stricter than the initial filtering. SNPs identified by GATK haplotype caller were visualized with IGV VCF track is loaded. True SNPs were determined with a mapping quality of 60, FS score of 0, and low StrandOdds Ratio(SOR) of 0.742. More information on the variants and comparisons with the VCF files could not be completed due to time constraints.
 
 ## 7. What really happened ...
 
