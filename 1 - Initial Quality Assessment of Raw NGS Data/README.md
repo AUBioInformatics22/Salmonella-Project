@@ -1,7 +1,7 @@
 # 1. Quality Assessment of Raw NGS Data
 
 ## 1. Download of raw data
-The raw data was downloaded from the NCBI website, accession number [PRJNA548885](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA548885/), with the script [sra_fastqdump_fastqc.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/1%20-%20Initial%20Quality%20Assessment%20of%20Raw%20NGS%20Data/Scripts/sra_fastqdump_fastqc.sh) using the [SRA toolkit](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=toolkit_doc).
+The raw data .fastq files were downloaded from the NCBI website, accession number [PRJNA548885](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA548885/), with the script [sra_fastqdump_fastqc.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/1%20-%20Initial%20Quality%20Assessment%20of%20Raw%20NGS%20Data/Scripts/sra_fastqdump_fastqc.sh) using the [SRA toolkit](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=toolkit_doc).
 
 ## 2. Quality assessment
 We assessed the quality of our data using both the command line the [Galaxy web tool](https://usegalaxy.org/) to see whether they will give different quality reports <br/>
