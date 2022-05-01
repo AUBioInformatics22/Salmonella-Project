@@ -69,7 +69,7 @@ This script will first use VCFtools to remove all of the sites that were filtere
 
 The values of the output files `$sample.4upsetR.venn` can now typed into [UpSet_plot.R](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Scripts/UpSetR_plot.R) in RStudio using the [UpSetR package](https://github.com/hms-dbmi/UpSetR)to generate [Upset plots](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/4%20-%20Variant%20Discovery/Upset%20plots). Two examples of such a plot are provided below. 
 
-**Upset plots**:</br>
+</br>
 <img align="left" src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Upset%20plots/Upset39.png" width="450" height="350"/>
   <img align="center" src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Upset%20plots/Upset41.png" width="450" height="350"/> 
 </br> 
