@@ -63,7 +63,7 @@ and the lower track corresponding to the marked bam files. Marking the bam files
 </p> 
 
 Fig 4: Marked bam files displaying colored histograms on the read coverage tracks that highlight potential SNPs as well as the alternate allele frequency 
-(when the histogram is clicked on). Possible SNPs at positions 203 and 204 on one of our samples (SRR10740739) is shown here as reference. The reference allele A and C have been substituted by the alternative alleles C and G.  </br>
+(when the histogram is clicked on). Possible SNPs at positions 203 and 204 on one of our samples (SRR10740739) is shown here as reference. The reference allele C and G have been substituted by the alternative alleles A and C.  </br>
 
 ## 4. Conclusion
 The percentage of duplication for our sequences is very low, ranging between 0.74 and 0.89. That confirms our decision to proceed with untrimmed sequences. The visualization on IGV shows that ...
