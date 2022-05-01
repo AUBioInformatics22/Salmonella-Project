@@ -34,5 +34,6 @@ Interestingly, the highest number of SNPs (43) was found between samples collect
 <img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/5%20-%20Data%20Analysis%20for%20Peer%20Review/Images/heatmap_by_unit.png" width="1200" />  </br>
 
 ### 6. Contributions
-Steven: QUAST, SPAdes, Prokka, Roary, MINTyper, CSI Phylogeny, Mega, GitHub repository </br>
-Andrea: GitHub repository
+Steven Kitchens: QUAST, SPAdes, Prokka, Roary, MINTyper, CSI Phylogeny, Mega, GitHub repository </br>
+Andrea Pietruska: GitHub repository
+Stephen Tansie: GitHub repository
