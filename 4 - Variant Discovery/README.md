@@ -89,7 +89,7 @@ Here you can see the diagram for the sample SRR10740739 and SRR10740741. The oth
 
 </br>
 
-## 5. Quality check with [IGV](https://igv.org)
+## 5. Visualization with [IGV](https://igv.org)
 
 <p align="center">
 <img src="IGV screenshots/igv_SNP_contig1.png" width="1400" height="600" />
