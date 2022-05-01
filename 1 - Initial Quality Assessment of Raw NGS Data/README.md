@@ -1,21 +1,15 @@
 # 1. Quality Assessment of Raw NGS Data
 
-## 1. Download of raw data
-The raw data .fastq files were downloaded from the NCBI website, accession number [PRJNA548885](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA548885/), with the script [sra_fastqdump_fastqc.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/1%20-%20Initial%20Quality%20Assessment%20of%20Raw%20NGS%20Data/Scripts/sra_fastqdump_fastqc.sh) using the [SRA toolkit](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=toolkit_doc).
-
-## 2. Quality assessment
+## 1. Quality assessment
 We assessed the quality of our data using both the command line the [Galaxy web tool](https://usegalaxy.org/) to see whether they will give different quality reports <br/>
 
-## a. Command line FASTQ analysis
-We assessed the quality of our reads using the the command line. Please find below links to the FASTQ Reports and the script used. <br/>
+### a. Download raw data and command line FASTQ analysis
+The script [sra_fastqdump_fastqc.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/1%20-%20Initial%20Quality%20Assessment%20of%20Raw%20NGS%20Data/Scripts/sra_fastqdump_fastqc.sh) uses the [SRA toolkit](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=toolkit_doc) to download the files from the NCBI database ([PRJNA548885](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA548885/)). In a second step the script assesses the quality of our reads and produces [FASTQ Reports](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/1%20-%20Initial%20Quality%20Assessment%20of%20Raw%20NGS%20Data/fastqc_reports) as output. <br/>
 
-[FASTQ Reports](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/1%20-%20Initial%20Quality%20Assessment%20of%20Raw%20NGS%20Data/fastqc_reports) <br/>
-[Script for SRA-tool fastdump](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/1%20-%20Initial%20Quality%20Assessment%20of%20Raw%20NGS%20Data/Scripts/sra_fastqdump_fastqc.sh)
-
-## b. Galaxy FASTQ analysis
+### b. Galaxy FASTQ analysis
 We also assessed the quality of our reads using the Galaxy web tool <br/>
 
-## 3. Data presentation and quality report
+## 2. Data presentation and quality report
 Please find below a link to the script that was used to present our data. <br/>
 [R Script for Data Presentation](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/1%20-%20Initial%20Quality%20Assessment%20of%20Raw%20NGS%20Data/Scripts/Report_1.R) <br/>
 
@@ -111,7 +105,7 @@ Panel B shows the coverage of the individual sequences in our data set. Panel A 
 
 
 
-## 4. Contributions
+## 3. Contributions
 Steven: Commandline FASTQ analysis </br>
 Stephen: Data presentation, quality report </br>
 Chidozie: Galaxy FASTQ analysis </br>
