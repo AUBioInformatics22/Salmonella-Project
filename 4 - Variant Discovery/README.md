@@ -88,6 +88,7 @@ Here you can see the diagram for the sample SRR10740739 and SRR10740741. The oth
   <img align="center" src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Venn%20diagrams/SRR41_venn.png" width="450" height="300" /> 
 
 </br>
+The majority of the samples generated a venn diagram in the shape of the left one of sample SRR10740739. The adjusted filtering overlaps almost completely with the initial filtered area, but is significantly smaller. The samples SRR10740741, SRR10740745, and SRR10740746 venn diagrams are looking like the right figure. The area of initially filtered SNPs is almost completely overlapping with the unfiltered SNPs. After adjusted filtering, only a small amount of SNPs is left, overlapping only with the initially filtered ones. 
 
 ## 5. Visualization with [IGV](https://igv.org)
 
@@ -110,7 +111,7 @@ In the top track (SRR10740739.SNP.filtered.vcf), the SNP at position 50529 which
 on the SOR value which was 3.126, indicating a high likelihood of stand bias. </br>
 
 ## 6. Conclusion
-
+Based on the Upset plots and venn diagrams we can see two types of samples. 
 
 ## 7. What really happened ...
 
