@@ -50,7 +50,7 @@ Table 1 above shows the value of [dup.csv](https://github.com/AUBioInformatics22
 **IGV**</br>
 
 <p align="center">
-<img src="graphs/marked_vs_raw_bam.png" width="1200" height="800" />
+<img src="graphs/marked_vs_raw_bam.png" width="1200" height="600" />
 </p>
 
 Fig 3 displays IGV screenshot of two alignments tracks covering the same genomic region on one of our samples (SRR10740739): The raw bam files (upper track)
