@@ -27,7 +27,7 @@ All the trees are rooted to SRR10740739, the oldest sample from a 2012 necropsy 
 
 <img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/5%20-%20Data%20Analysis%20for%20Peer%20Review/Images/heatmap_by_year.png" width="1200" />  </br>
 
-The highest number of SNPs (43) was found between samples collected just a yea apart from each other.</br>
+Interestingly, the highest number of SNPs (43) was found between samples collected just a year apart from each other. Also, samples collected in the same year and from the same unit had as many as SNPs between them.</br>
 
 ### 5a. Heatmap of SNPs sorted by hospital section
 
