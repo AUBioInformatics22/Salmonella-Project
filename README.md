@@ -48,7 +48,7 @@ The following image shows the different locations at the College of Vetereinary 
 <img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/Images/Workflow.png" />
 
 ## [1. Initial Quality Assessment of Raw NGS Data](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/1%20-%20Initial%20Quality%20Assessment%20of%20Raw%20NGS%20Data)<br/>
-The raw data was downloaded from the NCBI website with the [SRA toolkit](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=toolkit_doc). We used the command line and [Galaxy web tool](https://usegalaxy.org/) to assess the quality of our reads. The bar graph for the sequence coverage was plotted in R. 
+The raw data was downloaded from the NCBI website, accession number [PRJNA548885](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA548885/) with the [SRA toolkit](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=toolkit_doc). We used the command line and [Galaxy web tool](https://usegalaxy.org/) to assess the quality of our reads. The bar graph for the sequence coverage was plotted in R. 
 
 ## [2. Alignment of Seqence Reads to Reference Genome](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/2%20-%20Alignment%20of%20Sequence%20Reads%20to%20Referenc%20Genome)
 
