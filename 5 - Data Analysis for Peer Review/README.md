@@ -24,8 +24,11 @@ All the trees are rooted to SRR10740739, the oldest sample from a 2012 necropsy 
 
 ## 5. Heatmaps of SNPs [CSI Phylogeny](https://cge.food.dtu.dk/services/CSIPhylogeny/) </br>
 ### 5a. Heatmap of SNPs sorted by year
+
 <img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/5%20-%20Data%20Analysis%20for%20Peer%20Review/Images/heatmap_by_year.png" width="1200" />  </br>
+
 ### 5a. Heatmap of SNPs sorted by hospital section
+
 <img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/5%20-%20Data%20Analysis%20for%20Peer%20Review/Images/heatmap_by_unit.png" width="1200" />  </br>
 
 ### 6. Contributions
