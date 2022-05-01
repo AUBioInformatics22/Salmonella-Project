@@ -67,22 +67,26 @@ This script will first use VCFtools to remove all of the sites that were filtere
 
 ## 4. Venn diagram with R
 
-The values of the output files `$sample.4upsetR.venn` can now typed into [UpSet_plot.R](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Scripts/UpSetR_plot.R) in RStudio to generate [Upset plots](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/4%20-%20Variant%20Discovery/Upset%20plots). One example of such a plot is provided below for the sample SRR10740739. For better visualization we chose to provide venn diagrams. Therefore we calculated all required values in an [excel sheet](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Upset%20plots/UpsetR_values.xlsx).
+The values of the output files `$sample.4upsetR.venn` can now typed into [UpSet_plot.R](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Scripts/UpSetR_plot.R) in RStudio using the [UpSetR package](https://github.com/hms-dbmi/UpSetR)to generate [Upset plots](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/4%20-%20Variant%20Discovery/Upset%20plots). Two examples of such a plot are provided below. 
 
-<figure>
-<figcaption align: center>Upset plot for sample SRR10740739</figcaption>
-<img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Upset%20plots/SRR39_Upset_plot.png" width="750" height="500" alt=".." title="Venn diagram for sample SRR10740739" />
-</figure>
+**Upset plots**:</br>
+<img align="left" src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Upset%20plots/Upset39.png" width="450" height="350"/>
+  <img align="center" src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Upset%20plots/Upset41.png" width="450" height="350"/> 
+</br> 
+</br>
 
+For better visualization we chose venn diagrams. Therefore we calculated all required values in an [excel sheet](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Upset%20plots/UpsetR_values.xlsx).
 We used the package [VennDiagram](https://cran.r-project.org/web/packages/VennDiagram/VennDiagram.pdf) to create our venn diagrams.
 Based on these values the venn diagram can be created with the R script [venn.R](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Scripts/venn.R). 
 Here you can see the diagram for the sample SRR10740739 and SRR10740741. The other diagrams can be found in the folder [Venn diagrams](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/4%20-%20Variant%20Discovery/Venn%20diagrams). </br>
 <br/>
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; Venn diagram SRR1074039 &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Venn diagram SRR1074041
-<p float="left">
-  <img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Venn%20diagrams/SRR39_venn.png" width="450" height="300" />
-  <img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Venn%20diagrams/SRR41_venn.png" width="450" height="300" /> 
-</p>
+
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  SRR1074039 &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; SRR1074041
+<br/>
+<br/>
+<img align="left" src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Venn%20diagrams/SRR39_venn.png" width="450" height="300" />
+  <img align="center" src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Venn%20diagrams/SRR41_venn.png" width="450" height="300" /> 
+
 </br>
 
 ## 5. IGV
