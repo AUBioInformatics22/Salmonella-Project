@@ -20,6 +20,7 @@ upset(fromExpression(expressionInput),
       empty.intersections = "on",
       shade.color="lightblue", 
       text.scale=c(2,1.5,1.25,0.9,2.5,0.85))
+  grid.text("SRR10740739",x = 0.1, y=0.95, gp=gpar(fontsize=20))
 dev.off()
 
 
