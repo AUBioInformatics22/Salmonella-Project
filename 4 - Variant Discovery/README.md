@@ -7,7 +7,7 @@ We performed an in depth quality analysis of the resulting VCF file. Some of the
 🥚 &nbsp; how the coverage of all our samples compare.
 
 
-## 1. Filtering 
+## 1. Initial filtering 
 We performed variant discovery and variant filtering. For variant discovery (or variant calling), we used [GATK's Haplotype Caller Tool](https://gatk.broadinstitute.org/hc/en-us/articles/360037225632-HaplotypeCaller) . For variant filtering, we used [GATK's Select Variants](https://gatk.broadinstitute.org/hc/en-us/articles/360037055952-SelectVariants) and [Variant Filtration Tools](https://gatk.broadinstitute.org/hc/en-us/articles/360037434691-VariantFiltration). The script [6_GATK_variant_calling.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Scripts/6_GATK_variant_calling.sh) was run with the following filtering parameters for the initial filtering: </br>
 
 **Initial filtering parameters**
@@ -65,7 +65,7 @@ The script uses first [vcftools](https://vcftools.github.io/index.html) to remov
 This script will first use VCFtools to remove all of the sites that were filtered out (GATK only marks them, but does not remove them). It then properly compresses each VCF and indexed them for compatability with [vcf compare](https://vcftools.github.io/perl_module.html#vcf-compare). The .venn output files are in the folder [Venn files](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/4%20-%20Variant%20Discovery/Venn%diagrams/Venn%files)  </br>
 
 
-## 4. Venn diagram with R
+## 4. Upset plots and venn diagrams
 
 The values of the output files `$sample.4upsetR.venn` can now typed into [UpSet_plot.R](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Scripts/UpSetR_plot.R) in RStudio using the [UpSetR package](https://github.com/hms-dbmi/UpSetR)to generate [Upset plots](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/4%20-%20Variant%20Discovery/Upset%20plots). Two examples of such a plot are provided below. 
 
@@ -89,7 +89,7 @@ Here you can see the diagram for the sample SRR10740739 and SRR10740741. The oth
 
 </br>
 
-## 5. IGV
+## 5. Quality check with [IGV](https://igv.org)
 
 <p align="center">
 <img src="IGV screenshots/igv_SNP_contig1.png" width="1400" height="600" />
@@ -109,7 +109,10 @@ In the top track (SRR10740739.SNP.filtered.vcf), the SNP at position 50529 which
 (shown in faint red)  vs the unfiltered track(SRR10740739.SNP.vcf) shown in dark red (both SNPs are highlighted by blue arrow). The SNP was filtered out based 
 on the SOR value which was 3.126, indicating a high likelihood of stand bias. </br>
 
-## 6. What really happened ...
+## 6. Conclusion
+
+
+## 7. What really happened ...
 
 The [depth_stats.txt](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/depth_stats.txt) output of our script for variant calling [6_GATK_variant_calling.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/Scripts/6_GATK_variant_calling_example.sh) turned out empty for all samples.
 
