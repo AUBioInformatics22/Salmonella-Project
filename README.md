@@ -71,3 +71,6 @@ Our main objective for this study was to determine whether our samples were the 
 Steven Kitchens: Project proposal, aim, samples, workflow, GitHub repository </br>
 Andrea Pietruska: GitHub repository </br>
 Stephen Tansie: GitHub repository
+
+## 8. Acknowledgements
+<img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/Images/Acknowledgements.png" />
