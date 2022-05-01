@@ -48,7 +48,7 @@ gatk VariantFiltration -R $ref --variant $sample.SNPs.vcf \
 --filter-expression "ReadPosRankSum < -5.5" --filter-name "ReadPosRankSum-5.5" \
 --output $sample.SNPs.filtered.vcf
 ```
-The output .pdf file for each sample can be seen in the folder [Adjusted filtering plots](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/4%20-%20Variant%20Discovery/Adjusted%20filtering%20plots). Looking at [depth_stats.adjusted.txt](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/depth_stats.adjusted.txt), the depth values now range between 66.2844 and 108.875.
+The output .pdf file for each sample can be seen in the folder [Adjusted filtering plots](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/4%20-%20Variant%20Discovery/Adjusted%20filtering%20plots). Looking at [depth_stats.adjusted.txt](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/4%20-%20Variant%20Discovery/depth_stats.adjusted.txt), the depth values now range between 66.2844 and 108.875. But the plots show now that the curves for ReadPosRankSum, root mean square error (MQ), MQRankSum, and genotype quality (GQ) are off. 
 
 
 ## 3. Comparison of the three .vcf files
@@ -111,7 +111,7 @@ In the top track (SRR10740739.SNP.filtered.vcf), the SNP at position 50529 which
 on the SOR value which was 3.126, indicating a high likelihood of stand bias. </br>
 
 ## 6. Conclusion
-Based on the Upset plots and venn diagrams we can see two types of samples. 
+Adjusting the filtering parameters based on the plots of the initial filtering, increased the depth and reduced the number of relevant SNPs for each sample. The plots for adjusted filtering show some issues with the parameters, so the values for these parameters should be changed accordingly for a second adjusted filtering step. The venn diagrams show that the filtering was successful and that the adjusted filtering is stricter than the initial filtering. The IVG displays ...
 
 ## 7. What really happened ...
 
