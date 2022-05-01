@@ -18,71 +18,40 @@ Please find below a link to the script that was used to present our data. <br/>
 
 The goal of this step was to assess the quality of our data using both command line and web-based tools. After downloading data from NCBI (using the [sra_fastqdump_fastqc.sh script](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/1%20-%20Initial%20Quality%20Assessment%20of%20Raw%20NGS%20Data/Scripts/sra_fastqdump_fastqc.sh)), we assessed their quality using [Galaxy](https://usegalaxy.org/) and on the command line using the [Alabama Supercomputer](https://www.asc.edu).  Below are representative graphs generated from using both approaches for quality assessment. Ten (10) of paired-end whole genome sequences (SRS5863182, SRS5863183, SRS5863184, SRS5863185, SRS5863186, SRS5863187, SRS5863188, SRS5863189, SRS5863190 and SRS5863191) of _Salmonella enterica serotype Muenster_ were analyzed but results are hereby presented for both the forward and reverse reads of the SRS5863191 sequence.  
 
-_Per Base Sequence Quality_</br>
+**Per Base Sequence Quality**</br>
 Below are representative graphs showing the quality of the forward and reverse sequences
 
-_Forward Read_</br>
-Graph for Galaxy Assessment
-<p align="center">
-<img src="Quality Report Figures/1.jpg" width="700" height="400" />
-</p>
-Fig.1
+Graphs for **Command line assessment**:
 
-Graph for Command line Assessment
-<p align="center">
-<img src="Quality Report Figures/2.jpg" width="700" height="400" />
-</p>
-Fig.2
+   Forward Read         | Reverse Read  
+------------------------- | -----------------
+![](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/1%20-%20Initial%20Quality%20Assessment%20of%20Raw%20NGS%20Data/Quality%20Report%20Figures/2.jpg) | ![](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/1%20-%20Initial%20Quality%20Assessment%20of%20Raw%20NGS%20Data/Quality%20Report%20Figures/4.jpg)
 
-_Reverse Read_</br>
-Graph for Galaxy Assessment
-<p align="center">
-<img src="Quality Report Figures/3.jpg" width="700" height="400" />
-</p>
-Fig.3
 
-Graph for Command line Assessment
-<p align="center">
-<img src="Quality Report Figures/4.jpg" width="700" height="400" />
-</p>
-Fig.4
+Graphs for **Galaxy Assessment**:
+   Forward Read         | Reverse Read  
+------------------------- | -----------------
+![](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/1%20-%20Initial%20Quality%20Assessment%20of%20Raw%20NGS%20Data/Quality%20Report%20Figures/1.jpg) | ![](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/1%20-%20Initial%20Quality%20Assessment%20of%20Raw%20NGS%20Data/Quality%20Report%20Figures/3.jpg)
+
 
 The results above suggest that the command line analysis trimmed off the last ten poor quality bases. While this may improve the quality of sequences, vital data may also be lost, coupled with the fact that the benefit of trimming may not be significant. The quality scores for all our sequences look very similar to thosenpresented here. However, the command line FASTQ analysis was faster, and the results were readily available, compared to the Galaxy assessment where it took longer to download the results data. We decided not to trim because the graphs suggest that the average quality score falls largely in the “green” quality score range, suggesting that our sequences are of high quality.
 
-_Per Sequence Quality Scores_</br>
-Forward Read
+**Per Sequence Quality Scores**</br>
 
-Graph for Galaxy Assessment
-<p align="center">
-<img src="Quality Report Figures/5.jpg" width="700" height="400" />
-</p>
-Fig.5
+Graphs for **Command line assessment**:
+   Forward Read         | Reverse Read  
+------------------------- | -----------------
+![](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/1%20-%20Initial%20Quality%20Assessment%20of%20Raw%20NGS%20Data/Quality%20Report%20Figures/6.jpg) | ![](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/1%20-%20Initial%20Quality%20Assessment%20of%20Raw%20NGS%20Data/Quality%20Report%20Figures/8.jpg)
 
-Graph for Command line Assessment
-<p align="center">
-<img src="Quality Report Figures/6.jpg" width="700" height="400" />
-</p>
-Fig.6
+Graphs for **Galaxy assessment**:
+Forward Read         | Reverse Read  
+------------------------- | -----------------
+![](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/1%20-%20Initial%20Quality%20Assessment%20of%20Raw%20NGS%20Data/Quality%20Report%20Figures/5.jpg) | ![](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/1%20-%20Initial%20Quality%20Assessment%20of%20Raw%20NGS%20Data/Quality%20Report%20Figures/7.jpg)
 
-Reverse Read
-Graph for Galaxy Assessment
-
-<p align="center">
-<img src="Quality Report Figures/7.jpg" width="700" height="400" />
-</p>  
-Fig. 7  
+The graphs show that the results generated from both Galaxy and Command quality assessment are the same. The sequences (especially of the forward read) are of high quality. As a result, we intend to use the forward reads for downstream analysis.
 
 
-Graph for Command line Assessment
-<p align="center">
-<img src="Quality Report Figures/8.jpg" width="700" height="400" />
-</p> 
-Fig. 8
-
-Fig 4 to 8 show that the results generated from both Galaxy and Command quality assessment are the same. The sequences (especially of the forward read) are of high quality. As a result, we intend to use the forward reads for downstream analysis.
-
-
-Sequence Coverage
+**Sequence Coverage**
 <p align="center">
 <img src="Quality Report Figures/Coverage.jpg" width="700" height="400" />
 </p>
