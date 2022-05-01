@@ -19,4 +19,4 @@ This research was funded by the Animal Health and Disease Research Program of th
 
 ## Contributions
 Steven Kitchens </br>
-Andrea Pietruska: step 3 and 4
+Andrea Pietruska: Step 3 and 4
