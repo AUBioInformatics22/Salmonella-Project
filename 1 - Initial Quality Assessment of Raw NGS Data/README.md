@@ -1,4 +1,9 @@
 # 1. Quality Assessment of Raw NGS Data
+
+## 1. Download of raw data
+The raw data was downloaded from the NCBI website, accession number [PRJNA548885](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA548885/), with the script [sra_fastqdump_fastqc.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/1%20-%20Initial%20Quality%20Assessment%20of%20Raw%20NGS%20Data/Scripts/sra_fastqdump_fastqc.sh) using the [SRA toolkit](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=toolkit_doc).
+
+## 2. Quality assessment
 We assessed the quality of our data using both the command line the [Galaxy web tool](https://usegalaxy.org/) to see whether they will give different quality reports <br/>
 
 ## a. Command line FASTQ analysis
@@ -10,12 +15,12 @@ We assessed the quality of our reads using the the command line. Please find bel
 ## b. Galaxy FASTQ analysis
 We also assessed the quality of our reads using the Galaxy web tool <br/>
 
-## 2. Data presentation and Quality Report
+## 3. Data presentation and quality report
 Please find below a link to the script that was used to present our data. <br/>
 [R Script for Data Presentation](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/1%20-%20Initial%20Quality%20Assessment%20of%20Raw%20NGS%20Data/Scripts/Report_1.R) <br/>
 
 
-### Quality Report
+### Quality report
 
 The goal of this step was to assess the quality of our data using both command line and web-based tools. After downloading data from NCBI (using the [sra_fastqdump_fastqc.sh script](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/1%20-%20Initial%20Quality%20Assessment%20of%20Raw%20NGS%20Data/Scripts/sra_fastqdump_fastqc.sh)), we assessed their quality using [Galaxy](https://usegalaxy.org/) and on the command line using the [Alabama Supercomputer](https://www.asc.edu).  Below are representative graphs generated from using both approaches for quality assessment. Ten (10) of paired-end whole genome sequences (SRS5863182, SRS5863183, SRS5863184, SRS5863185, SRS5863186, SRS5863187, SRS5863188, SRS5863189, SRS5863190 and SRS5863191) of _Salmonella enterica serotype Muenster_ were analyzed but results are hereby presented for both the forward and reverse reads of the SRS5863191 sequence.  
 
@@ -50,9 +55,6 @@ Fig.4
 
 The results above suggest that the command line analysis trimmed off the last ten poor quality bases. While this may improve the quality of sequences, vital data may also be lost, coupled with the fact that the benefit of trimming may not be significant. The quality scores for all our sequences look very similar to thosenpresented here. However, the command line FASTQ analysis was faster, and the results were readily available, compared to the Galaxy assessment where it took longer to download the results data. We decided not to trim because the graphs suggest that the average quality score falls largely in the “green” quality score range, suggesting that our sequences are of high quality.
 
-
-
-
 _Per Sequence Quality Scores_</br>
 Forward Read
 
@@ -75,11 +77,6 @@ Graph for Galaxy Assessment
 <img src="Quality Report Figures/7.jpg" width="700" height="400" />
 </p>  
 Fig. 7  
-
-
-
-
-
 
 
 Graph for Command line Assessment
