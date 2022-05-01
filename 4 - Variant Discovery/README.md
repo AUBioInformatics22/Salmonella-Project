@@ -88,7 +88,7 @@ Here you can see the diagram for the sample SRR10740739 and SRR10740741. The oth
 ## 5. IGV
 
 <p align="center">
-<img src="IGV screenshots/igv_SNP_contig1.png" width="1400" height="800" />
+<img src="IGV screenshots/igv_SNP_contig1.png" width="1400" height="600" />
 </p>
 
 The figure above highlights a segment on contig LHMO010000010.1 of SRR10740739 that show a SNP identified by GATK haplotype caller when the VCF track is loaded. 
@@ -97,7 +97,7 @@ and low StrandOdds Ratio(SOR) of 0.742, the called SNP is likely a true SNP and 
 
 ### Filtered vs non-filtered VCF
 <p align="center">
-<img src="IGV screenshots/filtered_vs_nonfiltered2.png" width="1400" height="800" />
+<img src="IGV screenshots/filtered_vs_nonfiltered2.png" width="1400" height="600" />
 </p>
 
 The figure above highlights how variant filtering can improve variant calls. Displayed is a segment of on contig LHMO000006.1 showing the effect of hard filtering. 
