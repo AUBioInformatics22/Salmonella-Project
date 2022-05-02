@@ -67,18 +67,18 @@ Here, we used [GATK tools](https://gatk.broadinstitute.org/hc/en-us), [vcftools]
 Here, we used [SPAdes](https://github.com/ablab/spades#sec1.2) to assemble the genomes, [QUAST](http://quast.sourceforge.net/quast.html) for quality evaluation, and then [Prokka](https://github.com/tseemann/prokka) to annotate these genome assemblies. [Roary](https://sanger-pathogens.github.io/Roary/), [MINTyper](https://cge.food.dtu.dk/services/MINTyper/), and [CSI Phylogeny](https://cge.food.dtu.dk/services/CSIPhylogeny/) were used to generate Newick files. Phylogenetic trees were created by [Mega](https://megasoftware.net) for each approach.<br/>
 
 # Results
-| SRA_ID    |Mapped Coverage|SNP Count  |Percent Mapped |Percent Coverage| 
+| SRA_ID    |Mapped Coverage|GATK SNP Count  |Percent Mapped |Percent Coverage| 
 |-----------| ------------|---------------------|-----------------|-------------|
-|[SRR10740739](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740739)| 99.4        |  222                |   1053590       |Necropsy Calf|                     
-|[SRR10740740](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740740)| 92.8        |  216                |   1042044       |Calf Feces   |                   
-|[SRR10740741](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740741)| 79.3        |  225                |   999592        |Cow Feces    |                    
-|[SRR10740742](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740742)| 88          |  225                |   1051202       |Drain Swab   |                   
-|[SRR10740743](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740743)| 86.4        |  225                |   1015015       |Water on Dairy Road|             
-|[SRR10740744](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740744)| 92.4        |  225                |   955320        |Water Sample in Equine Barn| 
-|[SRR10740745](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740745)| 95.3        |  224                |   962288        |Water Sample in Equine Barn|     
-|[SRR10740746](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740746)| 91.6        |  223                |   876854        |Water Sample in Dairy Barn |     
-|[SRR10740747](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740747)| 90.4        |  223                |   1027813       |Water Sample in Food Animal Barn|
-|[SRR10740748](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740748)| 94.5        |  228                |   1076023       |Hay Sample in Equine Barn|      <p>&nbsp;</p>  
+|[SRR10740739](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740739)| 95.49        |  16                |   1053590       |Necropsy Calf|                     
+|[SRR10740740](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740740)| 95.48        |  12                |   1042044       |Calf Feces   |                   
+|[SRR10740741](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740741)| 95.42        |  11                |   999592        |Cow Feces    |                    
+|[SRR10740742](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740742)| 96.15        |  11                |   1051202       |Drain Swab   |                   
+|[SRR10740743](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740743)| 94.79        |  13                |   1015015       |Water on Dairy Road|             
+|[SRR10740744](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740744)| 95.43        |  11                |   955320        |Water Sample in Equine Barn| 
+|[SRR10740745](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740745)| 94.78        |  13                |   962288        |Water Sample in Equine Barn|     
+|[SRR10740746](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740746)| 92.99        |  1                |   876854        |Water Sample in Dairy Barn |     
+|[SRR10740747](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740747)| 95.34        |  31                |   1027813       |Water Sample in Food Animal Barn|
+|[SRR10740748](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740748)| 95.41        |  109                |   1076023       |Hay Sample in Equine Barn|      <p>&nbsp;</p>  
 
 
 # [Conclusion](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/6%20-%20Conclusion)<br/>
