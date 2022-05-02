@@ -117,7 +117,7 @@ on the SOR value which was 3.126, indicating a high likelihood of stand bias. </
 
 The figure above highlights how changing quality parameters can affect called variants. Displayed is a segment of on contig LHMO0000015.1 showing the effect of 
 ajusting filter parameters. The top track (Adjusted.filtered) shows how two SNPs have been filtred out (highligted in black circles) versus the initial filter 
-(second track) at positions 57893. Overall, adjusting filter parameters reduced called SNPs from over 1500 to just 16. </br>
+(second track) at positions 57893. Overall, adjusting filter parameters reduced called SNPs from over 1500 to just 16 for SRR10740739. </br>
 
 
 ## 6. What really happened ...
