@@ -38,5 +38,5 @@ Interestingly, the highest number of SNPs (43) was found between samples collect
 ### 7. Contributions
 Steven Kitchens: QUAST, SPAdes, Prokka, Roary, MINTyper, CSI Phylogeny, Mega, GitHub repository </br>
 Andrea Pietruska: GitHub repository</br>
-Stephen Tansie: GitHub repository
+Stephen Tansie: GitHub repository</br>
 Chidozie: SNP count comparison
