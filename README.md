@@ -67,18 +67,18 @@ Here, we used [GATK tools](https://gatk.broadinstitute.org/hc/en-us), [vcftools]
 Here, we used [SPAdes](https://github.com/ablab/spades#sec1.2) to assemble the genomes, [QUAST](http://quast.sourceforge.net/quast.html) for quality evaluation, and then [Prokka](https://github.com/tseemann/prokka) to annotate these genome assemblies. [Roary](https://sanger-pathogens.github.io/Roary/), [MINTyper](https://cge.food.dtu.dk/services/MINTyper/), and [CSI Phylogeny](https://cge.food.dtu.dk/services/CSIPhylogeny/) were used to generate Newick files. Phylogenetic trees were created by [Mega](https://megasoftware.net) for each approach.<br/>
 
 # Results
-| SRA_ID    |Mapped Coverage|GATK SNP Count  |Aligned Coverage |Percent Coverage| 
-|-----------| ------------|---------------------|-----------------|-------------|
-|[SRR10740739](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740739)| 95.49        |  16                |   98.03      |Necropsy Calf|                     
-|[SRR10740740](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740740)| 95.48        |  12                |   91.83       |Calf Feces   |                   
-|[SRR10740741](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740741)| 95.42        |  11                |   78.22        |Cow Feces    |                    
-|[SRR10740742](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740742)| 96.15        |  11                |   87.15       |Drain Swab   |                   
-|[SRR10740743](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740743)| 94.79        |  13                |   85.42       |Water on Dairy Road|             
-|[SRR10740744](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740744)| 95.43        |  11                |   91.48        |Water Sample in Equine Barn| 
-|[SRR10740745](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740745)| 94.78        |  13                |   94.34        |Water Sample in Equine Barn|     
-|[SRR10740746](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740746)| 92.99        |  1                 |   87.40        |Water Sample in Dairy Barn |     
-|[SRR10740747](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740747)| 95.34        |  31                |   89.82       |Water Sample in Food Animal Barn|
-|[SRR10740748](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740748)| 95.41        |  109                |   93.58       |Hay Sample in Equine Barn|      <p>&nbsp;</p>  
+| SRA_ID    |Mapped Coverage|GATK SNP Count  |Aligned Coverage |Calculated Coverage|Percent Duplication| 
+|-----------| ------------|---------------------|-----------------|-------------|----------------------|
+|[SRR10740739](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740739)| 95.49        |  16                |   98.03      |4.97| 0.89|                     
+|[SRR10740740](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740740)| 95.48        |  12                |   91.83       |4.78| 0.85|                  
+|[SRR10740741](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740741)| 95.42        |  11                |   78.22        |4.97|0.74|                    
+|[SRR10740742](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740742)| 96.15        |  11                |   87.15       |5.05| 0.80|                  
+|[SRR10740743](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740743)| 94.79        |  13                |   85.42       |4.85| 0.78|             
+|[SRR10740744](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740744)| 95.43        |  11                |   91.48        |4.57|0.81|
+|[SRR10740745](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740745)| 94.78        |  13                |   94.34        |4.60|0.83|     
+|[SRR10740746](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740746)| 92.99        |  1                 |   87.40        |4.15|0.80|     
+|[SRR10740747](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740747)| 95.34        |  31                |   89.82       |4.87|0.81|
+|[SRR10740748](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740748)| 95.41        |  109                |   93.58       |5.21|0.82|      <p>&nbsp;</p>  
 
 
 # [Conclusion](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/6%20-%20Conclusion)<br/>
