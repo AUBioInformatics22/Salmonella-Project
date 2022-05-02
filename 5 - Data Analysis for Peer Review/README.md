@@ -32,8 +32,10 @@ Interestingly, the highest number of SNPs (43) was found between samples collect
 ### 5a. Heatmap of SNPs sorted by hospital section
 
 <img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/5%20-%20Data%20Analysis%20for%20Peer%20Review/Images/heatmap_by_unit.png" width="1200" />  </br>
+## 6. Comparing SNP counts from the GATK and CSIPhylogeny
+<img src="https://github.com/AUBioInformatics22/Salmonella-Project/blob/e241f3acb27476a925fa0d2f1ab88494b20497b1/5%20%20Data%20Analysis%20for%20Peer%20Review/Images/SNPs_GATK_CSI.png" />
 
-### 6. Contributions
+### 7. Contributions
 Steven Kitchens: QUAST, SPAdes, Prokka, Roary, MINTyper, CSI Phylogeny, Mega, GitHub repository </br>
 Andrea Pietruska: GitHub repository</br>
 Stephen Tansie: GitHub repository
