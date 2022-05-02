@@ -66,7 +66,7 @@ Fig 4: Marked bam files displaying colored histograms on the read coverage track
 (when the histogram is clicked on). Possible SNPs at positions 203 and 204 on one of our samples (SRR10740739) is shown here as reference. The reference allele C and G have been substituted by the alternative alleles A and C.  </br>
 
 ## 4. Conclusion
-The percentage of duplication for our sequences is very low, ranging between 0.74 and 0.89. That confirms our decision to proceed with untrimmed sequences. The visualization on IGV shows that ...
+The percentage of duplication for our sequences is very low, ranging between 0.74 and 0.89. That confirms our decision to proceed with untrimmed sequences. 
 
 ## 5. 🤯 Troubleshooting
 Looking at the output files from the queue jobs of the ASC, running [7_GATK_mark_duplicates.sh](https://github.com/AUBioInformatics22/Salmonella-Project/blob/main/3%20-%20Post-alignment%20processing/Scripts/5_GATK_mark_duplicates.sh) we got following error message:
