@@ -85,7 +85,7 @@ for each sample to add the readgroup parameters manually. The information about 
 > *No errors found*
 Now we were able to continue with step 3 and 4
 
-## 3. Contributions
+## 5. Contributions
 Steven Kitchens: Script for mapping <br/>
 Stephen Tansie: Analysis and report <br/>
 Chidozie Ugochukwu: Analysis with IGV <br/>
