@@ -66,7 +66,22 @@ Here, we used [GATK tools](https://gatk.broadinstitute.org/hc/en-us), [vcftools]
 ## [5. Data Analysis for Peer Review](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/5%20-%20Data%20Analysis%20for%20Peer%20Review)<br/>
 Here, we used [SPAdes](https://github.com/ablab/spades#sec1.2) to assemble the genomes, [QUAST](http://quast.sourceforge.net/quast.html) for quality evaluation, and then [Prokka](https://github.com/tseemann/prokka) to annotate these genome assemblies. [Roary](https://sanger-pathogens.github.io/Roary/), [MINTyper](https://cge.food.dtu.dk/services/MINTyper/), and [CSI Phylogeny](https://cge.food.dtu.dk/services/CSIPhylogeny/) were used to generate Newick files. Phylogenetic trees were created by [Mega](https://megasoftware.net) for each approach.<br/>
 
-## [6. Conclusion](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/6%20-%20Conclusion)<br/>
+# Results
+| SRA_ID    |Mapped Coverage|SNP Count  |Percent Mapped |Percent Coverage| 
+|-----------| ------------|---------------------|-----------------|-------------|
+|[SRR10740739](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740739)| 99.4        |  222                |   1053590       |Necropsy Calf|                     
+|[SRR10740740](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740740)| 92.8        |  216                |   1042044       |Calf Feces   |                   
+|[SRR10740741](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740741)| 79.3        |  225                |   999592        |Cow Feces    |                    
+|[SRR10740742](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740742)| 88          |  225                |   1051202       |Drain Swab   |                   
+|[SRR10740743](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740743)| 86.4        |  225                |   1015015       |Water on Dairy Road|             
+|[SRR10740744](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740744)| 92.4        |  225                |   955320        |Water Sample in Equine Barn| 
+|[SRR10740745](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740745)| 95.3        |  224                |   962288        |Water Sample in Equine Barn|     
+|[SRR10740746](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740746)| 91.6        |  223                |   876854        |Water Sample in Dairy Barn |     
+|[SRR10740747](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740747)| 90.4        |  223                |   1027813       |Water Sample in Food Animal Barn|
+|[SRR10740748](https://trace.ncbi.nlm.nih.gov/Traces/sra/?run=SRR10740748)| 94.5        |  228                |   1076023       |Hay Sample in Equine Barn|      <p>&nbsp;</p>  
+
+
+# [Conclusion](https://github.com/AUBioInformatics22/Salmonella-Project/tree/main/6%20-%20Conclusion)<br/>
 Our main objective for this study was to determine whether our samples were the same strain or from a common ancestor. Our phylogenetic trees show that they were from a common ancestor. Further, as we set out to achieve, we believe that our methodology can serve as a basic pipeline for veterinary teaching hospitals to utilize for processing raw WGS data in order to make epidemiologic conclusions.</br>
 
 ## 7. Contribution
