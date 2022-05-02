@@ -188,6 +188,7 @@ done
 ```
 
 ## 7. Contributions
-🐓&nbsp; Steven: first try to run the scripts, troubleshooting </br>
-🐓&nbsp; Andrea: second try and finish, troubleshooting, GitHub repository </br>
-🐓&nbsp; Chidozie: IGV analysis of result files
+🐓&nbsp; Steven Kitchens: first try to run the scripts, troubleshooting </br>
+🐓&nbsp; Andrea Pietruska: second try and finish, troubleshooting, GitHub repository </br>
+🐓&nbsp; Chidozie Ugochukwu: IGV analysis of result files</br>
+🐓&nbsp; Stephen Tansie: GitHub proofread
